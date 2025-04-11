@@ -1,16 +1,11 @@
+-- SELECT table_schema, table_name
+-- FROM information_schema.tables
+-- WHERE table_schema = 'silver'
+--   AND table_type = 'BASE TABLE'
+-- ORDER BY table_name
 
-SELECT *
-FROM erp_order_items
-LIMIT 100
 
-SELECT *
-FROM erp_orders 
-LIMIT 200
-
-SELECT *
-FROM erp_payments
-LIMIT 2200
-
-SELECT *
-FROM food_products
-LIMIT 100
+-- SELECT column_name, data_type, is_nullable, character_maximum_length
+-- FROM information_schema.columns
+-- WHERE table_schema = 'silver'
+--   AND table_name = 'crm_customers';
