@@ -86,4 +86,4 @@ BEGIN
 END;
 $$;
 
-CALL bronze.import_bronze_layer();
+CALL import_bronze_layer();
