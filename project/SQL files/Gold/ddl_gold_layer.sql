@@ -42,6 +42,7 @@ INSERT INTO gold.fact_sales(
   sales_sk,
   order_item_id,
   order_id,
+  food_id,
   customer_id,
   payment_id,
   item_name,
@@ -56,6 +57,7 @@ INSERT INTO gold.fact_sales(
 SELECT 
   ROW_NUMBER() OVER() AS sales_sk,
   i.order_item_id,
+  i.food_id,
   o.order_id,
   o.customer_id,
   p.payment_id,
@@ -71,6 +73,7 @@ FROM silver.erp_order_items i
 JOIN silver.erp_orders o ON o.order_id = i.order_id
 JOIN silver.food_products fp ON fp.food_id = i.food_id
 LEFT JOIN silver.erp_payments p ON p.order_id = o.order_id
+
 
 
 INSERT INTO gold.dim_products(

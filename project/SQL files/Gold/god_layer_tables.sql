@@ -26,6 +26,7 @@ CREATE TABLE gold.fact_sales (
   sales_sk SERIAL PRIMARY KEY,             -- surrogate key
   order_item_id INTEGER,
   order_id INTEGER,
+  food_id INTEGER,
   customer_id INTEGER,
   payment_id INTEGER,
   item_name TEXT,
