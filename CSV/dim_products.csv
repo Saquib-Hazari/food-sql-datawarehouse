@@ -1,0 +1,5001 @@
+product_sk,food_id,product_name,category,price
+1,0,Manchurian,Chinese,339.55
+2,1,Gulab Jamun,Desserts,463.07
+3,2,Idli Sambar,South Indian,167.64
+4,3,Burger,Fast Food,187.64
+5,4,Idli Sambar,South Indian,327.88
+6,5,Dal Makhani,North Indian,358.08
+7,6,Manchurian,Chinese,143.63
+8,7,Idli Sambar,South Indian,208.1
+9,8,Manchurian,Chinese,381.09
+10,9,Idli Sambar,South Indian,301.75
+11,10,Gulab Jamun,Desserts,438.13
+12,11,Ice Cream,Desserts,88.14
+13,12,Pizza,Fast Food,380.98
+14,13,Pizza,Fast Food,144.87
+15,14,Chole Bhature,North Indian,450.05
+16,15,Chole Bhature,North Indian,381.34
+17,16,Dal Makhani,North Indian,407.35
+18,17,Gulab Jamun,Desserts,393.81
+19,18,Spring Rolls,Chinese,373.67
+20,19,Manchurian,Chinese,346.0
+21,20,Chole Bhature,North Indian,93.35
+22,21,Dosa,South Indian,449.47
+23,22,Rasgulla,Desserts,419.26
+24,23,Fries,Fast Food,172.37
+25,24,Paneer Butter Masala,North Indian,341.74
+26,25,Gulab Jamun,Desserts,467.88
+27,26,Manchurian,Chinese,479.44
+28,27,Hakka Noodles,Chinese,191.96
+29,28,Burger,Fast Food,99.03
+30,29,Burger,Fast Food,111.75
+31,30,Idli Sambar,South Indian,72.29
+32,31,Dal Makhani,North Indian,302.54
+33,32,Paneer Butter Masala,North Indian,281.91
+34,33,Rasgulla,Desserts,220.99
+35,34,Hakka Noodles,Chinese,160.33
+36,35,Dal Makhani,North Indian,173.66
+37,36,Dosa,South Indian,327.93
+38,37,Fries,Fast Food,277.32
+39,38,Dal Makhani,North Indian,426.12
+40,39,Gulab Jamun,Desserts,423.56
+41,40,Ice Cream,Desserts,375.03
+42,41,Dal Makhani,North Indian,319.26
+43,42,Burger,Fast Food,137.4
+44,43,Burger,Fast Food,417.52
+45,44,Gulab Jamun,Desserts,73.77
+46,45,Gulab Jamun,Desserts,389.14
+47,46,Dosa,South Indian,256.94
+48,47,Gulab Jamun,Desserts,111.15
+49,48,Burger,Fast Food,82.78
+50,49,Spring Rolls,Chinese,114.33
+51,50,Dosa,South Indian,132.76
+52,51,Fries,Fast Food,495.21
+53,52,Burger,Fast Food,401.35
+54,53,Pizza,Fast Food,479.9
+55,54,Rasgulla,Desserts,104.07
+56,55,Dal Makhani,North Indian,322.27
+57,56,Dal Makhani,North Indian,238.67
+58,57,Hakka Noodles,Chinese,429.91
+59,58,Fries,Fast Food,356.89
+60,59,Pizza,Fast Food,404.16
+61,60,Pizza,Fast Food,253.28
+62,61,Fries,Fast Food,439.16
+63,62,Paneer Butter Masala,North Indian,326.65
+64,63,Paneer Butter Masala,North Indian,74.07
+65,64,Paneer Butter Masala,North Indian,116.95
+66,65,Rasgulla,Desserts,184.28
+67,66,Idli Sambar,South Indian,305.16
+68,67,Fries,Fast Food,244.34
+69,68,Spring Rolls,Chinese,191.17
+70,69,Chole Bhature,North Indian,111.85
+71,70,Hakka Noodles,Chinese,263.4
+72,71,Ice Cream,Desserts,71.71
+73,72,Chole Bhature,North Indian,388.72
+74,73,Vada,South Indian,57.48
+75,74,Ice Cream,Desserts,231.43
+76,75,Fries,Fast Food,494.07
+77,76,Pizza,Fast Food,342.05
+78,77,Manchurian,Chinese,301.4
+79,78,Pizza,Fast Food,340.57
+80,79,Manchurian,Chinese,164.68
+81,80,Gulab Jamun,Desserts,146.23
+82,81,Chole Bhature,North Indian,246.97
+83,82,Hakka Noodles,Chinese,385.87
+84,83,Manchurian,Chinese,270.64
+85,84,Idli Sambar,South Indian,88.16
+86,85,Vada,South Indian,483.82
+87,86,Dal Makhani,North Indian,475.21
+88,87,Vada,South Indian,272.19
+89,88,Ice Cream,Desserts,344.44
+90,89,Manchurian,Chinese,417.89
+91,90,Chole Bhature,North Indian,277.57
+92,91,Vada,South Indian,162.57
+93,92,Chole Bhature,North Indian,197.17
+94,93,Ice Cream,Desserts,343.05
+95,94,Vada,South Indian,486.3
+96,95,Ice Cream,Desserts,468.3
+97,96,Idli Sambar,South Indian,255.05
+98,97,Hakka Noodles,Chinese,442.03
+99,98,Rasgulla,Desserts,89.5
+100,99,Dal Makhani,North Indian,403.82
+101,100,Chole Bhature,North Indian,185.28
+102,101,Spring Rolls,Chinese,478.11
+103,102,Rasgulla,Desserts,310.43
+104,103,Fries,Fast Food,251.77
+105,104,Rasgulla,Desserts,254.75
+106,105,Hakka Noodles,Chinese,324.22
+107,106,Gulab Jamun,Desserts,394.61
+108,107,Idli Sambar,South Indian,270.27
+109,108,Manchurian,Chinese,114.41
+110,109,Dosa,South Indian,134.33
+111,110,Burger,Fast Food,326.18
+112,111,Idli Sambar,South Indian,225.31
+113,112,Dosa,South Indian,298.32
+114,113,Spring Rolls,Chinese,483.41
+115,114,Dal Makhani,North Indian,220.98
+116,115,Burger,Fast Food,57.58
+117,116,Burger,Fast Food,92.25
+118,117,Gulab Jamun,Desserts,88.58
+119,118,Fries,Fast Food,260.59
+120,119,Ice Cream,Desserts,145.37
+477,476,Hakka Noodles,Chinese,339.95
+121,120,Paneer Butter Masala,North Indian,272.44
+122,121,Hakka Noodles,Chinese,448.17
+123,122,Dal Makhani,North Indian,183.7
+124,123,Paneer Butter Masala,North Indian,458.8
+125,124,Fries,Fast Food,79.69
+126,125,Chole Bhature,North Indian,291.2
+127,126,Pizza,Fast Food,315.1
+128,127,Pizza,Fast Food,390.98
+129,128,Chole Bhature,North Indian,441.36
+130,129,Spring Rolls,Chinese,372.45
+131,130,Gulab Jamun,Desserts,123.88
+132,131,Vada,South Indian,286.92
+133,132,Fries,Fast Food,61.8
+134,133,Idli Sambar,South Indian,437.02
+135,134,Chole Bhature,North Indian,114.73
+136,135,Pizza,Fast Food,67.85
+137,136,Paneer Butter Masala,North Indian,332.25
+138,137,Burger,Fast Food,409.65
+139,138,Gulab Jamun,Desserts,344.9
+140,139,Fries,Fast Food,164.22
+141,140,Manchurian,Chinese,363.61
+142,141,Idli Sambar,South Indian,454.23
+143,142,Fries,Fast Food,485.8
+144,143,Vada,South Indian,69.9
+145,144,Rasgulla,Desserts,216.21
+146,145,Chole Bhature,North Indian,408.1
+147,146,Dal Makhani,North Indian,489.14
+148,147,Dosa,South Indian,203.37
+149,148,Burger,Fast Food,301.65
+150,149,Burger,Fast Food,133.23
+151,150,Dosa,South Indian,332.02
+152,151,Spring Rolls,Chinese,63.49
+153,152,Burger,Fast Food,146.18
+154,153,Gulab Jamun,Desserts,258.38
+155,154,Spring Rolls,Chinese,432.57
+156,155,Chole Bhature,North Indian,373.46
+157,156,Vada,South Indian,107.94
+158,157,Rasgulla,Desserts,242.1
+159,158,Rasgulla,Desserts,312.09
+160,159,Vada,South Indian,466.94
+161,160,Paneer Butter Masala,North Indian,277.37
+162,161,Ice Cream,Desserts,98.76
+163,162,Paneer Butter Masala,North Indian,157.99
+164,163,Pizza,Fast Food,305.68
+165,164,Manchurian,Chinese,429.1
+166,165,Hakka Noodles,Chinese,429.39
+167,166,Manchurian,Chinese,257.55
+168,167,Pizza,Fast Food,476.19
+169,168,Paneer Butter Masala,North Indian,175.99
+170,169,Vada,South Indian,198.38
+171,170,Chole Bhature,North Indian,247.23
+172,171,Spring Rolls,Chinese,138.81
+173,172,Vada,South Indian,485.49
+174,173,Chole Bhature,North Indian,197.54
+175,174,Manchurian,Chinese,145.11
+176,175,Ice Cream,Desserts,453.63
+177,176,Chole Bhature,North Indian,332.78
+178,177,Manchurian,Chinese,468.12
+179,178,Chole Bhature,North Indian,226.82
+180,179,Rasgulla,Desserts,93.65
+181,180,Fries,Fast Food,484.08
+182,181,Idli Sambar,South Indian,391.57
+183,182,Spring Rolls,Chinese,71.27
+184,183,Dosa,South Indian,399.76
+185,184,Rasgulla,Desserts,286.26
+186,185,Pizza,Fast Food,269.45
+187,186,Spring Rolls,Chinese,172.22
+188,187,Paneer Butter Masala,North Indian,183.0
+189,188,Paneer Butter Masala,North Indian,429.73
+190,189,Ice Cream,Desserts,450.89
+191,190,Fries,Fast Food,113.9
+192,191,Hakka Noodles,Chinese,128.93
+193,192,Manchurian,Chinese,346.74
+194,193,Vada,South Indian,380.87
+195,194,Pizza,Fast Food,467.07
+196,195,Hakka Noodles,Chinese,95.71
+197,196,Fries,Fast Food,204.43
+198,197,Dosa,South Indian,269.64
+199,198,Ice Cream,Desserts,170.34
+200,199,Fries,Fast Food,217.15
+201,200,Manchurian,Chinese,383.96
+202,201,Chole Bhature,North Indian,416.2
+203,202,Manchurian,Chinese,364.6
+204,203,Paneer Butter Masala,North Indian,488.65
+205,204,Burger,Fast Food,426.47
+206,205,Spring Rolls,Chinese,262.94
+207,206,Burger,Fast Food,124.83
+208,207,Ice Cream,Desserts,310.36
+209,208,Dosa,South Indian,170.16
+210,209,Burger,Fast Food,341.58
+211,210,Rasgulla,Desserts,106.88
+212,211,Chole Bhature,North Indian,207.92
+213,212,Manchurian,Chinese,334.69
+214,213,Manchurian,Chinese,349.87
+215,214,Spring Rolls,Chinese,370.73
+216,215,Pizza,Fast Food,135.36
+217,216,Vada,South Indian,62.83
+218,217,Idli Sambar,South Indian,408.47
+219,218,Spring Rolls,Chinese,52.4
+220,219,Dal Makhani,North Indian,256.2
+221,220,Pizza,Fast Food,278.26
+222,221,Idli Sambar,South Indian,165.2
+223,222,Hakka Noodles,Chinese,187.4
+224,223,Rasgulla,Desserts,494.49
+225,224,Fries,Fast Food,432.35
+226,225,Pizza,Fast Food,406.22
+227,226,Dal Makhani,North Indian,482.18
+228,227,Dal Makhani,North Indian,233.31
+229,228,Chole Bhature,North Indian,132.48
+230,229,Dal Makhani,North Indian,349.18
+231,230,Gulab Jamun,Desserts,452.63
+232,231,Idli Sambar,South Indian,263.74
+233,232,Burger,Fast Food,107.21
+234,233,Hakka Noodles,Chinese,381.85
+235,234,Rasgulla,Desserts,370.74
+236,235,Dal Makhani,North Indian,172.74
+237,236,Hakka Noodles,Chinese,132.59
+238,237,Manchurian,Chinese,102.33
+239,238,Ice Cream,Desserts,118.89
+240,239,Paneer Butter Masala,North Indian,442.53
+241,240,Dal Makhani,North Indian,397.99
+242,241,Dal Makhani,North Indian,342.79
+243,242,Burger,Fast Food,65.35
+244,243,Pizza,Fast Food,80.45
+245,244,Vada,South Indian,252.01
+246,245,Fries,Fast Food,143.95
+247,246,Dosa,South Indian,76.41
+248,247,Vada,South Indian,382.68
+249,248,Manchurian,Chinese,125.39
+250,249,Rasgulla,Desserts,454.55
+251,250,Dosa,South Indian,117.54
+252,251,Chole Bhature,North Indian,246.09
+253,252,Gulab Jamun,Desserts,284.84
+254,253,Burger,Fast Food,193.79
+255,254,Chole Bhature,North Indian,374.25
+256,255,Fries,Fast Food,435.02
+257,256,Fries,Fast Food,281.75
+258,257,Chole Bhature,North Indian,475.24
+259,258,Idli Sambar,South Indian,330.97
+260,259,Dosa,South Indian,440.63
+261,260,Manchurian,Chinese,380.56
+262,261,Gulab Jamun,Desserts,381.36
+263,262,Manchurian,Chinese,97.69
+264,263,Spring Rolls,Chinese,465.96
+265,264,Manchurian,Chinese,102.71
+266,265,Spring Rolls,Chinese,410.83
+267,266,Vada,South Indian,285.88
+268,267,Spring Rolls,Chinese,59.99
+269,268,Vada,South Indian,249.64
+270,269,Hakka Noodles,Chinese,287.9
+271,270,Rasgulla,Desserts,368.39
+272,271,Paneer Butter Masala,North Indian,439.05
+273,272,Rasgulla,Desserts,174.37
+274,273,Gulab Jamun,Desserts,442.05
+275,274,Paneer Butter Masala,North Indian,289.03
+276,275,Vada,South Indian,213.49
+277,276,Paneer Butter Masala,North Indian,220.61
+278,277,Chole Bhature,North Indian,245.25
+279,278,Paneer Butter Masala,North Indian,387.38
+280,279,Pizza,Fast Food,120.53
+281,280,Pizza,Fast Food,451.31
+282,281,Manchurian,Chinese,246.88
+283,282,Paneer Butter Masala,North Indian,166.38
+284,283,Pizza,Fast Food,449.69
+285,284,Manchurian,Chinese,264.92
+286,285,Fries,Fast Food,59.89
+287,286,Dosa,South Indian,150.33
+288,287,Dosa,South Indian,231.97
+289,288,Ice Cream,Desserts,330.48
+290,289,Gulab Jamun,Desserts,375.4
+291,290,Dal Makhani,North Indian,150.55
+292,291,Pizza,Fast Food,224.93
+293,292,Chole Bhature,North Indian,360.57
+294,293,Gulab Jamun,Desserts,170.72
+295,294,Dal Makhani,North Indian,184.18
+296,295,Ice Cream,Desserts,235.39
+297,296,Dal Makhani,North Indian,55.68
+298,297,Dal Makhani,North Indian,185.14
+299,298,Gulab Jamun,Desserts,374.27
+300,299,Rasgulla,Desserts,447.61
+301,300,Gulab Jamun,Desserts,172.66
+302,301,Gulab Jamun,Desserts,69.71
+303,302,Gulab Jamun,Desserts,210.78
+304,303,Pizza,Fast Food,488.66
+305,304,Fries,Fast Food,305.53
+306,305,Idli Sambar,South Indian,211.36
+307,306,Fries,Fast Food,388.33
+308,307,Spring Rolls,Chinese,153.66
+309,308,Chole Bhature,North Indian,455.2
+310,309,Dosa,South Indian,201.06
+311,310,Pizza,Fast Food,295.47
+312,311,Idli Sambar,South Indian,463.18
+313,312,Burger,Fast Food,109.06
+314,313,Ice Cream,Desserts,341.56
+315,314,Dosa,South Indian,138.77
+316,315,Spring Rolls,Chinese,279.67
+317,316,Fries,Fast Food,265.22
+318,317,Spring Rolls,Chinese,329.17
+319,318,Gulab Jamun,Desserts,141.87
+320,319,Ice Cream,Desserts,121.53
+321,320,Dosa,South Indian,95.33
+322,321,Spring Rolls,Chinese,360.24
+323,322,Fries,Fast Food,314.12
+324,323,Manchurian,Chinese,81.89
+325,324,Chole Bhature,North Indian,333.63
+326,325,Idli Sambar,South Indian,410.1
+327,326,Paneer Butter Masala,North Indian,434.8
+328,327,Dal Makhani,North Indian,276.33
+329,328,Dal Makhani,North Indian,208.73
+330,329,Hakka Noodles,Chinese,127.27
+331,330,Rasgulla,Desserts,266.35
+332,331,Pizza,Fast Food,216.39
+333,332,Dal Makhani,North Indian,224.64
+334,333,Dal Makhani,North Indian,264.78
+335,334,Ice Cream,Desserts,124.55
+336,335,Chole Bhature,North Indian,334.83
+337,336,Hakka Noodles,Chinese,376.69
+338,337,Paneer Butter Masala,North Indian,478.36
+339,338,Chole Bhature,North Indian,296.24
+340,339,Dosa,South Indian,459.9
+341,340,Paneer Butter Masala,North Indian,292.73
+342,341,Ice Cream,Desserts,412.28
+343,342,Fries,Fast Food,494.7
+344,343,Paneer Butter Masala,North Indian,107.7
+345,344,Fries,Fast Food,241.49
+346,345,Fries,Fast Food,272.31
+347,346,Paneer Butter Masala,North Indian,487.44
+348,347,Paneer Butter Masala,North Indian,138.64
+349,348,Fries,Fast Food,224.43
+350,349,Hakka Noodles,Chinese,386.93
+351,350,Hakka Noodles,Chinese,155.86
+352,351,Paneer Butter Masala,North Indian,183.49
+353,352,Manchurian,Chinese,328.98
+354,353,Dosa,South Indian,409.46
+355,354,Gulab Jamun,Desserts,216.45
+356,355,Rasgulla,Desserts,306.61
+357,356,Pizza,Fast Food,294.98
+358,357,Chole Bhature,North Indian,285.11
+359,358,Fries,Fast Food,254.19
+360,359,Hakka Noodles,Chinese,88.97
+361,360,Dosa,South Indian,119.98
+362,361,Ice Cream,Desserts,80.56
+363,362,Paneer Butter Masala,North Indian,98.22
+364,363,Idli Sambar,South Indian,70.55
+365,364,Paneer Butter Masala,North Indian,269.88
+366,365,Dal Makhani,North Indian,197.28
+367,366,Vada,South Indian,361.8
+368,367,Fries,Fast Food,271.04
+369,368,Fries,Fast Food,65.67
+370,369,Ice Cream,Desserts,287.64
+371,370,Dosa,South Indian,319.99
+372,371,Hakka Noodles,Chinese,302.31
+373,372,Paneer Butter Masala,North Indian,71.72
+374,373,Gulab Jamun,Desserts,412.73
+375,374,Idli Sambar,South Indian,173.32
+376,375,Vada,South Indian,98.09
+377,376,Dal Makhani,North Indian,189.16
+378,377,Dosa,South Indian,290.89
+379,378,Ice Cream,Desserts,375.42
+380,379,Dosa,South Indian,387.59
+381,380,Dal Makhani,North Indian,295.93
+382,381,Ice Cream,Desserts,263.44
+383,382,Idli Sambar,South Indian,326.14
+384,383,Hakka Noodles,Chinese,282.08
+385,384,Burger,Fast Food,399.85
+386,385,Dal Makhani,North Indian,229.67
+387,386,Idli Sambar,South Indian,378.93
+388,387,Spring Rolls,Chinese,52.0
+389,388,Rasgulla,Desserts,428.91
+390,389,Paneer Butter Masala,North Indian,437.36
+391,390,Vada,South Indian,454.64
+392,391,Spring Rolls,Chinese,422.14
+393,392,Vada,South Indian,380.05
+394,393,Pizza,Fast Food,94.4
+395,394,Vada,South Indian,249.03
+396,395,Spring Rolls,Chinese,98.05
+397,396,Chole Bhature,North Indian,164.76
+398,397,Manchurian,Chinese,495.49
+399,398,Spring Rolls,Chinese,103.94
+400,399,Dosa,South Indian,382.56
+401,400,Spring Rolls,Chinese,455.31
+402,401,Idli Sambar,South Indian,100.41
+403,402,Chole Bhature,North Indian,61.54
+404,403,Burger,Fast Food,69.67
+405,404,Gulab Jamun,Desserts,61.32
+406,405,Dosa,South Indian,434.28
+407,406,Dal Makhani,North Indian,331.01
+408,407,Idli Sambar,South Indian,333.13
+409,408,Manchurian,Chinese,65.66
+410,409,Fries,Fast Food,203.98
+411,410,Manchurian,Chinese,367.52
+412,411,Dosa,South Indian,272.05
+413,412,Fries,Fast Food,253.06
+414,413,Hakka Noodles,Chinese,178.99
+415,414,Vada,South Indian,421.96
+416,415,Ice Cream,Desserts,196.29
+417,416,Gulab Jamun,Desserts,270.63
+418,417,Chole Bhature,North Indian,110.46
+419,418,Rasgulla,Desserts,495.04
+420,419,Rasgulla,Desserts,222.11
+421,420,Pizza,Fast Food,95.94
+422,421,Ice Cream,Desserts,278.28
+423,422,Dal Makhani,North Indian,155.81
+424,423,Gulab Jamun,Desserts,293.84
+425,424,Hakka Noodles,Chinese,354.94
+426,425,Chole Bhature,North Indian,280.63
+427,426,Paneer Butter Masala,North Indian,499.89
+428,427,Burger,Fast Food,379.72
+429,428,Hakka Noodles,Chinese,468.73
+430,429,Fries,Fast Food,407.17
+431,430,Hakka Noodles,Chinese,208.97
+432,431,Dal Makhani,North Indian,277.28
+433,432,Rasgulla,Desserts,413.74
+434,433,Fries,Fast Food,296.94
+435,434,Dal Makhani,North Indian,295.78
+436,435,Manchurian,Chinese,116.62
+437,436,Paneer Butter Masala,North Indian,459.49
+438,437,Vada,South Indian,447.8
+439,438,Hakka Noodles,Chinese,443.06
+440,439,Pizza,Fast Food,460.42
+441,440,Fries,Fast Food,263.36
+442,441,Burger,Fast Food,328.85
+443,442,Burger,Fast Food,276.65
+444,443,Fries,Fast Food,92.08
+445,444,Dosa,South Indian,181.96
+446,445,Fries,Fast Food,301.87
+447,446,Pizza,Fast Food,136.12
+448,447,Manchurian,Chinese,89.0
+449,448,Chole Bhature,North Indian,324.52
+450,449,Vada,South Indian,189.02
+451,450,Paneer Butter Masala,North Indian,157.7
+452,451,Dal Makhani,North Indian,348.85
+453,452,Pizza,Fast Food,267.51
+454,453,Idli Sambar,South Indian,349.67
+455,454,Spring Rolls,Chinese,170.33
+456,455,Pizza,Fast Food,460.81
+457,456,Hakka Noodles,Chinese,111.85
+458,457,Chole Bhature,North Indian,139.98
+459,458,Paneer Butter Masala,North Indian,299.23
+460,459,Dal Makhani,North Indian,293.35
+461,460,Hakka Noodles,Chinese,346.37
+462,461,Idli Sambar,South Indian,224.24
+463,462,Vada,South Indian,358.65
+464,463,Hakka Noodles,Chinese,479.7
+465,464,Idli Sambar,South Indian,242.9
+466,465,Ice Cream,Desserts,108.15
+467,466,Burger,Fast Food,151.88
+468,467,Gulab Jamun,Desserts,80.04
+469,468,Paneer Butter Masala,North Indian,493.03
+470,469,Gulab Jamun,Desserts,370.39
+471,470,Ice Cream,Desserts,292.17
+472,471,Pizza,Fast Food,202.91
+473,472,Dal Makhani,North Indian,200.99
+474,473,Rasgulla,Desserts,264.79
+475,474,Rasgulla,Desserts,427.82
+476,475,Paneer Butter Masala,North Indian,62.6
+478,477,Fries,Fast Food,200.7
+479,478,Spring Rolls,Chinese,62.19
+480,479,Dosa,South Indian,306.0
+481,480,Rasgulla,Desserts,437.17
+482,481,Vada,South Indian,92.2
+483,482,Paneer Butter Masala,North Indian,236.16
+484,483,Spring Rolls,Chinese,395.78
+485,484,Spring Rolls,Chinese,461.21
+486,485,Ice Cream,Desserts,403.69
+487,486,Gulab Jamun,Desserts,273.68
+488,487,Ice Cream,Desserts,444.18
+489,488,Dal Makhani,North Indian,452.14
+490,489,Spring Rolls,Chinese,159.45
+491,490,Burger,Fast Food,322.58
+492,491,Dal Makhani,North Indian,53.15
+493,492,Idli Sambar,South Indian,264.32
+494,493,Spring Rolls,Chinese,269.06
+495,494,Chole Bhature,North Indian,422.45
+496,495,Dosa,South Indian,190.63
+497,496,Ice Cream,Desserts,96.37
+498,497,Hakka Noodles,Chinese,352.41
+499,498,Spring Rolls,Chinese,297.6
+500,499,Idli Sambar,South Indian,159.88
+501,500,Vada,South Indian,274.67
+502,501,Manchurian,Chinese,144.2
+503,502,Fries,Fast Food,191.74
+504,503,Fries,Fast Food,187.1
+505,504,Manchurian,Chinese,385.2
+506,505,Gulab Jamun,Desserts,231.35
+507,506,Fries,Fast Food,238.48
+508,507,Fries,Fast Food,80.2
+509,508,Pizza,Fast Food,486.74
+510,509,Vada,South Indian,234.64
+511,510,Gulab Jamun,Desserts,156.69
+512,511,Chole Bhature,North Indian,278.05
+513,512,Burger,Fast Food,380.3
+514,513,Idli Sambar,South Indian,306.27
+515,514,Hakka Noodles,Chinese,459.16
+516,515,Dosa,South Indian,123.92
+517,516,Burger,Fast Food,215.06
+518,517,Ice Cream,Desserts,332.88
+519,518,Fries,Fast Food,90.31
+520,519,Spring Rolls,Chinese,71.78
+521,520,Vada,South Indian,240.64
+522,521,Manchurian,Chinese,478.66
+523,522,Vada,South Indian,205.72
+524,523,Paneer Butter Masala,North Indian,435.89
+525,524,Dal Makhani,North Indian,133.72
+526,525,Vada,South Indian,179.46
+527,526,Fries,Fast Food,344.8
+528,527,Hakka Noodles,Chinese,274.98
+529,528,Gulab Jamun,Desserts,320.2
+530,529,Dal Makhani,North Indian,437.29
+531,530,Fries,Fast Food,104.92
+532,531,Vada,South Indian,387.32
+533,532,Pizza,Fast Food,264.32
+534,533,Ice Cream,Desserts,444.95
+535,534,Hakka Noodles,Chinese,320.19
+536,535,Paneer Butter Masala,North Indian,50.3
+537,536,Idli Sambar,South Indian,104.47
+538,537,Vada,South Indian,125.5
+539,538,Burger,Fast Food,269.9
+540,539,Vada,South Indian,95.2
+541,540,Chole Bhature,North Indian,408.6
+542,541,Pizza,Fast Food,248.76
+543,542,Gulab Jamun,Desserts,217.2
+544,543,Paneer Butter Masala,North Indian,138.53
+545,544,Vada,South Indian,246.63
+546,545,Paneer Butter Masala,North Indian,253.27
+547,546,Burger,Fast Food,283.74
+548,547,Burger,Fast Food,219.39
+549,548,Spring Rolls,Chinese,308.74
+550,549,Ice Cream,Desserts,60.02
+551,550,Hakka Noodles,Chinese,73.13
+552,551,Manchurian,Chinese,497.65
+553,552,Ice Cream,Desserts,59.56
+554,553,Chole Bhature,North Indian,435.37
+555,554,Ice Cream,Desserts,250.29
+556,555,Rasgulla,Desserts,443.5
+557,556,Manchurian,Chinese,245.49
+558,557,Vada,South Indian,143.43
+559,558,Ice Cream,Desserts,223.49
+560,559,Rasgulla,Desserts,149.65
+561,560,Dosa,South Indian,194.75
+562,561,Spring Rolls,Chinese,433.23
+563,562,Burger,Fast Food,244.49
+564,563,Spring Rolls,Chinese,178.29
+565,564,Gulab Jamun,Desserts,457.62
+566,565,Ice Cream,Desserts,166.72
+567,566,Dal Makhani,North Indian,414.62
+568,567,Ice Cream,Desserts,411.43
+569,568,Spring Rolls,Chinese,63.94
+570,569,Hakka Noodles,Chinese,342.28
+571,570,Idli Sambar,South Indian,359.76
+572,571,Spring Rolls,Chinese,196.4
+573,572,Burger,Fast Food,475.91
+574,573,Ice Cream,Desserts,271.86
+575,574,Ice Cream,Desserts,239.36
+576,575,Vada,South Indian,176.96
+577,576,Spring Rolls,Chinese,487.91
+578,577,Pizza,Fast Food,439.96
+579,578,Burger,Fast Food,473.95
+580,579,Vada,South Indian,72.81
+581,580,Paneer Butter Masala,North Indian,453.73
+582,581,Hakka Noodles,Chinese,318.51
+583,582,Fries,Fast Food,175.86
+584,583,Burger,Fast Food,358.72
+585,584,Hakka Noodles,Chinese,62.83
+586,585,Burger,Fast Food,91.92
+587,586,Chole Bhature,North Indian,66.79
+588,587,Fries,Fast Food,223.54
+589,588,Dosa,South Indian,315.9
+590,589,Dosa,South Indian,146.09
+591,590,Fries,Fast Food,475.13
+592,591,Fries,Fast Food,146.05
+593,592,Ice Cream,Desserts,420.15
+594,593,Manchurian,Chinese,237.9
+595,594,Rasgulla,Desserts,127.3
+596,595,Chole Bhature,North Indian,396.9
+597,596,Spring Rolls,Chinese,488.82
+598,597,Vada,South Indian,174.49
+599,598,Paneer Butter Masala,North Indian,221.78
+600,599,Dosa,South Indian,368.78
+601,600,Burger,Fast Food,164.63
+602,601,Paneer Butter Masala,North Indian,216.88
+603,602,Rasgulla,Desserts,379.18
+604,603,Manchurian,Chinese,63.45
+605,604,Idli Sambar,South Indian,55.41
+606,605,Paneer Butter Masala,North Indian,478.26
+607,606,Fries,Fast Food,311.53
+608,607,Paneer Butter Masala,North Indian,172.23
+609,608,Hakka Noodles,Chinese,496.96
+610,609,Hakka Noodles,Chinese,393.89
+611,610,Paneer Butter Masala,North Indian,95.43
+612,611,Rasgulla,Desserts,308.97
+613,612,Rasgulla,Desserts,367.1
+614,613,Dosa,South Indian,438.35
+615,614,Pizza,Fast Food,85.13
+616,615,Manchurian,Chinese,305.84
+617,616,Paneer Butter Masala,North Indian,495.12
+618,617,Fries,Fast Food,337.42
+619,618,Gulab Jamun,Desserts,270.22
+620,619,Spring Rolls,Chinese,336.87
+621,620,Spring Rolls,Chinese,477.09
+622,621,Dosa,South Indian,414.86
+623,622,Pizza,Fast Food,122.39
+624,623,Chole Bhature,North Indian,490.76
+625,624,Hakka Noodles,Chinese,356.69
+626,625,Dal Makhani,North Indian,57.01
+627,626,Hakka Noodles,Chinese,117.05
+628,627,Vada,South Indian,412.88
+629,628,Hakka Noodles,Chinese,114.41
+630,629,Dal Makhani,North Indian,125.4
+631,630,Dal Makhani,North Indian,71.23
+632,631,Gulab Jamun,Desserts,387.23
+633,632,Burger,Fast Food,486.65
+634,633,Hakka Noodles,Chinese,384.51
+635,634,Chole Bhature,North Indian,458.33
+636,635,Paneer Butter Masala,North Indian,370.57
+637,636,Dosa,South Indian,410.02
+638,637,Dal Makhani,North Indian,87.98
+639,638,Hakka Noodles,Chinese,53.64
+640,639,Hakka Noodles,Chinese,496.44
+641,640,Vada,South Indian,457.99
+642,641,Burger,Fast Food,96.81
+643,642,Pizza,Fast Food,130.09
+644,643,Hakka Noodles,Chinese,395.49
+645,644,Ice Cream,Desserts,289.08
+646,645,Gulab Jamun,Desserts,386.44
+647,646,Burger,Fast Food,66.58
+648,647,Ice Cream,Desserts,86.28
+649,648,Burger,Fast Food,274.25
+650,649,Burger,Fast Food,462.84
+651,650,Vada,South Indian,101.8
+652,651,Fries,Fast Food,119.13
+653,652,Manchurian,Chinese,287.08
+654,653,Ice Cream,Desserts,170.41
+655,654,Gulab Jamun,Desserts,211.41
+656,655,Spring Rolls,Chinese,61.84
+657,656,Vada,South Indian,370.76
+658,657,Dosa,South Indian,208.89
+659,658,Vada,South Indian,186.59
+660,659,Burger,Fast Food,388.76
+661,660,Dosa,South Indian,330.9
+662,661,Ice Cream,Desserts,445.59
+663,662,Vada,South Indian,386.13
+664,663,Vada,South Indian,300.2
+665,664,Hakka Noodles,Chinese,375.52
+666,665,Pizza,Fast Food,363.75
+667,666,Ice Cream,Desserts,496.12
+668,667,Hakka Noodles,Chinese,109.23
+669,668,Gulab Jamun,Desserts,484.41
+670,669,Hakka Noodles,Chinese,358.7
+671,670,Paneer Butter Masala,North Indian,162.65
+672,671,Chole Bhature,North Indian,479.75
+673,672,Spring Rolls,Chinese,450.12
+674,673,Idli Sambar,South Indian,385.62
+675,674,Vada,South Indian,167.18
+676,675,Fries,Fast Food,96.44
+677,676,Dosa,South Indian,285.18
+678,677,Pizza,Fast Food,58.9
+679,678,Gulab Jamun,Desserts,93.59
+680,679,Ice Cream,Desserts,54.46
+681,680,Ice Cream,Desserts,144.41
+682,681,Burger,Fast Food,217.96
+683,682,Rasgulla,Desserts,109.96
+684,683,Spring Rolls,Chinese,424.68
+685,684,Gulab Jamun,Desserts,379.31
+686,685,Hakka Noodles,Chinese,156.31
+687,686,Spring Rolls,Chinese,108.53
+688,687,Spring Rolls,Chinese,256.68
+689,688,Spring Rolls,Chinese,463.69
+690,689,Hakka Noodles,Chinese,271.57
+691,690,Spring Rolls,Chinese,289.24
+692,691,Dal Makhani,North Indian,469.62
+693,692,Rasgulla,Desserts,492.38
+694,693,Chole Bhature,North Indian,354.94
+695,694,Pizza,Fast Food,111.47
+696,695,Ice Cream,Desserts,251.47
+697,696,Vada,South Indian,362.5
+698,697,Fries,Fast Food,154.25
+699,698,Paneer Butter Masala,North Indian,70.72
+700,699,Dal Makhani,North Indian,86.79
+701,700,Chole Bhature,North Indian,118.53
+702,701,Manchurian,Chinese,270.23
+703,702,Chole Bhature,North Indian,458.11
+704,703,Hakka Noodles,Chinese,362.99
+705,704,Hakka Noodles,Chinese,351.14
+706,705,Paneer Butter Masala,North Indian,205.94
+707,706,Pizza,Fast Food,189.49
+708,707,Rasgulla,Desserts,205.59
+709,708,Idli Sambar,South Indian,192.21
+710,709,Rasgulla,Desserts,450.06
+711,710,Manchurian,Chinese,273.75
+712,711,Dal Makhani,North Indian,286.14
+713,712,Idli Sambar,South Indian,286.9
+714,713,Dal Makhani,North Indian,184.86
+715,714,Burger,Fast Food,293.79
+716,715,Pizza,Fast Food,388.9
+717,716,Vada,South Indian,254.02
+718,717,Idli Sambar,South Indian,459.68
+719,718,Hakka Noodles,Chinese,198.89
+720,719,Hakka Noodles,Chinese,412.89
+721,720,Burger,Fast Food,300.29
+722,721,Fries,Fast Food,321.08
+723,722,Hakka Noodles,Chinese,334.84
+724,723,Spring Rolls,Chinese,457.65
+725,724,Dal Makhani,North Indian,243.54
+726,725,Paneer Butter Masala,North Indian,276.58
+727,726,Manchurian,Chinese,458.12
+728,727,Burger,Fast Food,397.84
+729,728,Chole Bhature,North Indian,75.86
+730,729,Rasgulla,Desserts,392.04
+731,730,Ice Cream,Desserts,150.64
+732,731,Spring Rolls,Chinese,75.91
+733,732,Manchurian,Chinese,86.13
+734,733,Ice Cream,Desserts,343.15
+735,734,Manchurian,Chinese,177.13
+736,735,Gulab Jamun,Desserts,77.63
+737,736,Spring Rolls,Chinese,263.03
+738,737,Fries,Fast Food,397.86
+739,738,Ice Cream,Desserts,194.15
+740,739,Manchurian,Chinese,489.81
+741,740,Manchurian,Chinese,256.8
+742,741,Hakka Noodles,Chinese,492.62
+743,742,Rasgulla,Desserts,125.48
+744,743,Rasgulla,Desserts,71.31
+745,744,Fries,Fast Food,452.79
+746,745,Gulab Jamun,Desserts,147.89
+747,746,Chole Bhature,North Indian,56.76
+748,747,Gulab Jamun,Desserts,235.09
+749,748,Manchurian,Chinese,494.06
+750,749,Vada,South Indian,163.04
+751,750,Rasgulla,Desserts,188.86
+752,751,Fries,Fast Food,156.28
+753,752,Ice Cream,Desserts,337.05
+754,753,Rasgulla,Desserts,224.2
+755,754,Vada,South Indian,320.67
+756,755,Ice Cream,Desserts,472.04
+757,756,Hakka Noodles,Chinese,392.48
+758,757,Pizza,Fast Food,394.93
+759,758,Burger,Fast Food,352.05
+760,759,Fries,Fast Food,280.64
+761,760,Ice Cream,Desserts,169.92
+762,761,Chole Bhature,North Indian,290.33
+763,762,Ice Cream,Desserts,413.05
+764,763,Dosa,South Indian,437.77
+765,764,Hakka Noodles,Chinese,315.93
+766,765,Gulab Jamun,Desserts,77.93
+767,766,Rasgulla,Desserts,89.44
+768,767,Paneer Butter Masala,North Indian,92.96
+769,768,Spring Rolls,Chinese,441.16
+770,769,Gulab Jamun,Desserts,185.79
+771,770,Dal Makhani,North Indian,207.43
+772,771,Dosa,South Indian,364.7
+773,772,Burger,Fast Food,139.82
+774,773,Manchurian,Chinese,301.22
+775,774,Hakka Noodles,Chinese,77.08
+776,775,Fries,Fast Food,302.37
+777,776,Paneer Butter Masala,North Indian,104.37
+778,777,Spring Rolls,Chinese,334.34
+779,778,Rasgulla,Desserts,300.37
+780,779,Vada,South Indian,190.05
+781,780,Rasgulla,Desserts,257.95
+782,781,Spring Rolls,Chinese,73.89
+783,782,Burger,Fast Food,287.46
+784,783,Idli Sambar,South Indian,466.1
+785,784,Pizza,Fast Food,124.55
+786,785,Pizza,Fast Food,292.75
+787,786,Idli Sambar,South Indian,340.98
+788,787,Paneer Butter Masala,North Indian,335.57
+789,788,Dosa,South Indian,418.5
+790,789,Manchurian,Chinese,71.9
+791,790,Spring Rolls,Chinese,341.63
+792,791,Dosa,South Indian,327.45
+793,792,Chole Bhature,North Indian,125.78
+794,793,Gulab Jamun,Desserts,321.38
+795,794,Dal Makhani,North Indian,298.49
+796,795,Fries,Fast Food,237.2
+797,796,Rasgulla,Desserts,437.24
+798,797,Spring Rolls,Chinese,444.99
+799,798,Rasgulla,Desserts,197.28
+800,799,Pizza,Fast Food,394.67
+801,800,Spring Rolls,Chinese,485.59
+802,801,Dosa,South Indian,121.77
+803,802,Gulab Jamun,Desserts,353.03
+804,803,Dal Makhani,North Indian,178.63
+805,804,Idli Sambar,South Indian,459.22
+806,805,Paneer Butter Masala,North Indian,305.24
+807,806,Rasgulla,Desserts,496.26
+808,807,Pizza,Fast Food,493.33
+809,808,Gulab Jamun,Desserts,309.1
+810,809,Dosa,South Indian,385.34
+811,810,Ice Cream,Desserts,382.71
+812,811,Ice Cream,Desserts,376.46
+813,812,Burger,Fast Food,250.61
+814,813,Gulab Jamun,Desserts,295.47
+815,814,Burger,Fast Food,281.36
+816,815,Rasgulla,Desserts,274.71
+817,816,Pizza,Fast Food,315.29
+818,817,Spring Rolls,Chinese,121.29
+819,818,Fries,Fast Food,269.98
+820,819,Manchurian,Chinese,236.41
+821,820,Manchurian,Chinese,479.95
+822,821,Rasgulla,Desserts,413.03
+823,822,Paneer Butter Masala,North Indian,263.79
+824,823,Paneer Butter Masala,North Indian,132.15
+825,824,Spring Rolls,Chinese,335.34
+826,825,Pizza,Fast Food,127.11
+827,826,Paneer Butter Masala,North Indian,491.48
+828,827,Idli Sambar,South Indian,498.5
+829,828,Rasgulla,Desserts,251.18
+830,829,Rasgulla,Desserts,307.99
+831,830,Paneer Butter Masala,North Indian,293.1
+832,831,Burger,Fast Food,129.31
+833,832,Dal Makhani,North Indian,197.56
+834,833,Dal Makhani,North Indian,215.46
+835,834,Spring Rolls,Chinese,205.76
+836,835,Hakka Noodles,Chinese,83.67
+837,836,Idli Sambar,South Indian,474.1
+838,837,Spring Rolls,Chinese,331.14
+839,838,Idli Sambar,South Indian,52.66
+840,839,Hakka Noodles,Chinese,161.22
+841,840,Ice Cream,Desserts,292.65
+842,841,Burger,Fast Food,411.65
+843,842,Burger,Fast Food,258.79
+844,843,Chole Bhature,North Indian,362.58
+845,844,Burger,Fast Food,352.28
+846,845,Idli Sambar,South Indian,124.52
+847,846,Hakka Noodles,Chinese,327.1
+848,847,Dal Makhani,North Indian,431.58
+849,848,Rasgulla,Desserts,276.54
+850,849,Vada,South Indian,327.42
+851,850,Rasgulla,Desserts,335.64
+852,851,Fries,Fast Food,102.36
+853,852,Hakka Noodles,Chinese,475.8
+854,853,Paneer Butter Masala,North Indian,135.94
+855,854,Pizza,Fast Food,490.24
+856,855,Gulab Jamun,Desserts,289.73
+857,856,Dal Makhani,North Indian,477.6
+858,857,Hakka Noodles,Chinese,115.09
+859,858,Rasgulla,Desserts,149.44
+860,859,Rasgulla,Desserts,153.34
+861,860,Dal Makhani,North Indian,155.6
+862,861,Gulab Jamun,Desserts,490.01
+863,862,Paneer Butter Masala,North Indian,217.24
+864,863,Spring Rolls,Chinese,228.29
+865,864,Paneer Butter Masala,North Indian,93.47
+866,865,Dal Makhani,North Indian,485.13
+867,866,Paneer Butter Masala,North Indian,220.44
+868,867,Ice Cream,Desserts,78.97
+869,868,Manchurian,Chinese,412.84
+870,869,Paneer Butter Masala,North Indian,483.07
+871,870,Spring Rolls,Chinese,85.55
+872,871,Burger,Fast Food,263.3
+873,872,Idli Sambar,South Indian,420.54
+874,873,Chole Bhature,North Indian,183.11
+875,874,Burger,Fast Food,285.5
+876,875,Pizza,Fast Food,275.76
+877,876,Chole Bhature,North Indian,84.49
+878,877,Rasgulla,Desserts,209.58
+879,878,Paneer Butter Masala,North Indian,91.51
+880,879,Dosa,South Indian,402.48
+881,880,Hakka Noodles,Chinese,408.34
+882,881,Manchurian,Chinese,383.3
+883,882,Pizza,Fast Food,240.25
+884,883,Hakka Noodles,Chinese,339.31
+885,884,Dal Makhani,North Indian,407.14
+886,885,Dal Makhani,North Indian,283.76
+887,886,Hakka Noodles,Chinese,76.48
+888,887,Dal Makhani,North Indian,337.11
+889,888,Fries,Fast Food,292.1
+890,889,Rasgulla,Desserts,497.01
+891,890,Pizza,Fast Food,261.51
+892,891,Dal Makhani,North Indian,443.78
+893,892,Fries,Fast Food,112.08
+894,893,Hakka Noodles,Chinese,323.5
+895,894,Vada,South Indian,381.81
+896,895,Gulab Jamun,Desserts,282.47
+897,896,Pizza,Fast Food,129.68
+898,897,Chole Bhature,North Indian,421.71
+899,898,Ice Cream,Desserts,423.16
+900,899,Burger,Fast Food,168.18
+901,900,Gulab Jamun,Desserts,139.76
+902,901,Chole Bhature,North Indian,286.9
+903,902,Fries,Fast Food,68.82
+904,903,Gulab Jamun,Desserts,288.09
+905,904,Spring Rolls,Chinese,127.0
+906,905,Idli Sambar,South Indian,364.68
+907,906,Spring Rolls,Chinese,160.72
+908,907,Burger,Fast Food,50.87
+909,908,Rasgulla,Desserts,398.56
+910,909,Idli Sambar,South Indian,269.86
+911,910,Idli Sambar,South Indian,86.84
+912,911,Chole Bhature,North Indian,434.91
+913,912,Idli Sambar,South Indian,258.54
+914,913,Gulab Jamun,Desserts,474.48
+915,914,Hakka Noodles,Chinese,141.0
+916,915,Fries,Fast Food,310.12
+917,916,Dal Makhani,North Indian,344.24
+918,917,Idli Sambar,South Indian,429.69
+919,918,Dosa,South Indian,389.39
+920,919,Burger,Fast Food,205.65
+921,920,Fries,Fast Food,78.56
+922,921,Gulab Jamun,Desserts,306.31
+923,922,Burger,Fast Food,75.28
+924,923,Paneer Butter Masala,North Indian,464.64
+925,924,Rasgulla,Desserts,114.12
+926,925,Fries,Fast Food,134.42
+927,926,Chole Bhature,North Indian,233.68
+928,927,Pizza,Fast Food,456.56
+929,928,Hakka Noodles,Chinese,233.63
+930,929,Spring Rolls,Chinese,264.47
+931,930,Burger,Fast Food,290.09
+932,931,Gulab Jamun,Desserts,318.34
+933,932,Paneer Butter Masala,North Indian,55.11
+934,933,Pizza,Fast Food,242.8
+935,934,Gulab Jamun,Desserts,166.01
+936,935,Vada,South Indian,278.91
+937,936,Fries,Fast Food,311.09
+938,937,Vada,South Indian,162.69
+939,938,Vada,South Indian,195.34
+940,939,Paneer Butter Masala,North Indian,333.23
+941,940,Fries,Fast Food,162.49
+942,941,Dosa,South Indian,139.04
+943,942,Hakka Noodles,Chinese,233.35
+944,943,Vada,South Indian,442.56
+945,944,Paneer Butter Masala,North Indian,468.76
+946,945,Ice Cream,Desserts,139.42
+947,946,Burger,Fast Food,466.04
+948,947,Idli Sambar,South Indian,166.18
+949,948,Rasgulla,Desserts,112.67
+950,949,Idli Sambar,South Indian,442.7
+951,950,Paneer Butter Masala,North Indian,492.01
+952,951,Rasgulla,Desserts,222.49
+953,952,Fries,Fast Food,241.07
+954,953,Burger,Fast Food,270.18
+955,954,Burger,Fast Food,82.9
+956,955,Manchurian,Chinese,256.77
+957,956,Paneer Butter Masala,North Indian,197.97
+958,957,Dosa,South Indian,237.4
+959,958,Spring Rolls,Chinese,156.48
+960,959,Manchurian,Chinese,154.1
+961,960,Dosa,South Indian,85.34
+962,961,Idli Sambar,South Indian,99.74
+963,962,Burger,Fast Food,242.51
+964,963,Gulab Jamun,Desserts,449.0
+965,964,Rasgulla,Desserts,335.35
+966,965,Paneer Butter Masala,North Indian,248.3
+967,966,Idli Sambar,South Indian,60.07
+968,967,Manchurian,Chinese,456.65
+969,968,Gulab Jamun,Desserts,170.38
+970,969,Spring Rolls,Chinese,276.37
+971,970,Hakka Noodles,Chinese,284.44
+972,971,Pizza,Fast Food,461.32
+973,972,Pizza,Fast Food,320.3
+974,973,Spring Rolls,Chinese,131.64
+975,974,Gulab Jamun,Desserts,231.93
+976,975,Pizza,Fast Food,154.2
+977,976,Ice Cream,Desserts,430.24
+978,977,Burger,Fast Food,409.0
+979,978,Spring Rolls,Chinese,133.07
+980,979,Paneer Butter Masala,North Indian,437.22
+981,980,Rasgulla,Desserts,282.88
+982,981,Gulab Jamun,Desserts,332.35
+983,982,Spring Rolls,Chinese,408.2
+984,983,Hakka Noodles,Chinese,83.6
+985,984,Ice Cream,Desserts,191.98
+986,985,Paneer Butter Masala,North Indian,195.77
+987,986,Chole Bhature,North Indian,415.44
+988,987,Idli Sambar,South Indian,139.51
+989,988,Fries,Fast Food,218.99
+990,989,Ice Cream,Desserts,258.74
+991,990,Dal Makhani,North Indian,409.21
+992,991,Ice Cream,Desserts,348.02
+993,992,Gulab Jamun,Desserts,164.32
+994,993,Fries,Fast Food,366.83
+995,994,Hakka Noodles,Chinese,370.09
+996,995,Gulab Jamun,Desserts,319.91
+997,996,Manchurian,Chinese,235.28
+998,997,Vada,South Indian,140.54
+999,998,Hakka Noodles,Chinese,218.02
+1000,999,Burger,Fast Food,452.01
+1001,1000,Spring Rolls,Chinese,279.89
+1002,1001,Chole Bhature,North Indian,168.42
+1003,1002,Fries,Fast Food,153.07
+1004,1003,Vada,South Indian,350.79
+1005,1004,Spring Rolls,Chinese,166.36
+1006,1005,Chole Bhature,North Indian,210.72
+1007,1006,Hakka Noodles,Chinese,90.93
+1008,1007,Manchurian,Chinese,403.27
+1009,1008,Pizza,Fast Food,451.16
+1010,1009,Manchurian,Chinese,416.1
+1011,1010,Spring Rolls,Chinese,347.57
+1012,1011,Dal Makhani,North Indian,169.32
+1013,1012,Burger,Fast Food,322.6
+1014,1013,Pizza,Fast Food,450.22
+1015,1014,Pizza,Fast Food,51.1
+1016,1015,Manchurian,Chinese,361.45
+1017,1016,Hakka Noodles,Chinese,267.15
+1018,1017,Dosa,South Indian,350.84
+1019,1018,Dosa,South Indian,140.24
+1020,1019,Manchurian,Chinese,471.32
+1021,1020,Dosa,South Indian,363.28
+1022,1021,Gulab Jamun,Desserts,432.14
+1023,1022,Gulab Jamun,Desserts,235.85
+1024,1023,Hakka Noodles,Chinese,85.84
+1025,1024,Burger,Fast Food,256.69
+1026,1025,Idli Sambar,South Indian,111.21
+1027,1026,Paneer Butter Masala,North Indian,316.08
+1028,1027,Hakka Noodles,Chinese,478.86
+1029,1028,Ice Cream,Desserts,287.77
+1030,1029,Dal Makhani,North Indian,410.35
+1031,1030,Vada,South Indian,93.74
+1032,1031,Burger,Fast Food,343.59
+1033,1032,Vada,South Indian,83.17
+1034,1033,Rasgulla,Desserts,420.15
+1035,1034,Rasgulla,Desserts,159.59
+1036,1035,Dosa,South Indian,141.0
+1037,1036,Vada,South Indian,470.5
+1038,1037,Pizza,Fast Food,211.78
+1039,1038,Manchurian,Chinese,157.27
+1040,1039,Dosa,South Indian,477.13
+1041,1040,Spring Rolls,Chinese,167.06
+1042,1041,Spring Rolls,Chinese,288.09
+1043,1042,Pizza,Fast Food,288.12
+1044,1043,Spring Rolls,Chinese,114.63
+1045,1044,Manchurian,Chinese,240.88
+1046,1045,Dal Makhani,North Indian,53.63
+1047,1046,Gulab Jamun,Desserts,75.98
+1048,1047,Idli Sambar,South Indian,394.94
+1049,1048,Idli Sambar,South Indian,125.86
+1050,1049,Gulab Jamun,Desserts,406.26
+1051,1050,Rasgulla,Desserts,338.94
+1052,1051,Dal Makhani,North Indian,242.69
+1053,1052,Hakka Noodles,Chinese,426.45
+1054,1053,Idli Sambar,South Indian,72.22
+1055,1054,Vada,South Indian,181.76
+1056,1055,Paneer Butter Masala,North Indian,352.15
+1057,1056,Spring Rolls,Chinese,225.49
+1058,1057,Ice Cream,Desserts,147.57
+1059,1058,Paneer Butter Masala,North Indian,164.51
+1060,1059,Manchurian,Chinese,246.98
+1061,1060,Idli Sambar,South Indian,482.89
+1062,1061,Spring Rolls,Chinese,478.75
+1063,1062,Chole Bhature,North Indian,239.2
+1064,1063,Dal Makhani,North Indian,492.8
+1065,1064,Manchurian,Chinese,281.1
+1066,1065,Rasgulla,Desserts,223.92
+1067,1066,Dal Makhani,North Indian,207.46
+1068,1067,Pizza,Fast Food,317.54
+1069,1068,Ice Cream,Desserts,475.3
+1070,1069,Dosa,South Indian,270.58
+1071,1070,Vada,South Indian,219.98
+1072,1071,Rasgulla,Desserts,197.6
+1073,1072,Pizza,Fast Food,225.99
+1074,1073,Hakka Noodles,Chinese,284.72
+1075,1074,Paneer Butter Masala,North Indian,244.33
+1076,1075,Burger,Fast Food,326.04
+1077,1076,Rasgulla,Desserts,139.4
+1078,1077,Idli Sambar,South Indian,159.53
+1079,1078,Vada,South Indian,155.54
+1080,1079,Pizza,Fast Food,193.24
+1081,1080,Burger,Fast Food,222.3
+1082,1081,Pizza,Fast Food,275.85
+1083,1082,Chole Bhature,North Indian,109.9
+1084,1083,Chole Bhature,North Indian,59.21
+1085,1084,Gulab Jamun,Desserts,216.01
+1086,1085,Fries,Fast Food,59.46
+1087,1086,Spring Rolls,Chinese,398.58
+1088,1087,Dosa,South Indian,466.73
+1089,1088,Idli Sambar,South Indian,246.84
+1090,1089,Fries,Fast Food,65.82
+1091,1090,Hakka Noodles,Chinese,74.77
+1092,1091,Dal Makhani,North Indian,202.77
+1093,1092,Chole Bhature,North Indian,493.76
+1094,1093,Manchurian,Chinese,307.36
+1095,1094,Vada,South Indian,243.66
+1096,1095,Gulab Jamun,Desserts,109.65
+1097,1096,Vada,South Indian,260.99
+1098,1097,Ice Cream,Desserts,138.07
+1099,1098,Spring Rolls,Chinese,416.42
+1100,1099,Spring Rolls,Chinese,208.35
+1101,1100,Chole Bhature,North Indian,349.33
+1102,1101,Chole Bhature,North Indian,111.49
+1103,1102,Vada,South Indian,255.45
+1104,1103,Vada,South Indian,404.3
+1105,1104,Vada,South Indian,130.78
+1106,1105,Spring Rolls,Chinese,188.57
+1107,1106,Burger,Fast Food,335.34
+1108,1107,Chole Bhature,North Indian,102.39
+1109,1108,Gulab Jamun,Desserts,189.17
+1110,1109,Fries,Fast Food,353.93
+1111,1110,Hakka Noodles,Chinese,143.16
+1112,1111,Hakka Noodles,Chinese,140.67
+1113,1112,Dosa,South Indian,303.4
+1114,1113,Idli Sambar,South Indian,210.25
+1115,1114,Hakka Noodles,Chinese,174.61
+1116,1115,Burger,Fast Food,92.44
+1117,1116,Idli Sambar,South Indian,296.78
+1118,1117,Chole Bhature,North Indian,349.27
+1119,1118,Gulab Jamun,Desserts,273.65
+1120,1119,Rasgulla,Desserts,102.6
+1121,1120,Spring Rolls,Chinese,315.64
+1122,1121,Gulab Jamun,Desserts,423.92
+1123,1122,Chole Bhature,North Indian,485.85
+1124,1123,Dal Makhani,North Indian,407.26
+1125,1124,Paneer Butter Masala,North Indian,363.1
+1126,1125,Fries,Fast Food,143.94
+1127,1126,Hakka Noodles,Chinese,69.23
+1128,1127,Pizza,Fast Food,441.19
+1129,1128,Vada,South Indian,478.42
+1130,1129,Dal Makhani,North Indian,343.51
+1131,1130,Manchurian,Chinese,277.84
+1132,1131,Rasgulla,Desserts,453.3
+1133,1132,Dal Makhani,North Indian,102.56
+1134,1133,Dosa,South Indian,298.08
+1135,1134,Dal Makhani,North Indian,279.29
+1136,1135,Dosa,South Indian,96.93
+1137,1136,Fries,Fast Food,97.0
+1138,1137,Rasgulla,Desserts,428.68
+1139,1138,Hakka Noodles,Chinese,188.19
+1140,1139,Dosa,South Indian,262.24
+1141,1140,Hakka Noodles,Chinese,153.56
+1142,1141,Idli Sambar,South Indian,444.35
+1143,1142,Pizza,Fast Food,238.88
+1144,1143,Chole Bhature,North Indian,90.02
+1145,1144,Pizza,Fast Food,357.86
+1146,1145,Ice Cream,Desserts,242.4
+1147,1146,Manchurian,Chinese,137.18
+1148,1147,Pizza,Fast Food,84.49
+1149,1148,Vada,South Indian,474.64
+1150,1149,Rasgulla,Desserts,92.46
+1151,1150,Burger,Fast Food,414.09
+1152,1151,Gulab Jamun,Desserts,469.27
+1153,1152,Pizza,Fast Food,360.74
+1154,1153,Chole Bhature,North Indian,321.72
+1155,1154,Hakka Noodles,Chinese,197.7
+1156,1155,Rasgulla,Desserts,178.49
+1157,1156,Ice Cream,Desserts,122.07
+1158,1157,Dal Makhani,North Indian,146.16
+1159,1158,Fries,Fast Food,92.33
+1160,1159,Burger,Fast Food,455.97
+1161,1160,Dal Makhani,North Indian,263.02
+1162,1161,Chole Bhature,North Indian,241.37
+1163,1162,Hakka Noodles,Chinese,207.72
+1164,1163,Spring Rolls,Chinese,120.18
+1165,1164,Rasgulla,Desserts,338.16
+1166,1165,Dosa,South Indian,486.01
+1167,1166,Burger,Fast Food,331.82
+1168,1167,Paneer Butter Masala,North Indian,187.48
+1169,1168,Ice Cream,Desserts,415.16
+1170,1169,Spring Rolls,Chinese,378.31
+1171,1170,Hakka Noodles,Chinese,438.8
+1172,1171,Manchurian,Chinese,382.36
+1173,1172,Idli Sambar,South Indian,357.1
+1174,1173,Rasgulla,Desserts,180.09
+1175,1174,Chole Bhature,North Indian,349.24
+1176,1175,Burger,Fast Food,498.51
+1177,1176,Pizza,Fast Food,125.02
+1178,1177,Burger,Fast Food,97.96
+1179,1178,Pizza,Fast Food,184.42
+1180,1179,Pizza,Fast Food,470.21
+1181,1180,Dal Makhani,North Indian,260.63
+1182,1181,Rasgulla,Desserts,294.38
+1183,1182,Dal Makhani,North Indian,285.18
+1184,1183,Gulab Jamun,Desserts,92.59
+1185,1184,Chole Bhature,North Indian,325.38
+1186,1185,Fries,Fast Food,168.95
+1187,1186,Dal Makhani,North Indian,86.85
+1188,1187,Spring Rolls,Chinese,134.89
+1189,1188,Fries,Fast Food,385.35
+1190,1189,Hakka Noodles,Chinese,336.39
+1191,1190,Rasgulla,Desserts,497.13
+1192,1191,Burger,Fast Food,223.9
+1193,1192,Fries,Fast Food,317.76
+1194,1193,Gulab Jamun,Desserts,257.91
+1195,1194,Manchurian,Chinese,426.91
+1196,1195,Paneer Butter Masala,North Indian,499.86
+1197,1196,Dal Makhani,North Indian,254.85
+1198,1197,Idli Sambar,South Indian,149.05
+1199,1198,Dal Makhani,North Indian,472.5
+1200,1199,Hakka Noodles,Chinese,159.04
+1201,1200,Idli Sambar,South Indian,123.37
+1202,1201,Rasgulla,Desserts,379.37
+1203,1202,Dal Makhani,North Indian,457.3
+1204,1203,Dosa,South Indian,310.24
+1205,1204,Rasgulla,Desserts,423.4
+1206,1205,Idli Sambar,South Indian,152.43
+1207,1206,Idli Sambar,South Indian,351.38
+1208,1207,Ice Cream,Desserts,491.43
+1209,1208,Spring Rolls,Chinese,129.69
+1210,1209,Vada,South Indian,303.18
+1211,1210,Pizza,Fast Food,318.98
+1212,1211,Hakka Noodles,Chinese,72.36
+1213,1212,Paneer Butter Masala,North Indian,498.73
+1214,1213,Dosa,South Indian,98.31
+1215,1214,Hakka Noodles,Chinese,286.35
+1216,1215,Gulab Jamun,Desserts,277.93
+1217,1216,Hakka Noodles,Chinese,230.27
+1218,1217,Ice Cream,Desserts,476.01
+1219,1218,Gulab Jamun,Desserts,402.7
+1220,1219,Dosa,South Indian,276.28
+1221,1220,Dosa,South Indian,58.93
+1222,1221,Paneer Butter Masala,North Indian,344.23
+1223,1222,Burger,Fast Food,168.65
+1224,1223,Idli Sambar,South Indian,318.54
+1225,1224,Pizza,Fast Food,418.39
+1226,1225,Idli Sambar,South Indian,293.11
+1227,1226,Burger,Fast Food,162.49
+1228,1227,Burger,Fast Food,430.0
+1229,1228,Vada,South Indian,421.21
+1230,1229,Dosa,South Indian,68.12
+1231,1230,Chole Bhature,North Indian,188.01
+1232,1231,Dal Makhani,North Indian,112.44
+1233,1232,Paneer Butter Masala,North Indian,216.81
+1234,1233,Manchurian,Chinese,124.17
+1235,1234,Manchurian,Chinese,200.48
+1236,1235,Paneer Butter Masala,North Indian,251.15
+1237,1236,Pizza,Fast Food,307.81
+1238,1237,Spring Rolls,Chinese,251.09
+1239,1238,Chole Bhature,North Indian,390.95
+1240,1239,Idli Sambar,South Indian,222.92
+1241,1240,Spring Rolls,Chinese,194.05
+1242,1241,Ice Cream,Desserts,403.16
+1243,1242,Hakka Noodles,Chinese,101.29
+1244,1243,Fries,Fast Food,392.18
+1245,1244,Chole Bhature,North Indian,499.0
+1246,1245,Burger,Fast Food,267.6
+1247,1246,Burger,Fast Food,129.19
+1248,1247,Gulab Jamun,Desserts,258.7
+1249,1248,Rasgulla,Desserts,304.85
+1250,1249,Vada,South Indian,62.7
+1251,1250,Pizza,Fast Food,155.77
+1252,1251,Dosa,South Indian,290.39
+1253,1252,Manchurian,Chinese,356.88
+1254,1253,Rasgulla,Desserts,307.27
+1255,1254,Fries,Fast Food,57.24
+1256,1255,Manchurian,Chinese,103.84
+1257,1256,Dal Makhani,North Indian,354.15
+1258,1257,Paneer Butter Masala,North Indian,282.75
+1259,1258,Manchurian,Chinese,57.28
+1260,1259,Vada,South Indian,222.86
+1261,1260,Ice Cream,Desserts,93.31
+1262,1261,Ice Cream,Desserts,207.74
+1263,1262,Paneer Butter Masala,North Indian,230.47
+1264,1263,Dosa,South Indian,460.44
+1265,1264,Hakka Noodles,Chinese,95.36
+1266,1265,Manchurian,Chinese,76.5
+1267,1266,Gulab Jamun,Desserts,148.43
+1268,1267,Gulab Jamun,Desserts,228.26
+1269,1268,Hakka Noodles,Chinese,482.12
+1270,1269,Hakka Noodles,Chinese,149.3
+1271,1270,Hakka Noodles,Chinese,114.01
+1272,1271,Manchurian,Chinese,205.51
+1273,1272,Manchurian,Chinese,237.68
+1274,1273,Manchurian,Chinese,153.35
+1275,1274,Chole Bhature,North Indian,476.93
+1276,1275,Manchurian,Chinese,484.2
+1277,1276,Dosa,South Indian,215.33
+1278,1277,Pizza,Fast Food,491.93
+1279,1278,Spring Rolls,Chinese,167.23
+1280,1279,Pizza,Fast Food,259.36
+1281,1280,Vada,South Indian,78.36
+1282,1281,Hakka Noodles,Chinese,153.4
+1283,1282,Rasgulla,Desserts,355.26
+1284,1283,Pizza,Fast Food,347.54
+1285,1284,Ice Cream,Desserts,271.97
+1286,1285,Idli Sambar,South Indian,283.25
+1287,1286,Paneer Butter Masala,North Indian,91.63
+1288,1287,Manchurian,Chinese,261.58
+1289,1288,Manchurian,Chinese,372.85
+1290,1289,Rasgulla,Desserts,340.9
+1291,1290,Fries,Fast Food,394.04
+1292,1291,Vada,South Indian,67.14
+1293,1292,Ice Cream,Desserts,139.37
+1294,1293,Dal Makhani,North Indian,216.8
+1295,1294,Dal Makhani,North Indian,431.58
+1296,1295,Vada,South Indian,465.89
+1297,1296,Dal Makhani,North Indian,133.14
+1298,1297,Hakka Noodles,Chinese,349.98
+1299,1298,Spring Rolls,Chinese,108.3
+1300,1299,Spring Rolls,Chinese,191.86
+1301,1300,Vada,South Indian,178.69
+1302,1301,Manchurian,Chinese,349.94
+1303,1302,Burger,Fast Food,453.89
+1304,1303,Pizza,Fast Food,481.26
+1305,1304,Spring Rolls,Chinese,230.12
+1306,1305,Spring Rolls,Chinese,321.48
+1307,1306,Vada,South Indian,52.78
+1308,1307,Spring Rolls,Chinese,493.27
+1309,1308,Rasgulla,Desserts,449.86
+1310,1309,Dosa,South Indian,442.73
+1311,1310,Dosa,South Indian,402.44
+1312,1311,Manchurian,Chinese,306.47
+1313,1312,Dal Makhani,North Indian,232.03
+1314,1313,Hakka Noodles,Chinese,209.97
+1315,1314,Ice Cream,Desserts,274.21
+1316,1315,Chole Bhature,North Indian,214.07
+1317,1316,Chole Bhature,North Indian,91.93
+1318,1317,Vada,South Indian,149.43
+1319,1318,Fries,Fast Food,467.87
+1320,1319,Burger,Fast Food,285.14
+1321,1320,Vada,South Indian,303.67
+1322,1321,Manchurian,Chinese,366.22
+1323,1322,Dosa,South Indian,200.29
+1324,1323,Rasgulla,Desserts,238.51
+1325,1324,Spring Rolls,Chinese,408.45
+1326,1325,Gulab Jamun,Desserts,119.66
+1327,1326,Gulab Jamun,Desserts,242.26
+1328,1327,Vada,South Indian,290.45
+1329,1328,Rasgulla,Desserts,161.83
+1330,1329,Pizza,Fast Food,111.35
+1331,1330,Gulab Jamun,Desserts,212.13
+1332,1331,Gulab Jamun,Desserts,204.52
+1333,1332,Hakka Noodles,Chinese,183.51
+1334,1333,Spring Rolls,Chinese,314.28
+1335,1334,Dosa,South Indian,217.5
+1336,1335,Paneer Butter Masala,North Indian,226.47
+1337,1336,Rasgulla,Desserts,63.76
+1338,1337,Rasgulla,Desserts,441.85
+1339,1338,Gulab Jamun,Desserts,74.97
+1340,1339,Ice Cream,Desserts,154.37
+1341,1340,Pizza,Fast Food,92.57
+1342,1341,Chole Bhature,North Indian,384.23
+1343,1342,Burger,Fast Food,183.66
+1344,1343,Hakka Noodles,Chinese,486.5
+1345,1344,Hakka Noodles,Chinese,253.16
+1346,1345,Rasgulla,Desserts,460.9
+1347,1346,Gulab Jamun,Desserts,269.49
+1348,1347,Burger,Fast Food,340.72
+1349,1348,Dal Makhani,North Indian,298.51
+1350,1349,Dosa,South Indian,328.57
+1351,1350,Hakka Noodles,Chinese,305.24
+1352,1351,Pizza,Fast Food,104.25
+1353,1352,Fries,Fast Food,373.5
+1354,1353,Burger,Fast Food,243.62
+1355,1354,Dal Makhani,North Indian,75.33
+1356,1355,Rasgulla,Desserts,315.18
+1357,1356,Chole Bhature,North Indian,317.23
+1358,1357,Vada,South Indian,159.02
+1359,1358,Dal Makhani,North Indian,212.33
+1360,1359,Paneer Butter Masala,North Indian,370.55
+1361,1360,Idli Sambar,South Indian,472.85
+1362,1361,Paneer Butter Masala,North Indian,381.89
+1363,1362,Gulab Jamun,Desserts,337.82
+1364,1363,Dal Makhani,North Indian,228.11
+1365,1364,Hakka Noodles,Chinese,52.42
+1366,1365,Spring Rolls,Chinese,264.19
+1367,1366,Pizza,Fast Food,57.9
+1368,1367,Burger,Fast Food,371.77
+1369,1368,Rasgulla,Desserts,72.11
+1370,1369,Hakka Noodles,Chinese,311.09
+1371,1370,Gulab Jamun,Desserts,229.07
+1372,1371,Pizza,Fast Food,367.56
+1373,1372,Chole Bhature,North Indian,57.5
+1374,1373,Rasgulla,Desserts,251.68
+1375,1374,Ice Cream,Desserts,122.5
+1376,1375,Chole Bhature,North Indian,393.79
+1377,1376,Chole Bhature,North Indian,272.15
+1378,1377,Dal Makhani,North Indian,322.79
+1379,1378,Manchurian,Chinese,486.87
+1380,1379,Paneer Butter Masala,North Indian,106.0
+1381,1380,Fries,Fast Food,222.54
+1382,1381,Ice Cream,Desserts,323.77
+1383,1382,Spring Rolls,Chinese,243.02
+1384,1383,Burger,Fast Food,87.88
+1385,1384,Hakka Noodles,Chinese,73.17
+1386,1385,Vada,South Indian,274.75
+1387,1386,Rasgulla,Desserts,228.45
+1388,1387,Chole Bhature,North Indian,489.6
+1389,1388,Gulab Jamun,Desserts,95.5
+1390,1389,Dosa,South Indian,434.92
+1391,1390,Spring Rolls,Chinese,55.98
+1392,1391,Hakka Noodles,Chinese,384.76
+1393,1392,Spring Rolls,Chinese,246.57
+1394,1393,Pizza,Fast Food,437.03
+1395,1394,Spring Rolls,Chinese,117.98
+1396,1395,Fries,Fast Food,108.73
+1397,1396,Paneer Butter Masala,North Indian,110.21
+1398,1397,Hakka Noodles,Chinese,370.53
+1399,1398,Rasgulla,Desserts,221.5
+1400,1399,Spring Rolls,Chinese,478.96
+1401,1400,Spring Rolls,Chinese,499.87
+1402,1401,Hakka Noodles,Chinese,289.87
+1403,1402,Vada,South Indian,185.76
+1404,1403,Dosa,South Indian,436.14
+1405,1404,Ice Cream,Desserts,297.85
+1406,1405,Chole Bhature,North Indian,219.52
+1407,1406,Idli Sambar,South Indian,382.77
+1408,1407,Chole Bhature,North Indian,194.21
+1409,1408,Pizza,Fast Food,468.11
+1410,1409,Idli Sambar,South Indian,124.31
+1411,1410,Idli Sambar,South Indian,205.7
+1412,1411,Paneer Butter Masala,North Indian,193.34
+1413,1412,Rasgulla,Desserts,324.08
+1414,1413,Gulab Jamun,Desserts,482.36
+1415,1414,Idli Sambar,South Indian,358.4
+1416,1415,Fries,Fast Food,294.37
+1417,1416,Gulab Jamun,Desserts,102.15
+1418,1417,Ice Cream,Desserts,75.74
+1419,1418,Rasgulla,Desserts,85.48
+1420,1419,Ice Cream,Desserts,416.65
+1421,1420,Spring Rolls,Chinese,192.32
+1422,1421,Pizza,Fast Food,356.21
+1423,1422,Idli Sambar,South Indian,161.92
+1424,1423,Hakka Noodles,Chinese,112.34
+1425,1424,Dosa,South Indian,477.58
+1426,1425,Dosa,South Indian,471.21
+1427,1426,Rasgulla,Desserts,373.41
+1428,1427,Rasgulla,Desserts,96.58
+1429,1428,Dal Makhani,North Indian,115.72
+1430,1429,Spring Rolls,Chinese,461.86
+1431,1430,Chole Bhature,North Indian,466.8
+1432,1431,Paneer Butter Masala,North Indian,214.4
+1433,1432,Dosa,South Indian,346.61
+1434,1433,Vada,South Indian,65.47
+1435,1434,Chole Bhature,North Indian,141.82
+1436,1435,Idli Sambar,South Indian,325.34
+1437,1436,Ice Cream,Desserts,488.61
+1438,1437,Vada,South Indian,245.17
+1439,1438,Manchurian,Chinese,402.56
+1440,1439,Hakka Noodles,Chinese,480.99
+1441,1440,Fries,Fast Food,427.21
+1442,1441,Paneer Butter Masala,North Indian,133.74
+1443,1442,Burger,Fast Food,476.78
+1444,1443,Vada,South Indian,418.49
+1445,1444,Gulab Jamun,Desserts,221.66
+1446,1445,Idli Sambar,South Indian,424.33
+1447,1446,Rasgulla,Desserts,107.01
+1448,1447,Paneer Butter Masala,North Indian,473.77
+1449,1448,Pizza,Fast Food,496.97
+1450,1449,Manchurian,Chinese,493.7
+1451,1450,Manchurian,Chinese,54.9
+1452,1451,Rasgulla,Desserts,283.93
+1453,1452,Burger,Fast Food,246.17
+1454,1453,Rasgulla,Desserts,294.37
+1455,1454,Manchurian,Chinese,159.37
+1456,1455,Ice Cream,Desserts,265.51
+1457,1456,Gulab Jamun,Desserts,143.82
+1458,1457,Spring Rolls,Chinese,375.83
+1459,1458,Dosa,South Indian,96.39
+1460,1459,Vada,South Indian,362.04
+1461,1460,Fries,Fast Food,328.12
+1462,1461,Hakka Noodles,Chinese,351.09
+1463,1462,Paneer Butter Masala,North Indian,232.18
+1464,1463,Fries,Fast Food,442.83
+1465,1464,Hakka Noodles,Chinese,267.63
+1466,1465,Pizza,Fast Food,177.07
+1467,1466,Dosa,South Indian,161.32
+1468,1467,Ice Cream,Desserts,335.08
+1469,1468,Hakka Noodles,Chinese,236.06
+1470,1469,Spring Rolls,Chinese,350.53
+1471,1470,Rasgulla,Desserts,286.4
+1472,1471,Manchurian,Chinese,275.46
+1473,1472,Dal Makhani,North Indian,486.81
+1474,1473,Ice Cream,Desserts,159.0
+1475,1474,Vada,South Indian,108.81
+1476,1475,Fries,Fast Food,160.93
+1477,1476,Hakka Noodles,Chinese,147.93
+1478,1477,Manchurian,Chinese,208.39
+1479,1478,Spring Rolls,Chinese,186.48
+1480,1479,Fries,Fast Food,130.56
+1481,1480,Idli Sambar,South Indian,80.25
+1482,1481,Spring Rolls,Chinese,341.47
+1483,1482,Manchurian,Chinese,293.16
+1484,1483,Fries,Fast Food,250.43
+1485,1484,Hakka Noodles,Chinese,488.92
+1486,1485,Vada,South Indian,159.99
+1487,1486,Rasgulla,Desserts,88.04
+1488,1487,Idli Sambar,South Indian,54.28
+1489,1488,Hakka Noodles,Chinese,422.06
+1490,1489,Idli Sambar,South Indian,294.79
+1491,1490,Manchurian,Chinese,381.69
+1492,1491,Chole Bhature,North Indian,246.74
+1493,1492,Pizza,Fast Food,210.61
+1494,1493,Hakka Noodles,Chinese,72.53
+1495,1494,Paneer Butter Masala,North Indian,394.98
+1496,1495,Dosa,South Indian,252.02
+1497,1496,Manchurian,Chinese,149.16
+1498,1497,Idli Sambar,South Indian,167.88
+1499,1498,Chole Bhature,North Indian,206.77
+1500,1499,Chole Bhature,North Indian,111.73
+1501,1500,Idli Sambar,South Indian,313.2
+1502,1501,Spring Rolls,Chinese,91.27
+1503,1502,Dosa,South Indian,432.51
+1504,1503,Paneer Butter Masala,North Indian,130.44
+1505,1504,Fries,Fast Food,176.04
+1506,1505,Spring Rolls,Chinese,357.2
+1507,1506,Hakka Noodles,Chinese,436.88
+1508,1507,Vada,South Indian,395.86
+1509,1508,Hakka Noodles,Chinese,200.75
+1510,1509,Manchurian,Chinese,235.84
+1511,1510,Ice Cream,Desserts,462.15
+1512,1511,Fries,Fast Food,69.99
+1513,1512,Chole Bhature,North Indian,71.89
+1514,1513,Rasgulla,Desserts,322.51
+1515,1514,Paneer Butter Masala,North Indian,239.87
+1516,1515,Idli Sambar,South Indian,462.76
+1517,1516,Dal Makhani,North Indian,90.3
+1518,1517,Paneer Butter Masala,North Indian,89.69
+1519,1518,Gulab Jamun,Desserts,353.0
+1520,1519,Burger,Fast Food,207.85
+1521,1520,Fries,Fast Food,336.75
+1522,1521,Burger,Fast Food,78.69
+1523,1522,Ice Cream,Desserts,72.25
+1524,1523,Burger,Fast Food,430.17
+1525,1524,Vada,South Indian,124.64
+1526,1525,Gulab Jamun,Desserts,240.97
+1527,1526,Dosa,South Indian,307.73
+1528,1527,Dosa,South Indian,262.23
+1529,1528,Ice Cream,Desserts,101.77
+1530,1529,Dosa,South Indian,227.34
+1531,1530,Dal Makhani,North Indian,182.88
+1532,1531,Gulab Jamun,Desserts,217.91
+1533,1532,Fries,Fast Food,54.88
+1534,1533,Spring Rolls,Chinese,343.83
+1535,1534,Manchurian,Chinese,326.02
+1536,1535,Pizza,Fast Food,405.0
+1537,1536,Burger,Fast Food,396.47
+1538,1537,Burger,Fast Food,227.19
+1539,1538,Manchurian,Chinese,474.69
+1540,1539,Ice Cream,Desserts,163.56
+1541,1540,Rasgulla,Desserts,329.59
+1542,1541,Pizza,Fast Food,385.32
+1543,1542,Dal Makhani,North Indian,322.16
+1544,1543,Pizza,Fast Food,283.27
+1545,1544,Rasgulla,Desserts,487.5
+1546,1545,Burger,Fast Food,248.96
+1547,1546,Gulab Jamun,Desserts,121.56
+1548,1547,Hakka Noodles,Chinese,173.89
+1549,1548,Spring Rolls,Chinese,488.81
+1550,1549,Dal Makhani,North Indian,234.08
+1551,1550,Chole Bhature,North Indian,451.28
+1552,1551,Hakka Noodles,Chinese,123.21
+1553,1552,Ice Cream,Desserts,380.77
+1554,1553,Ice Cream,Desserts,438.03
+1555,1554,Paneer Butter Masala,North Indian,388.29
+1556,1555,Hakka Noodles,Chinese,76.26
+1557,1556,Dosa,South Indian,60.98
+1558,1557,Paneer Butter Masala,North Indian,75.27
+1559,1558,Pizza,Fast Food,74.9
+1560,1559,Fries,Fast Food,153.93
+1561,1560,Dosa,South Indian,434.36
+1562,1561,Spring Rolls,Chinese,78.9
+1563,1562,Dosa,South Indian,98.76
+1564,1563,Dal Makhani,North Indian,65.34
+1565,1564,Manchurian,Chinese,483.0
+1566,1565,Rasgulla,Desserts,217.26
+1567,1566,Rasgulla,Desserts,335.49
+1568,1567,Burger,Fast Food,332.94
+1569,1568,Hakka Noodles,Chinese,309.86
+1570,1569,Manchurian,Chinese,483.14
+1571,1570,Fries,Fast Food,420.37
+1572,1571,Manchurian,Chinese,428.3
+1573,1572,Hakka Noodles,Chinese,359.42
+1574,1573,Fries,Fast Food,141.45
+1575,1574,Dal Makhani,North Indian,333.65
+1576,1575,Ice Cream,Desserts,188.58
+1577,1576,Paneer Butter Masala,North Indian,411.48
+1578,1577,Hakka Noodles,Chinese,218.58
+1579,1578,Hakka Noodles,Chinese,146.55
+1580,1579,Chole Bhature,North Indian,420.62
+1581,1580,Dosa,South Indian,106.3
+1582,1581,Manchurian,Chinese,130.77
+1583,1582,Dal Makhani,North Indian,320.21
+1584,1583,Paneer Butter Masala,North Indian,75.8
+1585,1584,Burger,Fast Food,245.94
+1586,1585,Ice Cream,Desserts,484.47
+1587,1586,Idli Sambar,South Indian,370.58
+1588,1587,Hakka Noodles,Chinese,133.72
+1589,1588,Burger,Fast Food,466.68
+1590,1589,Burger,Fast Food,197.36
+1591,1590,Dosa,South Indian,483.29
+1592,1591,Spring Rolls,Chinese,444.41
+1593,1592,Idli Sambar,South Indian,311.63
+1594,1593,Pizza,Fast Food,478.0
+1595,1594,Gulab Jamun,Desserts,268.79
+1596,1595,Spring Rolls,Chinese,175.14
+1597,1596,Ice Cream,Desserts,358.86
+1598,1597,Manchurian,Chinese,195.88
+1599,1598,Manchurian,Chinese,288.47
+1600,1599,Gulab Jamun,Desserts,385.57
+1601,1600,Vada,South Indian,80.81
+1602,1601,Dal Makhani,North Indian,426.05
+1603,1602,Gulab Jamun,Desserts,368.23
+1604,1603,Paneer Butter Masala,North Indian,400.84
+1605,1604,Rasgulla,Desserts,334.61
+1606,1605,Spring Rolls,Chinese,379.26
+1607,1606,Pizza,Fast Food,489.87
+1608,1607,Paneer Butter Masala,North Indian,111.02
+1609,1608,Ice Cream,Desserts,339.66
+1610,1609,Spring Rolls,Chinese,115.64
+1611,1610,Gulab Jamun,Desserts,340.98
+1612,1611,Chole Bhature,North Indian,431.38
+1613,1612,Burger,Fast Food,247.25
+1614,1613,Burger,Fast Food,373.33
+1615,1614,Manchurian,Chinese,75.27
+1616,1615,Chole Bhature,North Indian,364.05
+1617,1616,Spring Rolls,Chinese,115.92
+1618,1617,Pizza,Fast Food,320.79
+1619,1618,Ice Cream,Desserts,422.59
+1620,1619,Idli Sambar,South Indian,286.44
+1621,1620,Gulab Jamun,Desserts,331.47
+1622,1621,Ice Cream,Desserts,465.4
+1623,1622,Burger,Fast Food,182.47
+1624,1623,Burger,Fast Food,152.73
+1625,1624,Burger,Fast Food,421.86
+1626,1625,Chole Bhature,North Indian,476.6
+1627,1626,Rasgulla,Desserts,275.09
+1628,1627,Rasgulla,Desserts,351.28
+1629,1628,Manchurian,Chinese,56.63
+1630,1629,Manchurian,Chinese,180.18
+1631,1630,Paneer Butter Masala,North Indian,265.24
+1632,1631,Vada,South Indian,176.09
+1633,1632,Hakka Noodles,Chinese,473.11
+1634,1633,Vada,South Indian,86.08
+1635,1634,Rasgulla,Desserts,389.36
+1636,1635,Spring Rolls,Chinese,467.2
+1637,1636,Hakka Noodles,Chinese,359.38
+1638,1637,Fries,Fast Food,302.89
+1639,1638,Manchurian,Chinese,156.8
+1640,1639,Fries,Fast Food,64.57
+1641,1640,Ice Cream,Desserts,217.81
+1642,1641,Chole Bhature,North Indian,263.3
+1643,1642,Gulab Jamun,Desserts,420.81
+1644,1643,Burger,Fast Food,322.13
+1645,1644,Pizza,Fast Food,56.41
+1646,1645,Spring Rolls,Chinese,474.06
+1647,1646,Fries,Fast Food,362.53
+1648,1647,Paneer Butter Masala,North Indian,395.59
+1649,1648,Hakka Noodles,Chinese,296.54
+1650,1649,Hakka Noodles,Chinese,267.5
+1651,1650,Hakka Noodles,Chinese,160.37
+1652,1651,Spring Rolls,Chinese,475.97
+1653,1652,Gulab Jamun,Desserts,99.15
+1654,1653,Ice Cream,Desserts,251.65
+1655,1654,Fries,Fast Food,250.41
+1656,1655,Idli Sambar,South Indian,304.83
+1657,1656,Fries,Fast Food,125.05
+1658,1657,Idli Sambar,South Indian,451.32
+1659,1658,Dal Makhani,North Indian,238.8
+1660,1659,Ice Cream,Desserts,154.21
+1661,1660,Dal Makhani,North Indian,347.03
+1662,1661,Paneer Butter Masala,North Indian,131.83
+1663,1662,Pizza,Fast Food,180.18
+1664,1663,Dosa,South Indian,202.49
+1665,1664,Paneer Butter Masala,North Indian,259.62
+1666,1665,Pizza,Fast Food,234.29
+1667,1666,Spring Rolls,Chinese,106.79
+1668,1667,Pizza,Fast Food,65.22
+1669,1668,Gulab Jamun,Desserts,366.41
+1670,1669,Dosa,South Indian,185.7
+1671,1670,Chole Bhature,North Indian,58.27
+1672,1671,Chole Bhature,North Indian,347.64
+1673,1672,Burger,Fast Food,394.18
+1674,1673,Ice Cream,Desserts,371.66
+1675,1674,Pizza,Fast Food,145.21
+1676,1675,Chole Bhature,North Indian,211.77
+1677,1676,Gulab Jamun,Desserts,487.74
+1678,1677,Paneer Butter Masala,North Indian,496.57
+1679,1678,Vada,South Indian,101.55
+1680,1679,Chole Bhature,North Indian,424.52
+1681,1680,Manchurian,Chinese,128.78
+1682,1681,Vada,South Indian,263.96
+1683,1682,Rasgulla,Desserts,443.28
+1684,1683,Paneer Butter Masala,North Indian,482.54
+1685,1684,Chole Bhature,North Indian,445.37
+1686,1685,Gulab Jamun,Desserts,340.31
+1687,1686,Gulab Jamun,Desserts,410.5
+1688,1687,Burger,Fast Food,404.3
+1689,1688,Dal Makhani,North Indian,234.99
+1690,1689,Chole Bhature,North Indian,455.9
+1691,1690,Spring Rolls,Chinese,340.67
+1692,1691,Dosa,South Indian,187.18
+1693,1692,Manchurian,Chinese,447.05
+1694,1693,Spring Rolls,Chinese,229.18
+1695,1694,Burger,Fast Food,108.65
+1696,1695,Pizza,Fast Food,174.79
+1697,1696,Burger,Fast Food,149.42
+1698,1697,Gulab Jamun,Desserts,422.21
+1699,1698,Vada,South Indian,306.54
+1700,1699,Gulab Jamun,Desserts,93.54
+1701,1700,Gulab Jamun,Desserts,128.51
+1702,1701,Burger,Fast Food,330.99
+1703,1702,Spring Rolls,Chinese,196.82
+1704,1703,Idli Sambar,South Indian,444.9
+1705,1704,Rasgulla,Desserts,256.27
+1706,1705,Dosa,South Indian,221.57
+1707,1706,Pizza,Fast Food,338.79
+1708,1707,Dosa,South Indian,333.08
+1709,1708,Burger,Fast Food,277.51
+1710,1709,Gulab Jamun,Desserts,322.99
+1711,1710,Rasgulla,Desserts,310.28
+1712,1711,Vada,South Indian,496.46
+1713,1712,Vada,South Indian,218.02
+1714,1713,Ice Cream,Desserts,73.26
+1715,1714,Fries,Fast Food,154.09
+1716,1715,Rasgulla,Desserts,56.88
+1717,1716,Hakka Noodles,Chinese,51.21
+1718,1717,Rasgulla,Desserts,168.1
+1719,1718,Chole Bhature,North Indian,323.69
+1720,1719,Rasgulla,Desserts,175.87
+1721,1720,Dal Makhani,North Indian,238.06
+1722,1721,Burger,Fast Food,272.28
+1723,1722,Paneer Butter Masala,North Indian,91.55
+1724,1723,Paneer Butter Masala,North Indian,413.52
+1725,1724,Paneer Butter Masala,North Indian,481.75
+1726,1725,Fries,Fast Food,345.42
+1727,1726,Pizza,Fast Food,290.63
+1728,1727,Vada,South Indian,336.51
+1729,1728,Spring Rolls,Chinese,448.8
+1730,1729,Idli Sambar,South Indian,470.32
+1731,1730,Spring Rolls,Chinese,486.85
+1732,1731,Vada,South Indian,352.18
+1733,1732,Dal Makhani,North Indian,324.02
+1734,1733,Idli Sambar,South Indian,329.53
+1735,1734,Manchurian,Chinese,185.83
+1736,1735,Manchurian,Chinese,461.05
+1737,1736,Pizza,Fast Food,300.54
+1738,1737,Dal Makhani,North Indian,255.36
+1739,1738,Gulab Jamun,Desserts,398.28
+1740,1739,Paneer Butter Masala,North Indian,370.17
+1741,1740,Burger,Fast Food,179.79
+1742,1741,Gulab Jamun,Desserts,75.59
+1743,1742,Vada,South Indian,412.76
+1744,1743,Paneer Butter Masala,North Indian,304.69
+1745,1744,Paneer Butter Masala,North Indian,417.97
+1746,1745,Burger,Fast Food,477.94
+1747,1746,Chole Bhature,North Indian,356.82
+1748,1747,Idli Sambar,South Indian,452.48
+1749,1748,Dal Makhani,North Indian,196.16
+1750,1749,Gulab Jamun,Desserts,234.99
+1751,1750,Rasgulla,Desserts,231.76
+1752,1751,Rasgulla,Desserts,421.98
+1753,1752,Idli Sambar,South Indian,326.1
+1754,1753,Idli Sambar,South Indian,474.33
+1755,1754,Idli Sambar,South Indian,281.3
+1756,1755,Vada,South Indian,264.69
+1757,1756,Chole Bhature,North Indian,211.75
+1758,1757,Manchurian,Chinese,423.34
+1759,1758,Chole Bhature,North Indian,483.65
+1760,1759,Hakka Noodles,Chinese,242.96
+1761,1760,Rasgulla,Desserts,98.51
+1762,1761,Burger,Fast Food,475.27
+1763,1762,Manchurian,Chinese,80.81
+1764,1763,Idli Sambar,South Indian,477.21
+1765,1764,Vada,South Indian,193.95
+1766,1765,Burger,Fast Food,276.59
+1767,1766,Spring Rolls,Chinese,290.77
+1768,1767,Idli Sambar,South Indian,140.46
+1769,1768,Hakka Noodles,Chinese,446.13
+1770,1769,Dosa,South Indian,348.16
+1771,1770,Hakka Noodles,Chinese,430.4
+1772,1771,Manchurian,Chinese,377.63
+1773,1772,Manchurian,Chinese,288.56
+1774,1773,Spring Rolls,Chinese,487.66
+1775,1774,Vada,South Indian,395.26
+1776,1775,Fries,Fast Food,423.87
+1777,1776,Ice Cream,Desserts,91.39
+1778,1777,Hakka Noodles,Chinese,152.36
+1779,1778,Pizza,Fast Food,412.64
+1780,1779,Chole Bhature,North Indian,497.65
+1781,1780,Gulab Jamun,Desserts,83.3
+1782,1781,Spring Rolls,Chinese,474.96
+1783,1782,Dal Makhani,North Indian,136.3
+1784,1783,Gulab Jamun,Desserts,302.95
+1785,1784,Dosa,South Indian,240.75
+1786,1785,Rasgulla,Desserts,216.67
+1787,1786,Pizza,Fast Food,236.58
+1788,1787,Idli Sambar,South Indian,353.35
+1789,1788,Pizza,Fast Food,73.59
+1790,1789,Manchurian,Chinese,149.13
+1791,1790,Rasgulla,Desserts,118.39
+1792,1791,Fries,Fast Food,173.0
+1793,1792,Idli Sambar,South Indian,123.71
+1794,1793,Paneer Butter Masala,North Indian,172.78
+1795,1794,Idli Sambar,South Indian,144.48
+1796,1795,Chole Bhature,North Indian,408.31
+1797,1796,Dosa,South Indian,106.48
+1798,1797,Ice Cream,Desserts,298.39
+1799,1798,Fries,Fast Food,350.86
+1800,1799,Dosa,South Indian,331.59
+1801,1800,Rasgulla,Desserts,357.27
+1802,1801,Manchurian,Chinese,459.24
+1803,1802,Idli Sambar,South Indian,284.27
+1804,1803,Spring Rolls,Chinese,294.14
+1805,1804,Hakka Noodles,Chinese,480.85
+1806,1805,Gulab Jamun,Desserts,102.76
+1807,1806,Pizza,Fast Food,103.59
+1808,1807,Fries,Fast Food,196.57
+1809,1808,Vada,South Indian,247.11
+1810,1809,Pizza,Fast Food,499.3
+1811,1810,Idli Sambar,South Indian,443.5
+1812,1811,Paneer Butter Masala,North Indian,379.09
+1813,1812,Gulab Jamun,Desserts,205.02
+1814,1813,Paneer Butter Masala,North Indian,90.4
+1815,1814,Pizza,Fast Food,65.53
+1816,1815,Rasgulla,Desserts,495.62
+1817,1816,Burger,Fast Food,282.55
+1818,1817,Hakka Noodles,Chinese,101.81
+1819,1818,Pizza,Fast Food,392.89
+1820,1819,Burger,Fast Food,388.9
+1821,1820,Dosa,South Indian,122.97
+1822,1821,Burger,Fast Food,356.72
+1823,1822,Gulab Jamun,Desserts,239.09
+1824,1823,Pizza,Fast Food,413.06
+1825,1824,Dal Makhani,North Indian,335.86
+1826,1825,Ice Cream,Desserts,312.57
+1827,1826,Ice Cream,Desserts,260.98
+1828,1827,Fries,Fast Food,274.09
+1829,1828,Dosa,South Indian,283.96
+1830,1829,Dal Makhani,North Indian,217.81
+1831,1830,Pizza,Fast Food,408.67
+1832,1831,Manchurian,Chinese,383.61
+1833,1832,Hakka Noodles,Chinese,103.03
+1834,1833,Vada,South Indian,472.19
+1835,1834,Burger,Fast Food,258.59
+1836,1835,Dal Makhani,North Indian,487.17
+1837,1836,Burger,Fast Food,278.04
+1838,1837,Dosa,South Indian,241.91
+1839,1838,Ice Cream,Desserts,66.71
+1840,1839,Chole Bhature,North Indian,115.35
+1841,1840,Hakka Noodles,Chinese,255.26
+1842,1841,Idli Sambar,South Indian,321.23
+1843,1842,Manchurian,Chinese,313.8
+1844,1843,Dosa,South Indian,374.46
+1845,1844,Pizza,Fast Food,265.45
+1846,1845,Idli Sambar,South Indian,198.83
+1847,1846,Rasgulla,Desserts,409.5
+1848,1847,Pizza,Fast Food,353.3
+1849,1848,Dal Makhani,North Indian,333.44
+1850,1849,Ice Cream,Desserts,335.86
+1851,1850,Spring Rolls,Chinese,119.35
+1852,1851,Chole Bhature,North Indian,74.36
+1853,1852,Chole Bhature,North Indian,260.0
+1854,1853,Rasgulla,Desserts,316.15
+1855,1854,Chole Bhature,North Indian,180.69
+1856,1855,Burger,Fast Food,415.5
+1857,1856,Fries,Fast Food,460.29
+1858,1857,Paneer Butter Masala,North Indian,223.66
+1859,1858,Gulab Jamun,Desserts,458.72
+1860,1859,Rasgulla,Desserts,393.27
+1861,1860,Dal Makhani,North Indian,131.22
+1862,1861,Ice Cream,Desserts,380.89
+1863,1862,Rasgulla,Desserts,398.18
+1864,1863,Dal Makhani,North Indian,485.84
+1865,1864,Paneer Butter Masala,North Indian,336.18
+1866,1865,Manchurian,Chinese,344.15
+1867,1866,Pizza,Fast Food,188.55
+1868,1867,Hakka Noodles,Chinese,151.75
+1869,1868,Fries,Fast Food,365.2
+1870,1869,Fries,Fast Food,229.24
+1871,1870,Dal Makhani,North Indian,419.71
+1872,1871,Burger,Fast Food,296.87
+1873,1872,Burger,Fast Food,274.74
+1874,1873,Ice Cream,Desserts,433.94
+1875,1874,Hakka Noodles,Chinese,200.51
+1876,1875,Hakka Noodles,Chinese,99.83
+1877,1876,Gulab Jamun,Desserts,486.22
+1878,1877,Gulab Jamun,Desserts,493.43
+1879,1878,Vada,South Indian,466.28
+1880,1879,Ice Cream,Desserts,412.73
+1881,1880,Idli Sambar,South Indian,373.82
+1882,1881,Paneer Butter Masala,North Indian,480.45
+1883,1882,Chole Bhature,North Indian,295.41
+1884,1883,Idli Sambar,South Indian,326.53
+1885,1884,Paneer Butter Masala,North Indian,116.65
+1886,1885,Ice Cream,Desserts,281.6
+1887,1886,Paneer Butter Masala,North Indian,148.26
+1888,1887,Rasgulla,Desserts,374.39
+1889,1888,Fries,Fast Food,264.96
+1890,1889,Pizza,Fast Food,307.51
+1891,1890,Paneer Butter Masala,North Indian,397.43
+1892,1891,Pizza,Fast Food,51.35
+1893,1892,Manchurian,Chinese,105.11
+1894,1893,Rasgulla,Desserts,93.54
+1895,1894,Chole Bhature,North Indian,284.23
+1896,1895,Pizza,Fast Food,270.49
+1897,1896,Rasgulla,Desserts,252.93
+1898,1897,Rasgulla,Desserts,442.83
+1899,1898,Dosa,South Indian,305.4
+1900,1899,Burger,Fast Food,468.31
+1901,1900,Pizza,Fast Food,220.7
+1902,1901,Paneer Butter Masala,North Indian,216.51
+1903,1902,Spring Rolls,Chinese,190.36
+1904,1903,Burger,Fast Food,95.95
+1905,1904,Dosa,South Indian,191.72
+1906,1905,Chole Bhature,North Indian,109.35
+1907,1906,Vada,South Indian,120.47
+1908,1907,Spring Rolls,Chinese,67.16
+1909,1908,Hakka Noodles,Chinese,480.26
+1910,1909,Idli Sambar,South Indian,379.33
+1911,1910,Manchurian,Chinese,85.57
+1912,1911,Ice Cream,Desserts,357.0
+1913,1912,Pizza,Fast Food,312.42
+1914,1913,Idli Sambar,South Indian,251.2
+1915,1914,Vada,South Indian,344.54
+1916,1915,Pizza,Fast Food,399.34
+1917,1916,Idli Sambar,South Indian,169.47
+1918,1917,Gulab Jamun,Desserts,228.02
+1919,1918,Ice Cream,Desserts,259.73
+1920,1919,Ice Cream,Desserts,435.89
+1921,1920,Dosa,South Indian,130.12
+1922,1921,Fries,Fast Food,121.17
+1923,1922,Dal Makhani,North Indian,126.55
+1924,1923,Idli Sambar,South Indian,290.85
+1925,1924,Burger,Fast Food,381.54
+1926,1925,Spring Rolls,Chinese,425.33
+1927,1926,Pizza,Fast Food,258.69
+1928,1927,Manchurian,Chinese,423.1
+1929,1928,Fries,Fast Food,326.81
+1930,1929,Paneer Butter Masala,North Indian,59.31
+1931,1930,Pizza,Fast Food,164.78
+1932,1931,Idli Sambar,South Indian,206.44
+1933,1932,Idli Sambar,South Indian,104.27
+1934,1933,Spring Rolls,Chinese,108.21
+1935,1934,Chole Bhature,North Indian,210.95
+1936,1935,Gulab Jamun,Desserts,140.81
+1937,1936,Idli Sambar,South Indian,361.5
+1938,1937,Manchurian,Chinese,314.9
+1939,1938,Idli Sambar,South Indian,449.14
+1940,1939,Chole Bhature,North Indian,133.95
+1941,1940,Paneer Butter Masala,North Indian,488.23
+1942,1941,Idli Sambar,South Indian,192.37
+1943,1942,Ice Cream,Desserts,233.25
+1944,1943,Rasgulla,Desserts,270.75
+1945,1944,Idli Sambar,South Indian,194.77
+1946,1945,Rasgulla,Desserts,401.81
+1947,1946,Ice Cream,Desserts,125.99
+1948,1947,Vada,South Indian,210.21
+1949,1948,Fries,Fast Food,282.73
+1950,1949,Vada,South Indian,205.21
+1951,1950,Ice Cream,Desserts,237.44
+1952,1951,Dosa,South Indian,72.75
+1953,1952,Pizza,Fast Food,244.66
+1954,1953,Rasgulla,Desserts,130.89
+1955,1954,Burger,Fast Food,109.62
+1956,1955,Chole Bhature,North Indian,182.18
+1957,1956,Idli Sambar,South Indian,133.62
+1958,1957,Rasgulla,Desserts,415.48
+1959,1958,Spring Rolls,Chinese,391.38
+1960,1959,Paneer Butter Masala,North Indian,476.25
+1961,1960,Paneer Butter Masala,North Indian,211.5
+1962,1961,Spring Rolls,Chinese,61.42
+1963,1962,Fries,Fast Food,466.3
+1964,1963,Vada,South Indian,422.32
+1965,1964,Paneer Butter Masala,North Indian,208.89
+1966,1965,Burger,Fast Food,257.68
+1967,1966,Rasgulla,Desserts,191.38
+1968,1967,Idli Sambar,South Indian,64.12
+1969,1968,Manchurian,Chinese,80.25
+1970,1969,Rasgulla,Desserts,62.24
+1971,1970,Hakka Noodles,Chinese,160.7
+1972,1971,Rasgulla,Desserts,197.39
+1973,1972,Rasgulla,Desserts,219.75
+1974,1973,Vada,South Indian,406.19
+1975,1974,Dosa,South Indian,480.98
+1976,1975,Fries,Fast Food,112.04
+1977,1976,Rasgulla,Desserts,324.89
+1978,1977,Paneer Butter Masala,North Indian,469.09
+1979,1978,Burger,Fast Food,332.54
+1980,1979,Rasgulla,Desserts,312.49
+1981,1980,Paneer Butter Masala,North Indian,223.93
+1982,1981,Dosa,South Indian,321.45
+1983,1982,Idli Sambar,South Indian,438.69
+1984,1983,Vada,South Indian,253.42
+1985,1984,Dal Makhani,North Indian,400.87
+1986,1985,Hakka Noodles,Chinese,70.89
+1987,1986,Fries,Fast Food,315.59
+1988,1987,Idli Sambar,South Indian,245.26
+1989,1988,Rasgulla,Desserts,324.46
+1990,1989,Fries,Fast Food,137.7
+1991,1990,Gulab Jamun,Desserts,113.6
+1992,1991,Pizza,Fast Food,267.57
+1993,1992,Paneer Butter Masala,North Indian,498.93
+1994,1993,Pizza,Fast Food,408.33
+1995,1994,Spring Rolls,Chinese,470.03
+1996,1995,Burger,Fast Food,339.28
+1997,1996,Vada,South Indian,206.16
+1998,1997,Dosa,South Indian,261.86
+1999,1998,Chole Bhature,North Indian,312.48
+2000,1999,Pizza,Fast Food,337.04
+2001,2000,Spring Rolls,Chinese,315.28
+2002,2001,Idli Sambar,South Indian,496.8
+2003,2002,Dosa,South Indian,116.24
+2004,2003,Fries,Fast Food,75.28
+2005,2004,Dal Makhani,North Indian,247.86
+2006,2005,Gulab Jamun,Desserts,410.0
+2007,2006,Idli Sambar,South Indian,400.74
+2008,2007,Ice Cream,Desserts,229.9
+2009,2008,Pizza,Fast Food,490.78
+2010,2009,Manchurian,Chinese,84.1
+2011,2010,Paneer Butter Masala,North Indian,240.19
+2012,2011,Manchurian,Chinese,116.19
+2013,2012,Dal Makhani,North Indian,209.21
+2014,2013,Manchurian,Chinese,220.44
+2015,2014,Rasgulla,Desserts,467.85
+2016,2015,Pizza,Fast Food,167.31
+2017,2016,Fries,Fast Food,295.71
+2018,2017,Idli Sambar,South Indian,89.08
+2019,2018,Dal Makhani,North Indian,473.14
+2020,2019,Gulab Jamun,Desserts,324.11
+2021,2020,Spring Rolls,Chinese,174.24
+2022,2021,Manchurian,Chinese,100.98
+2023,2022,Fries,Fast Food,114.95
+2024,2023,Ice Cream,Desserts,373.47
+2025,2024,Gulab Jamun,Desserts,51.6
+2026,2025,Rasgulla,Desserts,333.14
+2027,2026,Manchurian,Chinese,257.92
+2028,2027,Idli Sambar,South Indian,395.33
+2029,2028,Gulab Jamun,Desserts,208.61
+2030,2029,Rasgulla,Desserts,202.69
+2031,2030,Chole Bhature,North Indian,190.99
+2032,2031,Ice Cream,Desserts,132.79
+2033,2032,Paneer Butter Masala,North Indian,429.16
+2034,2033,Dal Makhani,North Indian,202.42
+2035,2034,Chole Bhature,North Indian,172.09
+2036,2035,Vada,South Indian,359.75
+2037,2036,Vada,South Indian,99.01
+2038,2037,Vada,South Indian,127.23
+2039,2038,Paneer Butter Masala,North Indian,113.5
+2040,2039,Burger,Fast Food,80.58
+2041,2040,Burger,Fast Food,281.92
+2042,2041,Rasgulla,Desserts,135.96
+2043,2042,Idli Sambar,South Indian,387.55
+2044,2043,Rasgulla,Desserts,345.26
+2045,2044,Chole Bhature,North Indian,210.1
+2046,2045,Fries,Fast Food,217.04
+2047,2046,Manchurian,Chinese,247.83
+2048,2047,Hakka Noodles,Chinese,179.14
+2049,2048,Idli Sambar,South Indian,213.36
+2050,2049,Chole Bhature,North Indian,471.7
+2051,2050,Idli Sambar,South Indian,310.37
+2052,2051,Spring Rolls,Chinese,157.39
+2053,2052,Gulab Jamun,Desserts,353.71
+2054,2053,Dal Makhani,North Indian,473.76
+2055,2054,Vada,South Indian,209.36
+2056,2055,Spring Rolls,Chinese,480.59
+2057,2056,Rasgulla,Desserts,197.45
+2058,2057,Hakka Noodles,Chinese,294.33
+2059,2058,Idli Sambar,South Indian,204.82
+2060,2059,Fries,Fast Food,221.59
+2061,2060,Ice Cream,Desserts,73.74
+2062,2061,Paneer Butter Masala,North Indian,370.77
+2063,2062,Chole Bhature,North Indian,390.54
+2064,2063,Gulab Jamun,Desserts,416.16
+2065,2064,Vada,South Indian,257.69
+2066,2065,Dosa,South Indian,389.98
+2067,2066,Hakka Noodles,Chinese,291.83
+2068,2067,Pizza,Fast Food,126.24
+2069,2068,Ice Cream,Desserts,243.99
+2070,2069,Ice Cream,Desserts,258.19
+2071,2070,Fries,Fast Food,330.77
+2072,2071,Idli Sambar,South Indian,283.75
+2073,2072,Vada,South Indian,435.67
+2074,2073,Burger,Fast Food,325.99
+2075,2074,Spring Rolls,Chinese,347.49
+2076,2075,Gulab Jamun,Desserts,132.83
+2077,2076,Idli Sambar,South Indian,153.12
+2078,2077,Manchurian,Chinese,469.62
+2079,2078,Fries,Fast Food,475.48
+2080,2079,Vada,South Indian,112.59
+2081,2080,Hakka Noodles,Chinese,418.76
+2082,2081,Dal Makhani,North Indian,484.17
+2083,2082,Spring Rolls,Chinese,90.31
+2084,2083,Chole Bhature,North Indian,101.28
+2085,2084,Gulab Jamun,Desserts,54.81
+2086,2085,Rasgulla,Desserts,167.43
+2087,2086,Vada,South Indian,452.3
+2088,2087,Pizza,Fast Food,425.26
+2089,2088,Idli Sambar,South Indian,416.42
+2090,2089,Paneer Butter Masala,North Indian,75.93
+2091,2090,Burger,Fast Food,245.07
+2092,2091,Spring Rolls,Chinese,357.82
+2093,2092,Pizza,Fast Food,413.88
+2094,2093,Idli Sambar,South Indian,77.68
+2095,2094,Pizza,Fast Food,481.38
+2096,2095,Fries,Fast Food,422.07
+2097,2096,Burger,Fast Food,477.99
+2098,2097,Vada,South Indian,397.9
+2099,2098,Pizza,Fast Food,151.9
+2100,2099,Dal Makhani,North Indian,489.22
+2101,2100,Dosa,South Indian,458.61
+2102,2101,Hakka Noodles,Chinese,482.46
+2103,2102,Vada,South Indian,81.03
+2104,2103,Gulab Jamun,Desserts,372.67
+2105,2104,Hakka Noodles,Chinese,56.99
+2106,2105,Pizza,Fast Food,405.47
+2107,2106,Dal Makhani,North Indian,185.57
+2108,2107,Dosa,South Indian,330.55
+2109,2108,Rasgulla,Desserts,487.71
+2110,2109,Dal Makhani,North Indian,85.49
+2111,2110,Dosa,South Indian,75.83
+2112,2111,Hakka Noodles,Chinese,499.83
+2113,2112,Vada,South Indian,282.36
+2114,2113,Dal Makhani,North Indian,429.81
+2115,2114,Fries,Fast Food,338.17
+2116,2115,Fries,Fast Food,385.89
+2117,2116,Vada,South Indian,135.45
+2118,2117,Chole Bhature,North Indian,210.07
+2119,2118,Ice Cream,Desserts,380.9
+2120,2119,Spring Rolls,Chinese,356.04
+2121,2120,Paneer Butter Masala,North Indian,223.39
+2122,2121,Ice Cream,Desserts,271.36
+2123,2122,Fries,Fast Food,385.23
+2124,2123,Hakka Noodles,Chinese,352.92
+2125,2124,Dosa,South Indian,144.2
+2126,2125,Chole Bhature,North Indian,371.7
+2127,2126,Dal Makhani,North Indian,77.03
+2128,2127,Burger,Fast Food,300.17
+2129,2128,Hakka Noodles,Chinese,205.2
+2130,2129,Idli Sambar,South Indian,437.95
+2131,2130,Dosa,South Indian,467.54
+2132,2131,Chole Bhature,North Indian,379.98
+2133,2132,Dal Makhani,North Indian,244.54
+2134,2133,Idli Sambar,South Indian,316.99
+2135,2134,Dal Makhani,North Indian,355.42
+2136,2135,Gulab Jamun,Desserts,378.79
+2137,2136,Hakka Noodles,Chinese,120.41
+2138,2137,Fries,Fast Food,327.22
+2139,2138,Paneer Butter Masala,North Indian,392.61
+2140,2139,Gulab Jamun,Desserts,141.86
+2141,2140,Rasgulla,Desserts,348.13
+2142,2141,Gulab Jamun,Desserts,414.95
+2143,2142,Fries,Fast Food,61.36
+2144,2143,Dal Makhani,North Indian,447.54
+2145,2144,Burger,Fast Food,169.62
+2146,2145,Fries,Fast Food,128.12
+2147,2146,Chole Bhature,North Indian,363.91
+2148,2147,Burger,Fast Food,97.55
+2149,2148,Spring Rolls,Chinese,303.19
+2150,2149,Chole Bhature,North Indian,55.96
+2151,2150,Paneer Butter Masala,North Indian,278.2
+2152,2151,Dosa,South Indian,128.65
+2153,2152,Dal Makhani,North Indian,357.85
+2154,2153,Spring Rolls,Chinese,235.96
+2155,2154,Ice Cream,Desserts,168.07
+2156,2155,Fries,Fast Food,376.11
+2157,2156,Chole Bhature,North Indian,450.3
+2158,2157,Fries,Fast Food,197.6
+2159,2158,Spring Rolls,Chinese,350.65
+2160,2159,Rasgulla,Desserts,371.08
+2161,2160,Pizza,Fast Food,51.19
+2162,2161,Dosa,South Indian,137.13
+2163,2162,Manchurian,Chinese,418.19
+2164,2163,Hakka Noodles,Chinese,190.72
+2165,2164,Pizza,Fast Food,275.81
+2166,2165,Rasgulla,Desserts,359.64
+2167,2166,Chole Bhature,North Indian,129.74
+2168,2167,Burger,Fast Food,470.4
+2169,2168,Idli Sambar,South Indian,344.83
+2170,2169,Chole Bhature,North Indian,450.35
+2171,2170,Fries,Fast Food,494.1
+2172,2171,Idli Sambar,South Indian,368.39
+2173,2172,Pizza,Fast Food,190.88
+2174,2173,Spring Rolls,Chinese,191.8
+2175,2174,Dosa,South Indian,321.7
+2176,2175,Rasgulla,Desserts,412.72
+2177,2176,Manchurian,Chinese,398.46
+2178,2177,Vada,South Indian,385.83
+2179,2178,Hakka Noodles,Chinese,286.42
+2180,2179,Rasgulla,Desserts,202.42
+2181,2180,Vada,South Indian,59.12
+2182,2181,Rasgulla,Desserts,157.66
+2183,2182,Ice Cream,Desserts,354.07
+2184,2183,Hakka Noodles,Chinese,169.2
+2185,2184,Idli Sambar,South Indian,173.88
+2186,2185,Manchurian,Chinese,232.28
+2187,2186,Idli Sambar,South Indian,293.03
+2188,2187,Chole Bhature,North Indian,235.43
+2189,2188,Spring Rolls,Chinese,389.58
+2190,2189,Manchurian,Chinese,259.07
+2191,2190,Burger,Fast Food,92.21
+2192,2191,Chole Bhature,North Indian,276.92
+2193,2192,Hakka Noodles,Chinese,68.39
+2194,2193,Spring Rolls,Chinese,269.02
+2195,2194,Gulab Jamun,Desserts,93.5
+2196,2195,Chole Bhature,North Indian,428.97
+2197,2196,Dosa,South Indian,182.8
+2198,2197,Ice Cream,Desserts,318.77
+2199,2198,Hakka Noodles,Chinese,399.19
+2200,2199,Burger,Fast Food,484.44
+2201,2200,Manchurian,Chinese,409.25
+2202,2201,Manchurian,Chinese,491.15
+2203,2202,Spring Rolls,Chinese,375.24
+2204,2203,Paneer Butter Masala,North Indian,135.89
+2205,2204,Spring Rolls,Chinese,358.2
+2206,2205,Chole Bhature,North Indian,136.53
+2207,2206,Pizza,Fast Food,466.55
+2208,2207,Burger,Fast Food,270.32
+2209,2208,Idli Sambar,South Indian,100.07
+2210,2209,Dal Makhani,North Indian,241.02
+2211,2210,Pizza,Fast Food,328.02
+2212,2211,Ice Cream,Desserts,151.34
+2213,2212,Vada,South Indian,477.61
+2214,2213,Manchurian,Chinese,435.39
+2215,2214,Dal Makhani,North Indian,368.44
+2216,2215,Spring Rolls,Chinese,438.0
+2217,2216,Pizza,Fast Food,445.36
+2218,2217,Fries,Fast Food,479.92
+2219,2218,Gulab Jamun,Desserts,333.35
+2220,2219,Hakka Noodles,Chinese,66.31
+2221,2220,Chole Bhature,North Indian,333.53
+2222,2221,Gulab Jamun,Desserts,327.48
+2223,2222,Manchurian,Chinese,100.83
+2224,2223,Pizza,Fast Food,226.03
+2225,2224,Chole Bhature,North Indian,439.36
+2226,2225,Gulab Jamun,Desserts,148.46
+2227,2226,Hakka Noodles,Chinese,245.37
+2228,2227,Hakka Noodles,Chinese,386.24
+2229,2228,Vada,South Indian,223.48
+2230,2229,Dal Makhani,North Indian,60.59
+2231,2230,Manchurian,Chinese,139.75
+2232,2231,Fries,Fast Food,333.73
+2233,2232,Pizza,Fast Food,73.13
+2234,2233,Pizza,Fast Food,482.97
+2235,2234,Pizza,Fast Food,185.93
+2236,2235,Burger,Fast Food,382.27
+2237,2236,Idli Sambar,South Indian,256.9
+2238,2237,Dosa,South Indian,421.72
+2239,2238,Spring Rolls,Chinese,109.8
+2240,2239,Chole Bhature,North Indian,188.36
+2241,2240,Rasgulla,Desserts,315.66
+2242,2241,Pizza,Fast Food,260.78
+2243,2242,Vada,South Indian,499.33
+2244,2243,Burger,Fast Food,70.97
+2245,2244,Burger,Fast Food,147.42
+2246,2245,Ice Cream,Desserts,141.82
+2247,2246,Dal Makhani,North Indian,293.8
+2248,2247,Dal Makhani,North Indian,122.64
+2249,2248,Dosa,South Indian,275.76
+2250,2249,Paneer Butter Masala,North Indian,495.28
+2251,2250,Paneer Butter Masala,North Indian,62.81
+2252,2251,Dosa,South Indian,123.15
+2253,2252,Chole Bhature,North Indian,476.32
+2254,2253,Hakka Noodles,Chinese,361.47
+2255,2254,Burger,Fast Food,369.26
+2256,2255,Ice Cream,Desserts,158.25
+2257,2256,Pizza,Fast Food,335.98
+2258,2257,Dosa,South Indian,62.44
+2259,2258,Idli Sambar,South Indian,375.22
+2260,2259,Fries,Fast Food,409.16
+2261,2260,Hakka Noodles,Chinese,55.53
+2262,2261,Vada,South Indian,225.62
+2263,2262,Fries,Fast Food,198.82
+2264,2263,Paneer Butter Masala,North Indian,358.44
+2265,2264,Burger,Fast Food,264.24
+2266,2265,Gulab Jamun,Desserts,476.59
+2267,2266,Ice Cream,Desserts,267.52
+2268,2267,Pizza,Fast Food,79.86
+2269,2268,Spring Rolls,Chinese,364.09
+2270,2269,Spring Rolls,Chinese,147.53
+2271,2270,Chole Bhature,North Indian,395.58
+2272,2271,Hakka Noodles,Chinese,188.49
+2273,2272,Hakka Noodles,Chinese,466.87
+2274,2273,Chole Bhature,North Indian,446.69
+2275,2274,Pizza,Fast Food,300.78
+2396,2395,Gulab Jamun,Desserts,235.24
+2276,2275,Paneer Butter Masala,North Indian,114.3
+2277,2276,Ice Cream,Desserts,491.82
+2278,2277,Idli Sambar,South Indian,281.04
+2279,2278,Rasgulla,Desserts,157.07
+2280,2279,Manchurian,Chinese,440.65
+2281,2280,Fries,Fast Food,360.78
+2282,2281,Burger,Fast Food,185.59
+2283,2282,Manchurian,Chinese,461.66
+2284,2283,Paneer Butter Masala,North Indian,265.55
+2285,2284,Ice Cream,Desserts,437.93
+2286,2285,Spring Rolls,Chinese,415.87
+2287,2286,Pizza,Fast Food,337.65
+2288,2287,Chole Bhature,North Indian,406.94
+2289,2288,Hakka Noodles,Chinese,183.28
+2290,2289,Idli Sambar,South Indian,121.44
+2291,2290,Spring Rolls,Chinese,232.87
+2292,2291,Rasgulla,Desserts,401.61
+2293,2292,Gulab Jamun,Desserts,351.14
+2294,2293,Idli Sambar,South Indian,157.9
+2295,2294,Dosa,South Indian,142.91
+2296,2295,Rasgulla,Desserts,90.92
+2297,2296,Fries,Fast Food,426.51
+2298,2297,Rasgulla,Desserts,237.75
+2299,2298,Ice Cream,Desserts,73.9
+2300,2299,Hakka Noodles,Chinese,346.04
+2301,2300,Manchurian,Chinese,87.11
+2302,2301,Fries,Fast Food,443.05
+2303,2302,Rasgulla,Desserts,429.16
+2304,2303,Ice Cream,Desserts,407.61
+2305,2304,Hakka Noodles,Chinese,378.98
+2306,2305,Pizza,Fast Food,97.17
+2307,2306,Idli Sambar,South Indian,413.23
+2308,2307,Fries,Fast Food,320.83
+2309,2308,Ice Cream,Desserts,408.07
+2310,2309,Paneer Butter Masala,North Indian,193.52
+2311,2310,Paneer Butter Masala,North Indian,120.06
+2312,2311,Chole Bhature,North Indian,466.39
+2313,2312,Rasgulla,Desserts,486.01
+2314,2313,Hakka Noodles,Chinese,118.25
+2315,2314,Paneer Butter Masala,North Indian,128.21
+2316,2315,Dosa,South Indian,146.66
+2317,2316,Ice Cream,Desserts,246.33
+2318,2317,Vada,South Indian,231.36
+2319,2318,Gulab Jamun,Desserts,443.98
+2320,2319,Dosa,South Indian,130.12
+2321,2320,Pizza,Fast Food,195.88
+2322,2321,Rasgulla,Desserts,318.99
+2323,2322,Pizza,Fast Food,325.34
+2324,2323,Burger,Fast Food,296.55
+2325,2324,Manchurian,Chinese,241.42
+2326,2325,Vada,South Indian,476.18
+2327,2326,Dosa,South Indian,234.57
+2328,2327,Pizza,Fast Food,257.85
+2329,2328,Pizza,Fast Food,206.39
+2330,2329,Manchurian,Chinese,140.49
+2331,2330,Dosa,South Indian,393.79
+2332,2331,Idli Sambar,South Indian,387.11
+2333,2332,Manchurian,Chinese,293.61
+2334,2333,Hakka Noodles,Chinese,493.36
+2335,2334,Spring Rolls,Chinese,355.63
+2336,2335,Chole Bhature,North Indian,274.78
+2337,2336,Paneer Butter Masala,North Indian,107.0
+2338,2337,Idli Sambar,South Indian,145.61
+2339,2338,Vada,South Indian,73.43
+2340,2339,Rasgulla,Desserts,458.65
+2341,2340,Fries,Fast Food,74.17
+2342,2341,Ice Cream,Desserts,238.91
+2343,2342,Idli Sambar,South Indian,322.72
+2344,2343,Idli Sambar,South Indian,255.66
+2345,2344,Paneer Butter Masala,North Indian,310.58
+2346,2345,Hakka Noodles,Chinese,144.53
+2347,2346,Gulab Jamun,Desserts,291.18
+2348,2347,Fries,Fast Food,341.72
+2349,2348,Burger,Fast Food,52.33
+2350,2349,Fries,Fast Food,281.0
+2351,2350,Ice Cream,Desserts,143.06
+2352,2351,Dal Makhani,North Indian,130.44
+2353,2352,Spring Rolls,Chinese,494.07
+2354,2353,Idli Sambar,South Indian,383.09
+2355,2354,Fries,Fast Food,481.54
+2356,2355,Gulab Jamun,Desserts,98.72
+2357,2356,Spring Rolls,Chinese,313.03
+2358,2357,Paneer Butter Masala,North Indian,357.63
+2359,2358,Rasgulla,Desserts,315.56
+2360,2359,Hakka Noodles,Chinese,167.14
+2361,2360,Hakka Noodles,Chinese,444.75
+2362,2361,Dal Makhani,North Indian,105.48
+2363,2362,Idli Sambar,South Indian,226.36
+2364,2363,Idli Sambar,South Indian,80.27
+2365,2364,Rasgulla,Desserts,201.06
+2366,2365,Manchurian,Chinese,448.62
+2367,2366,Paneer Butter Masala,North Indian,113.88
+2368,2367,Pizza,Fast Food,247.81
+2369,2368,Pizza,Fast Food,359.15
+2370,2369,Ice Cream,Desserts,334.67
+2371,2370,Gulab Jamun,Desserts,177.0
+2372,2371,Hakka Noodles,Chinese,318.61
+2373,2372,Vada,South Indian,414.98
+2374,2373,Manchurian,Chinese,135.34
+2375,2374,Pizza,Fast Food,124.69
+2376,2375,Burger,Fast Food,194.05
+2377,2376,Dosa,South Indian,272.06
+2378,2377,Pizza,Fast Food,83.78
+2379,2378,Pizza,Fast Food,379.53
+2380,2379,Gulab Jamun,Desserts,383.85
+2381,2380,Dosa,South Indian,127.2
+2382,2381,Manchurian,Chinese,128.79
+2383,2382,Manchurian,Chinese,347.46
+2384,2383,Spring Rolls,Chinese,435.44
+2385,2384,Rasgulla,Desserts,235.28
+2386,2385,Pizza,Fast Food,342.27
+2387,2386,Vada,South Indian,395.54
+2388,2387,Spring Rolls,Chinese,455.31
+2389,2388,Hakka Noodles,Chinese,71.35
+2390,2389,Idli Sambar,South Indian,187.25
+2391,2390,Dal Makhani,North Indian,217.99
+2392,2391,Rasgulla,Desserts,225.15
+2393,2392,Dosa,South Indian,287.27
+2394,2393,Manchurian,Chinese,55.56
+2395,2394,Rasgulla,Desserts,383.41
+2397,2396,Fries,Fast Food,53.1
+2398,2397,Burger,Fast Food,327.23
+2399,2398,Idli Sambar,South Indian,336.38
+2400,2399,Spring Rolls,Chinese,354.52
+2401,2400,Spring Rolls,Chinese,461.44
+2402,2401,Fries,Fast Food,108.51
+2403,2402,Manchurian,Chinese,95.56
+2404,2403,Vada,South Indian,170.55
+2405,2404,Dosa,South Indian,360.4
+2406,2405,Vada,South Indian,375.4
+2407,2406,Pizza,Fast Food,411.71
+2408,2407,Rasgulla,Desserts,133.48
+2409,2408,Paneer Butter Masala,North Indian,283.3
+2410,2409,Pizza,Fast Food,427.28
+2411,2410,Chole Bhature,North Indian,472.65
+2412,2411,Dosa,South Indian,191.24
+2413,2412,Manchurian,Chinese,441.2
+2414,2413,Rasgulla,Desserts,394.88
+2415,2414,Burger,Fast Food,89.25
+2416,2415,Paneer Butter Masala,North Indian,359.32
+2417,2416,Dosa,South Indian,111.18
+2418,2417,Dal Makhani,North Indian,145.84
+2419,2418,Fries,Fast Food,93.16
+2420,2419,Chole Bhature,North Indian,483.28
+2421,2420,Idli Sambar,South Indian,381.96
+2422,2421,Ice Cream,Desserts,253.26
+2423,2422,Dosa,South Indian,261.34
+2424,2423,Idli Sambar,South Indian,259.51
+2425,2424,Chole Bhature,North Indian,180.2
+2426,2425,Hakka Noodles,Chinese,359.46
+2427,2426,Idli Sambar,South Indian,206.63
+2428,2427,Manchurian,Chinese,180.57
+2429,2428,Vada,South Indian,125.7
+2430,2429,Spring Rolls,Chinese,290.8
+2431,2430,Hakka Noodles,Chinese,430.41
+2432,2431,Chole Bhature,North Indian,363.04
+2433,2432,Idli Sambar,South Indian,198.52
+2434,2433,Burger,Fast Food,416.78
+2435,2434,Ice Cream,Desserts,153.39
+2436,2435,Ice Cream,Desserts,264.58
+2437,2436,Vada,South Indian,133.94
+2438,2437,Dosa,South Indian,422.84
+2439,2438,Rasgulla,Desserts,199.7
+2440,2439,Hakka Noodles,Chinese,206.36
+2441,2440,Dal Makhani,North Indian,246.08
+2442,2441,Idli Sambar,South Indian,228.03
+2443,2442,Hakka Noodles,Chinese,311.35
+2444,2443,Burger,Fast Food,383.74
+2445,2444,Dal Makhani,North Indian,237.94
+2446,2445,Hakka Noodles,Chinese,381.68
+2447,2446,Idli Sambar,South Indian,180.44
+2448,2447,Gulab Jamun,Desserts,306.85
+2449,2448,Fries,Fast Food,364.62
+2450,2449,Hakka Noodles,Chinese,302.29
+2451,2450,Manchurian,Chinese,470.54
+2452,2451,Dal Makhani,North Indian,355.22
+2453,2452,Vada,South Indian,221.7
+2454,2453,Paneer Butter Masala,North Indian,453.5
+2455,2454,Fries,Fast Food,111.81
+2456,2455,Chole Bhature,North Indian,127.84
+2457,2456,Fries,Fast Food,153.56
+2458,2457,Hakka Noodles,Chinese,473.64
+2459,2458,Dal Makhani,North Indian,254.74
+2460,2459,Spring Rolls,Chinese,305.25
+2461,2460,Hakka Noodles,Chinese,470.81
+2462,2461,Dal Makhani,North Indian,162.31
+2463,2462,Spring Rolls,Chinese,356.23
+2464,2463,Manchurian,Chinese,77.56
+2465,2464,Burger,Fast Food,497.01
+2466,2465,Rasgulla,Desserts,95.24
+2467,2466,Paneer Butter Masala,North Indian,224.99
+2468,2467,Dosa,South Indian,347.88
+2469,2468,Ice Cream,Desserts,148.58
+2470,2469,Spring Rolls,Chinese,498.53
+2471,2470,Dal Makhani,North Indian,396.11
+2472,2471,Paneer Butter Masala,North Indian,351.2
+2473,2472,Idli Sambar,South Indian,389.61
+2474,2473,Spring Rolls,Chinese,97.42
+2475,2474,Dosa,South Indian,477.38
+2476,2475,Hakka Noodles,Chinese,189.1
+2477,2476,Idli Sambar,South Indian,182.96
+2478,2477,Pizza,Fast Food,312.91
+2479,2478,Burger,Fast Food,298.75
+2480,2479,Spring Rolls,Chinese,481.12
+2481,2480,Spring Rolls,Chinese,177.39
+2482,2481,Hakka Noodles,Chinese,473.74
+2483,2482,Paneer Butter Masala,North Indian,129.71
+2484,2483,Idli Sambar,South Indian,422.39
+2485,2484,Manchurian,Chinese,257.86
+2486,2485,Paneer Butter Masala,North Indian,100.74
+2487,2486,Burger,Fast Food,315.27
+2488,2487,Spring Rolls,Chinese,80.69
+2489,2488,Fries,Fast Food,59.75
+2490,2489,Gulab Jamun,Desserts,122.56
+2491,2490,Rasgulla,Desserts,361.6
+2492,2491,Rasgulla,Desserts,223.3
+2493,2492,Dal Makhani,North Indian,489.18
+2494,2493,Gulab Jamun,Desserts,175.97
+2495,2494,Burger,Fast Food,425.57
+2496,2495,Hakka Noodles,Chinese,339.53
+2497,2496,Ice Cream,Desserts,318.24
+2498,2497,Idli Sambar,South Indian,488.11
+2499,2498,Fries,Fast Food,296.87
+2500,2499,Pizza,Fast Food,281.94
+2501,2500,Pizza,Fast Food,412.68
+2502,2501,Dosa,South Indian,481.48
+2503,2502,Idli Sambar,South Indian,130.0
+2504,2503,Rasgulla,Desserts,184.21
+2505,2504,Dosa,South Indian,352.4
+2506,2505,Chole Bhature,North Indian,169.98
+2507,2506,Hakka Noodles,Chinese,87.24
+2508,2507,Rasgulla,Desserts,375.78
+2509,2508,Fries,Fast Food,456.28
+2510,2509,Fries,Fast Food,429.13
+2511,2510,Vada,South Indian,379.59
+2512,2511,Vada,South Indian,319.33
+2513,2512,Vada,South Indian,375.32
+2514,2513,Idli Sambar,South Indian,216.68
+2515,2514,Vada,South Indian,157.39
+2516,2515,Fries,Fast Food,296.58
+2517,2516,Chole Bhature,North Indian,494.2
+2518,2517,Manchurian,Chinese,94.67
+2519,2518,Hakka Noodles,Chinese,320.13
+2520,2519,Fries,Fast Food,450.14
+2521,2520,Paneer Butter Masala,North Indian,71.8
+2522,2521,Spring Rolls,Chinese,351.89
+2523,2522,Idli Sambar,South Indian,186.1
+2524,2523,Chole Bhature,North Indian,213.82
+2525,2524,Ice Cream,Desserts,421.85
+2526,2525,Dosa,South Indian,334.22
+2527,2526,Manchurian,Chinese,119.82
+2528,2527,Manchurian,Chinese,155.06
+2529,2528,Rasgulla,Desserts,362.26
+2530,2529,Idli Sambar,South Indian,264.85
+2531,2530,Vada,South Indian,279.86
+2532,2531,Chole Bhature,North Indian,56.43
+2533,2532,Burger,Fast Food,250.47
+2534,2533,Idli Sambar,South Indian,418.93
+2535,2534,Ice Cream,Desserts,63.13
+2536,2535,Paneer Butter Masala,North Indian,459.62
+2537,2536,Idli Sambar,South Indian,415.7
+2538,2537,Chole Bhature,North Indian,445.16
+2539,2538,Gulab Jamun,Desserts,472.2
+2540,2539,Vada,South Indian,274.86
+2541,2540,Vada,South Indian,203.5
+2542,2541,Gulab Jamun,Desserts,55.39
+2543,2542,Ice Cream,Desserts,438.84
+2544,2543,Burger,Fast Food,486.21
+2545,2544,Paneer Butter Masala,North Indian,192.72
+2546,2545,Burger,Fast Food,420.53
+2547,2546,Pizza,Fast Food,438.01
+2548,2547,Gulab Jamun,Desserts,50.18
+2549,2548,Dal Makhani,North Indian,428.63
+2550,2549,Ice Cream,Desserts,351.36
+2551,2550,Burger,Fast Food,256.14
+2552,2551,Dosa,South Indian,128.4
+2553,2552,Idli Sambar,South Indian,396.83
+2554,2553,Fries,Fast Food,56.3
+2555,2554,Dosa,South Indian,97.79
+2556,2555,Burger,Fast Food,229.39
+2557,2556,Spring Rolls,Chinese,275.62
+2558,2557,Pizza,Fast Food,85.27
+2559,2558,Paneer Butter Masala,North Indian,99.36
+2560,2559,Rasgulla,Desserts,141.04
+2561,2560,Dal Makhani,North Indian,362.1
+2562,2561,Chole Bhature,North Indian,277.46
+2563,2562,Vada,South Indian,189.09
+2564,2563,Manchurian,Chinese,51.96
+2565,2564,Burger,Fast Food,235.64
+2566,2565,Hakka Noodles,Chinese,144.13
+2567,2566,Paneer Butter Masala,North Indian,274.8
+2568,2567,Chole Bhature,North Indian,161.08
+2569,2568,Pizza,Fast Food,400.67
+2570,2569,Dal Makhani,North Indian,449.8
+2571,2570,Fries,Fast Food,370.92
+2572,2571,Chole Bhature,North Indian,489.25
+2573,2572,Vada,South Indian,150.08
+2574,2573,Gulab Jamun,Desserts,482.92
+2575,2574,Chole Bhature,North Indian,334.84
+2576,2575,Fries,Fast Food,434.82
+2577,2576,Idli Sambar,South Indian,141.51
+2578,2577,Fries,Fast Food,116.71
+2579,2578,Hakka Noodles,Chinese,275.94
+2580,2579,Burger,Fast Food,460.59
+2581,2580,Fries,Fast Food,276.18
+2582,2581,Dosa,South Indian,405.16
+2583,2582,Gulab Jamun,Desserts,377.71
+2584,2583,Ice Cream,Desserts,324.07
+2585,2584,Dosa,South Indian,394.2
+2586,2585,Idli Sambar,South Indian,221.76
+2587,2586,Chole Bhature,North Indian,149.99
+2588,2587,Vada,South Indian,265.27
+2589,2588,Rasgulla,Desserts,146.28
+2590,2589,Burger,Fast Food,180.34
+2591,2590,Rasgulla,Desserts,354.56
+2592,2591,Vada,South Indian,473.3
+2593,2592,Ice Cream,Desserts,157.66
+2594,2593,Gulab Jamun,Desserts,123.79
+2595,2594,Rasgulla,Desserts,121.06
+2596,2595,Chole Bhature,North Indian,424.66
+2597,2596,Dal Makhani,North Indian,445.52
+2598,2597,Burger,Fast Food,409.35
+2599,2598,Rasgulla,Desserts,300.26
+2600,2599,Dosa,South Indian,383.64
+2601,2600,Gulab Jamun,Desserts,218.91
+2602,2601,Paneer Butter Masala,North Indian,317.96
+2603,2602,Dal Makhani,North Indian,263.32
+2604,2603,Burger,Fast Food,379.46
+2605,2604,Pizza,Fast Food,245.02
+2606,2605,Dal Makhani,North Indian,371.98
+2607,2606,Paneer Butter Masala,North Indian,408.12
+2608,2607,Vada,South Indian,367.77
+2609,2608,Paneer Butter Masala,North Indian,138.18
+2610,2609,Spring Rolls,Chinese,52.94
+2611,2610,Ice Cream,Desserts,110.81
+2612,2611,Chole Bhature,North Indian,158.6
+2613,2612,Idli Sambar,South Indian,338.24
+2614,2613,Spring Rolls,Chinese,270.15
+2615,2614,Dal Makhani,North Indian,173.4
+2616,2615,Dal Makhani,North Indian,474.96
+2617,2616,Dosa,South Indian,468.22
+2618,2617,Pizza,Fast Food,240.88
+2619,2618,Paneer Butter Masala,North Indian,285.95
+2620,2619,Fries,Fast Food,277.74
+2621,2620,Dosa,South Indian,464.39
+2622,2621,Dosa,South Indian,154.4
+2623,2622,Spring Rolls,Chinese,106.69
+2624,2623,Spring Rolls,Chinese,83.43
+2625,2624,Manchurian,Chinese,260.16
+2626,2625,Burger,Fast Food,360.03
+2627,2626,Burger,Fast Food,174.25
+2628,2627,Dal Makhani,North Indian,231.71
+2629,2628,Fries,Fast Food,155.07
+2630,2629,Fries,Fast Food,442.04
+2631,2630,Pizza,Fast Food,301.65
+2632,2631,Spring Rolls,Chinese,181.12
+2633,2632,Vada,South Indian,61.36
+2634,2633,Paneer Butter Masala,North Indian,64.25
+2635,2634,Ice Cream,Desserts,209.42
+2636,2635,Pizza,Fast Food,426.77
+2637,2636,Fries,Fast Food,239.37
+2638,2637,Rasgulla,Desserts,408.56
+2639,2638,Dal Makhani,North Indian,414.42
+2640,2639,Rasgulla,Desserts,453.91
+2641,2640,Vada,South Indian,166.1
+2642,2641,Vada,South Indian,348.75
+2643,2642,Vada,South Indian,248.06
+2644,2643,Ice Cream,Desserts,215.94
+2645,2644,Ice Cream,Desserts,244.21
+2646,2645,Pizza,Fast Food,343.1
+2647,2646,Dal Makhani,North Indian,478.49
+2648,2647,Paneer Butter Masala,North Indian,322.7
+2649,2648,Pizza,Fast Food,293.42
+2650,2649,Hakka Noodles,Chinese,488.42
+2651,2650,Paneer Butter Masala,North Indian,60.84
+2652,2651,Idli Sambar,South Indian,375.77
+2653,2652,Idli Sambar,South Indian,55.93
+2654,2653,Vada,South Indian,237.34
+2655,2654,Manchurian,Chinese,426.6
+2656,2655,Hakka Noodles,Chinese,69.03
+2657,2656,Spring Rolls,Chinese,295.98
+2658,2657,Burger,Fast Food,162.2
+2659,2658,Vada,South Indian,239.78
+2660,2659,Dal Makhani,North Indian,304.19
+2661,2660,Pizza,Fast Food,199.9
+2662,2661,Chole Bhature,North Indian,483.96
+2663,2662,Dal Makhani,North Indian,87.32
+2664,2663,Ice Cream,Desserts,438.17
+2665,2664,Fries,Fast Food,406.47
+2666,2665,Vada,South Indian,268.64
+2667,2666,Idli Sambar,South Indian,191.16
+2668,2667,Ice Cream,Desserts,158.92
+2669,2668,Vada,South Indian,82.65
+2670,2669,Hakka Noodles,Chinese,430.24
+2671,2670,Manchurian,Chinese,152.35
+2672,2671,Ice Cream,Desserts,379.55
+2673,2672,Burger,Fast Food,389.63
+2674,2673,Vada,South Indian,330.37
+2675,2674,Burger,Fast Food,417.66
+2676,2675,Chole Bhature,North Indian,174.77
+2677,2676,Vada,South Indian,133.49
+2678,2677,Gulab Jamun,Desserts,65.43
+2679,2678,Gulab Jamun,Desserts,217.04
+2680,2679,Hakka Noodles,Chinese,494.65
+2681,2680,Pizza,Fast Food,236.96
+2682,2681,Dal Makhani,North Indian,498.52
+2683,2682,Gulab Jamun,Desserts,221.38
+2684,2683,Manchurian,Chinese,458.93
+2685,2684,Rasgulla,Desserts,340.84
+2686,2685,Vada,South Indian,303.52
+2687,2686,Dal Makhani,North Indian,428.36
+2688,2687,Gulab Jamun,Desserts,323.32
+2689,2688,Chole Bhature,North Indian,498.19
+2690,2689,Dal Makhani,North Indian,288.29
+2691,2690,Rasgulla,Desserts,375.43
+2692,2691,Dal Makhani,North Indian,448.59
+2693,2692,Dal Makhani,North Indian,441.23
+2694,2693,Fries,Fast Food,237.07
+2695,2694,Dosa,South Indian,410.42
+2696,2695,Chole Bhature,North Indian,158.73
+2697,2696,Hakka Noodles,Chinese,491.99
+2698,2697,Ice Cream,Desserts,225.42
+2699,2698,Fries,Fast Food,118.66
+2700,2699,Gulab Jamun,Desserts,148.83
+2701,2700,Fries,Fast Food,462.0
+2702,2701,Paneer Butter Masala,North Indian,234.51
+2703,2702,Gulab Jamun,Desserts,321.76
+2704,2703,Hakka Noodles,Chinese,53.62
+2705,2704,Ice Cream,Desserts,149.98
+2706,2705,Manchurian,Chinese,91.79
+2707,2706,Idli Sambar,South Indian,388.1
+2708,2707,Pizza,Fast Food,94.51
+2709,2708,Spring Rolls,Chinese,497.59
+2710,2709,Chole Bhature,North Indian,259.6
+2711,2710,Hakka Noodles,Chinese,155.45
+2712,2711,Rasgulla,Desserts,261.42
+2713,2712,Manchurian,Chinese,452.34
+2714,2713,Vada,South Indian,366.5
+2715,2714,Ice Cream,Desserts,50.43
+2716,2715,Rasgulla,Desserts,464.42
+2717,2716,Vada,South Indian,424.67
+2718,2717,Burger,Fast Food,183.35
+2719,2718,Dal Makhani,North Indian,228.05
+2720,2719,Idli Sambar,South Indian,73.15
+2721,2720,Ice Cream,Desserts,218.3
+2722,2721,Pizza,Fast Food,287.32
+2723,2722,Dosa,South Indian,435.79
+2724,2723,Dosa,South Indian,227.53
+2725,2724,Manchurian,Chinese,127.17
+2726,2725,Vada,South Indian,469.68
+2727,2726,Dosa,South Indian,318.18
+2728,2727,Idli Sambar,South Indian,92.59
+2729,2728,Hakka Noodles,Chinese,223.09
+2730,2729,Rasgulla,Desserts,74.67
+2731,2730,Manchurian,Chinese,404.67
+2732,2731,Idli Sambar,South Indian,304.89
+2733,2732,Idli Sambar,South Indian,346.86
+2734,2733,Spring Rolls,Chinese,345.92
+2735,2734,Manchurian,Chinese,168.19
+2736,2735,Idli Sambar,South Indian,338.52
+2737,2736,Fries,Fast Food,364.29
+2738,2737,Rasgulla,Desserts,126.76
+2739,2738,Ice Cream,Desserts,287.25
+2740,2739,Spring Rolls,Chinese,179.21
+2741,2740,Burger,Fast Food,135.81
+2742,2741,Burger,Fast Food,452.11
+2743,2742,Hakka Noodles,Chinese,234.59
+2744,2743,Paneer Butter Masala,North Indian,73.75
+2745,2744,Paneer Butter Masala,North Indian,445.63
+2746,2745,Chole Bhature,North Indian,457.23
+2747,2746,Dal Makhani,North Indian,425.96
+2748,2747,Manchurian,Chinese,190.2
+2749,2748,Gulab Jamun,Desserts,386.13
+2750,2749,Vada,South Indian,491.77
+2751,2750,Vada,South Indian,233.89
+2752,2751,Dosa,South Indian,384.15
+2753,2752,Rasgulla,Desserts,53.55
+2754,2753,Pizza,Fast Food,325.1
+2755,2754,Ice Cream,Desserts,201.95
+2756,2755,Chole Bhature,North Indian,272.36
+2757,2756,Chole Bhature,North Indian,323.83
+2758,2757,Rasgulla,Desserts,250.88
+2759,2758,Idli Sambar,South Indian,456.71
+2760,2759,Dosa,South Indian,189.53
+2761,2760,Hakka Noodles,Chinese,330.41
+2762,2761,Chole Bhature,North Indian,208.01
+2763,2762,Spring Rolls,Chinese,109.29
+2764,2763,Ice Cream,Desserts,410.86
+2765,2764,Pizza,Fast Food,375.07
+2766,2765,Paneer Butter Masala,North Indian,324.63
+2767,2766,Dal Makhani,North Indian,121.08
+2768,2767,Dal Makhani,North Indian,316.57
+2769,2768,Burger,Fast Food,404.45
+2770,2769,Hakka Noodles,Chinese,362.06
+2771,2770,Manchurian,Chinese,247.74
+2772,2771,Paneer Butter Masala,North Indian,100.8
+2773,2772,Fries,Fast Food,452.45
+2774,2773,Gulab Jamun,Desserts,204.71
+2775,2774,Idli Sambar,South Indian,378.53
+2776,2775,Spring Rolls,Chinese,88.46
+2777,2776,Hakka Noodles,Chinese,281.21
+2778,2777,Vada,South Indian,91.9
+2779,2778,Dal Makhani,North Indian,93.88
+2780,2779,Ice Cream,Desserts,404.25
+2781,2780,Dosa,South Indian,52.04
+2782,2781,Burger,Fast Food,199.77
+2783,2782,Dosa,South Indian,258.16
+2784,2783,Pizza,Fast Food,68.18
+2785,2784,Idli Sambar,South Indian,290.68
+2786,2785,Paneer Butter Masala,North Indian,353.78
+2787,2786,Dosa,South Indian,64.77
+2788,2787,Manchurian,Chinese,184.56
+2789,2788,Dosa,South Indian,108.55
+2790,2789,Spring Rolls,Chinese,402.92
+2791,2790,Manchurian,Chinese,464.2
+2792,2791,Hakka Noodles,Chinese,424.35
+2793,2792,Fries,Fast Food,302.74
+2794,2793,Hakka Noodles,Chinese,182.76
+2795,2794,Burger,Fast Food,120.25
+2796,2795,Vada,South Indian,210.2
+2797,2796,Chole Bhature,North Indian,433.77
+2798,2797,Pizza,Fast Food,462.8
+2799,2798,Vada,South Indian,358.71
+2800,2799,Pizza,Fast Food,468.45
+2801,2800,Ice Cream,Desserts,423.36
+2802,2801,Chole Bhature,North Indian,283.17
+2803,2802,Dal Makhani,North Indian,459.25
+2804,2803,Pizza,Fast Food,345.73
+2805,2804,Chole Bhature,North Indian,340.85
+2806,2805,Rasgulla,Desserts,429.28
+2807,2806,Paneer Butter Masala,North Indian,400.37
+2808,2807,Chole Bhature,North Indian,63.58
+2809,2808,Rasgulla,Desserts,202.83
+2810,2809,Spring Rolls,Chinese,464.61
+2811,2810,Idli Sambar,South Indian,193.71
+2812,2811,Vada,South Indian,81.97
+2813,2812,Idli Sambar,South Indian,62.32
+2814,2813,Ice Cream,Desserts,129.89
+2815,2814,Vada,South Indian,124.33
+2816,2815,Rasgulla,Desserts,210.36
+2817,2816,Ice Cream,Desserts,493.22
+2818,2817,Burger,Fast Food,267.96
+2819,2818,Ice Cream,Desserts,56.03
+2820,2819,Chole Bhature,North Indian,307.26
+2821,2820,Dal Makhani,North Indian,416.11
+2822,2821,Fries,Fast Food,251.12
+2823,2822,Dal Makhani,North Indian,267.46
+2824,2823,Idli Sambar,South Indian,92.77
+2825,2824,Gulab Jamun,Desserts,491.23
+2826,2825,Idli Sambar,South Indian,108.89
+2827,2826,Idli Sambar,South Indian,117.54
+2828,2827,Rasgulla,Desserts,289.6
+2829,2828,Ice Cream,Desserts,337.52
+2830,2829,Rasgulla,Desserts,56.79
+2831,2830,Pizza,Fast Food,241.27
+2832,2831,Pizza,Fast Food,449.73
+2833,2832,Dal Makhani,North Indian,201.24
+2834,2833,Chole Bhature,North Indian,209.24
+2835,2834,Vada,South Indian,443.28
+2836,2835,Paneer Butter Masala,North Indian,340.2
+2837,2836,Manchurian,Chinese,472.16
+2838,2837,Dosa,South Indian,293.32
+2839,2838,Dal Makhani,North Indian,402.98
+2840,2839,Fries,Fast Food,469.4
+2841,2840,Idli Sambar,South Indian,384.86
+2842,2841,Idli Sambar,South Indian,409.27
+2843,2842,Chole Bhature,North Indian,237.81
+2844,2843,Fries,Fast Food,435.03
+2845,2844,Dosa,South Indian,310.51
+2846,2845,Vada,South Indian,144.66
+2847,2846,Burger,Fast Food,248.57
+2848,2847,Hakka Noodles,Chinese,183.11
+2849,2848,Hakka Noodles,Chinese,240.99
+2850,2849,Manchurian,Chinese,103.26
+2851,2850,Dosa,South Indian,160.16
+2852,2851,Vada,South Indian,93.73
+2853,2852,Vada,South Indian,384.0
+2854,2853,Dal Makhani,North Indian,343.07
+2855,2854,Dosa,South Indian,370.4
+2856,2855,Burger,Fast Food,175.46
+2857,2856,Fries,Fast Food,253.55
+2858,2857,Fries,Fast Food,478.33
+2859,2858,Spring Rolls,Chinese,80.58
+2860,2859,Rasgulla,Desserts,327.86
+2861,2860,Ice Cream,Desserts,147.69
+2862,2861,Vada,South Indian,397.52
+2863,2862,Chole Bhature,North Indian,482.57
+2864,2863,Chole Bhature,North Indian,288.61
+2865,2864,Dal Makhani,North Indian,211.6
+2866,2865,Dal Makhani,North Indian,148.58
+2867,2866,Manchurian,Chinese,326.23
+2868,2867,Vada,South Indian,106.89
+2869,2868,Vada,South Indian,306.8
+2870,2869,Dosa,South Indian,255.53
+2871,2870,Dal Makhani,North Indian,50.68
+2872,2871,Pizza,Fast Food,293.2
+2873,2872,Spring Rolls,Chinese,474.73
+2874,2873,Gulab Jamun,Desserts,375.6
+2875,2874,Vada,South Indian,118.47
+2876,2875,Idli Sambar,South Indian,231.32
+2877,2876,Fries,Fast Food,73.04
+2878,2877,Dosa,South Indian,85.51
+2879,2878,Vada,South Indian,377.49
+2880,2879,Pizza,Fast Food,401.98
+2881,2880,Burger,Fast Food,55.49
+2882,2881,Paneer Butter Masala,North Indian,173.86
+2883,2882,Vada,South Indian,483.83
+2884,2883,Gulab Jamun,Desserts,99.19
+2885,2884,Paneer Butter Masala,North Indian,92.24
+2886,2885,Chole Bhature,North Indian,296.25
+2887,2886,Burger,Fast Food,219.96
+2888,2887,Vada,South Indian,142.98
+2889,2888,Pizza,Fast Food,469.88
+2890,2889,Paneer Butter Masala,North Indian,390.84
+2891,2890,Gulab Jamun,Desserts,167.84
+2892,2891,Manchurian,Chinese,54.94
+2893,2892,Spring Rolls,Chinese,351.9
+2894,2893,Fries,Fast Food,253.32
+2895,2894,Gulab Jamun,Desserts,439.9
+2896,2895,Chole Bhature,North Indian,187.65
+2897,2896,Fries,Fast Food,247.22
+2898,2897,Hakka Noodles,Chinese,114.3
+2899,2898,Dal Makhani,North Indian,178.46
+2900,2899,Pizza,Fast Food,133.64
+2901,2900,Idli Sambar,South Indian,270.37
+2902,2901,Paneer Butter Masala,North Indian,280.6
+2903,2902,Idli Sambar,South Indian,74.67
+2904,2903,Burger,Fast Food,226.63
+2905,2904,Hakka Noodles,Chinese,292.53
+2906,2905,Burger,Fast Food,168.34
+2907,2906,Dosa,South Indian,95.99
+2908,2907,Burger,Fast Food,167.68
+2909,2908,Ice Cream,Desserts,352.67
+2910,2909,Vada,South Indian,375.87
+2911,2910,Dal Makhani,North Indian,105.13
+2912,2911,Gulab Jamun,Desserts,241.23
+2913,2912,Burger,Fast Food,397.53
+2914,2913,Dosa,South Indian,471.33
+2915,2914,Dal Makhani,North Indian,368.6
+2916,2915,Pizza,Fast Food,303.14
+2917,2916,Dal Makhani,North Indian,333.04
+2918,2917,Rasgulla,Desserts,452.56
+2919,2918,Hakka Noodles,Chinese,484.17
+2920,2919,Paneer Butter Masala,North Indian,229.94
+2921,2920,Rasgulla,Desserts,315.94
+2922,2921,Dosa,South Indian,479.6
+2923,2922,Paneer Butter Masala,North Indian,314.7
+2924,2923,Dal Makhani,North Indian,74.32
+2925,2924,Dal Makhani,North Indian,358.31
+2926,2925,Paneer Butter Masala,North Indian,347.82
+2927,2926,Vada,South Indian,379.58
+2928,2927,Fries,Fast Food,204.37
+2929,2928,Spring Rolls,Chinese,278.81
+2930,2929,Rasgulla,Desserts,125.74
+2931,2930,Burger,Fast Food,217.44
+2932,2931,Vada,South Indian,201.72
+2933,2932,Pizza,Fast Food,374.31
+2934,2933,Spring Rolls,Chinese,197.84
+2935,2934,Manchurian,Chinese,97.97
+2936,2935,Fries,Fast Food,440.2
+2937,2936,Vada,South Indian,395.28
+2938,2937,Fries,Fast Food,107.23
+2939,2938,Chole Bhature,North Indian,377.43
+2940,2939,Pizza,Fast Food,416.56
+2941,2940,Rasgulla,Desserts,310.78
+2942,2941,Spring Rolls,Chinese,151.19
+2943,2942,Manchurian,Chinese,494.26
+2944,2943,Vada,South Indian,213.65
+2945,2944,Manchurian,Chinese,489.62
+2946,2945,Gulab Jamun,Desserts,358.27
+2947,2946,Rasgulla,Desserts,159.26
+2948,2947,Burger,Fast Food,83.87
+2949,2948,Hakka Noodles,Chinese,414.34
+2950,2949,Rasgulla,Desserts,389.35
+2951,2950,Fries,Fast Food,170.55
+2952,2951,Dal Makhani,North Indian,471.47
+2953,2952,Fries,Fast Food,247.25
+2954,2953,Idli Sambar,South Indian,122.38
+2955,2954,Rasgulla,Desserts,192.86
+2956,2955,Fries,Fast Food,150.95
+2957,2956,Paneer Butter Masala,North Indian,185.58
+2958,2957,Manchurian,Chinese,181.62
+2959,2958,Manchurian,Chinese,438.45
+2960,2959,Ice Cream,Desserts,277.25
+2961,2960,Gulab Jamun,Desserts,414.1
+2962,2961,Paneer Butter Masala,North Indian,496.75
+2963,2962,Manchurian,Chinese,262.5
+2964,2963,Fries,Fast Food,283.93
+2965,2964,Fries,Fast Food,262.02
+2966,2965,Spring Rolls,Chinese,399.59
+2967,2966,Manchurian,Chinese,261.26
+2968,2967,Spring Rolls,Chinese,339.47
+2969,2968,Rasgulla,Desserts,92.44
+2970,2969,Hakka Noodles,Chinese,89.81
+2971,2970,Rasgulla,Desserts,344.24
+2972,2971,Chole Bhature,North Indian,150.25
+2973,2972,Paneer Butter Masala,North Indian,165.76
+2974,2973,Idli Sambar,South Indian,468.32
+2975,2974,Spring Rolls,Chinese,68.97
+2976,2975,Rasgulla,Desserts,354.62
+2977,2976,Spring Rolls,Chinese,58.21
+2978,2977,Rasgulla,Desserts,463.77
+2979,2978,Ice Cream,Desserts,126.11
+2980,2979,Hakka Noodles,Chinese,124.39
+2981,2980,Dosa,South Indian,326.37
+2982,2981,Spring Rolls,Chinese,441.78
+2983,2982,Manchurian,Chinese,113.28
+2984,2983,Pizza,Fast Food,360.18
+2985,2984,Spring Rolls,Chinese,278.29
+2986,2985,Paneer Butter Masala,North Indian,446.23
+2987,2986,Gulab Jamun,Desserts,234.37
+2988,2987,Vada,South Indian,361.44
+2989,2988,Rasgulla,Desserts,355.99
+2990,2989,Ice Cream,Desserts,102.72
+2991,2990,Idli Sambar,South Indian,325.89
+2992,2991,Pizza,Fast Food,485.53
+2993,2992,Dosa,South Indian,113.75
+2994,2993,Manchurian,Chinese,156.37
+2995,2994,Pizza,Fast Food,117.98
+2996,2995,Dal Makhani,North Indian,478.22
+2997,2996,Idli Sambar,South Indian,178.72
+2998,2997,Chole Bhature,North Indian,336.82
+2999,2998,Manchurian,Chinese,102.57
+3000,2999,Hakka Noodles,Chinese,462.18
+3001,3000,Ice Cream,Desserts,222.65
+3002,3001,Dal Makhani,North Indian,326.01
+3003,3002,Burger,Fast Food,303.83
+3004,3003,Idli Sambar,South Indian,282.77
+3005,3004,Idli Sambar,South Indian,160.96
+3006,3005,Gulab Jamun,Desserts,358.02
+3007,3006,Fries,Fast Food,122.49
+3008,3007,Dal Makhani,North Indian,143.24
+3009,3008,Dal Makhani,North Indian,60.0
+3010,3009,Idli Sambar,South Indian,470.21
+3011,3010,Pizza,Fast Food,281.68
+3012,3011,Dal Makhani,North Indian,160.38
+3013,3012,Pizza,Fast Food,313.93
+3014,3013,Ice Cream,Desserts,267.83
+3015,3014,Ice Cream,Desserts,54.49
+3016,3015,Vada,South Indian,241.52
+3017,3016,Hakka Noodles,Chinese,313.42
+3018,3017,Dosa,South Indian,309.4
+3019,3018,Manchurian,Chinese,425.38
+3020,3019,Burger,Fast Food,309.08
+3021,3020,Manchurian,Chinese,272.99
+3022,3021,Fries,Fast Food,391.51
+3023,3022,Paneer Butter Masala,North Indian,382.25
+3024,3023,Paneer Butter Masala,North Indian,458.51
+3025,3024,Manchurian,Chinese,74.86
+3026,3025,Hakka Noodles,Chinese,274.92
+3027,3026,Gulab Jamun,Desserts,439.68
+3028,3027,Spring Rolls,Chinese,83.06
+3029,3028,Burger,Fast Food,225.11
+3030,3029,Vada,South Indian,388.76
+3031,3030,Gulab Jamun,Desserts,415.07
+3032,3031,Manchurian,Chinese,298.93
+3033,3032,Spring Rolls,Chinese,209.92
+3034,3033,Rasgulla,Desserts,149.11
+3035,3034,Gulab Jamun,Desserts,314.81
+3036,3035,Idli Sambar,South Indian,60.28
+3037,3036,Hakka Noodles,Chinese,69.67
+3038,3037,Fries,Fast Food,469.82
+3039,3038,Pizza,Fast Food,163.35
+3040,3039,Vada,South Indian,217.08
+3041,3040,Ice Cream,Desserts,370.55
+3042,3041,Spring Rolls,Chinese,396.23
+3043,3042,Gulab Jamun,Desserts,450.04
+3044,3043,Gulab Jamun,Desserts,131.91
+3045,3044,Dal Makhani,North Indian,187.9
+3046,3045,Pizza,Fast Food,70.39
+3047,3046,Hakka Noodles,Chinese,154.63
+3048,3047,Dal Makhani,North Indian,209.75
+3049,3048,Dosa,South Indian,195.46
+3050,3049,Fries,Fast Food,137.79
+3051,3050,Hakka Noodles,Chinese,144.19
+3052,3051,Rasgulla,Desserts,328.32
+3053,3052,Paneer Butter Masala,North Indian,300.9
+3054,3053,Manchurian,Chinese,299.23
+3055,3054,Burger,Fast Food,343.53
+3056,3055,Rasgulla,Desserts,481.54
+3057,3056,Idli Sambar,South Indian,209.89
+3058,3057,Paneer Butter Masala,North Indian,352.0
+3059,3058,Manchurian,Chinese,50.08
+3060,3059,Ice Cream,Desserts,77.07
+3061,3060,Dosa,South Indian,485.53
+3062,3061,Pizza,Fast Food,260.53
+3063,3062,Gulab Jamun,Desserts,351.1
+3064,3063,Pizza,Fast Food,326.84
+3065,3064,Gulab Jamun,Desserts,135.33
+3066,3065,Spring Rolls,Chinese,348.26
+3067,3066,Pizza,Fast Food,333.71
+3068,3067,Idli Sambar,South Indian,417.78
+3069,3068,Manchurian,Chinese,263.12
+3070,3069,Rasgulla,Desserts,463.13
+3071,3070,Paneer Butter Masala,North Indian,475.71
+3072,3071,Spring Rolls,Chinese,482.06
+3073,3072,Fries,Fast Food,234.11
+3074,3073,Spring Rolls,Chinese,382.91
+3075,3074,Idli Sambar,South Indian,52.54
+3076,3075,Dosa,South Indian,484.44
+3077,3076,Gulab Jamun,Desserts,82.58
+3078,3077,Dosa,South Indian,114.4
+3079,3078,Paneer Butter Masala,North Indian,308.34
+3080,3079,Vada,South Indian,145.23
+3081,3080,Manchurian,Chinese,455.66
+3082,3081,Pizza,Fast Food,473.66
+3083,3082,Dosa,South Indian,341.29
+3084,3083,Idli Sambar,South Indian,290.47
+3085,3084,Paneer Butter Masala,North Indian,192.28
+3086,3085,Hakka Noodles,Chinese,286.37
+3087,3086,Fries,Fast Food,273.09
+3088,3087,Idli Sambar,South Indian,476.38
+3089,3088,Pizza,Fast Food,226.51
+3090,3089,Hakka Noodles,Chinese,424.7
+3091,3090,Vada,South Indian,87.59
+3092,3091,Burger,Fast Food,393.6
+3093,3092,Hakka Noodles,Chinese,382.9
+3094,3093,Paneer Butter Masala,North Indian,239.27
+3095,3094,Ice Cream,Desserts,69.12
+3096,3095,Chole Bhature,North Indian,491.28
+3097,3096,Dosa,South Indian,417.23
+3098,3097,Chole Bhature,North Indian,68.61
+3099,3098,Manchurian,Chinese,469.0
+3100,3099,Hakka Noodles,Chinese,55.01
+3101,3100,Rasgulla,Desserts,136.68
+3102,3101,Dal Makhani,North Indian,214.43
+3103,3102,Vada,South Indian,347.85
+3104,3103,Hakka Noodles,Chinese,398.39
+3105,3104,Ice Cream,Desserts,222.0
+3106,3105,Pizza,Fast Food,322.21
+3107,3106,Fries,Fast Food,144.88
+3108,3107,Burger,Fast Food,478.78
+3109,3108,Hakka Noodles,Chinese,254.26
+3110,3109,Idli Sambar,South Indian,101.08
+3111,3110,Chole Bhature,North Indian,137.52
+3112,3111,Ice Cream,Desserts,299.25
+3113,3112,Spring Rolls,Chinese,100.22
+3114,3113,Manchurian,Chinese,453.22
+3115,3114,Spring Rolls,Chinese,207.41
+3116,3115,Idli Sambar,South Indian,111.1
+3117,3116,Hakka Noodles,Chinese,323.42
+3118,3117,Spring Rolls,Chinese,346.72
+3119,3118,Idli Sambar,South Indian,359.79
+3120,3119,Rasgulla,Desserts,392.86
+3121,3120,Rasgulla,Desserts,356.72
+3122,3121,Manchurian,Chinese,276.58
+3123,3122,Idli Sambar,South Indian,436.41
+3124,3123,Spring Rolls,Chinese,208.65
+3125,3124,Manchurian,Chinese,307.32
+3126,3125,Dal Makhani,North Indian,260.41
+3127,3126,Fries,Fast Food,329.58
+3128,3127,Dal Makhani,North Indian,389.78
+3129,3128,Spring Rolls,Chinese,105.76
+3130,3129,Dal Makhani,North Indian,424.14
+3131,3130,Pizza,Fast Food,301.29
+3132,3131,Fries,Fast Food,478.5
+3133,3132,Dal Makhani,North Indian,178.3
+3134,3133,Manchurian,Chinese,124.57
+3135,3134,Dosa,South Indian,365.53
+3136,3135,Idli Sambar,South Indian,480.44
+3137,3136,Dosa,South Indian,189.5
+3138,3137,Idli Sambar,South Indian,473.66
+3139,3138,Idli Sambar,South Indian,100.62
+3140,3139,Gulab Jamun,Desserts,90.18
+3141,3140,Pizza,Fast Food,255.42
+3142,3141,Chole Bhature,North Indian,448.82
+3143,3142,Hakka Noodles,Chinese,435.91
+3144,3143,Ice Cream,Desserts,203.33
+3145,3144,Idli Sambar,South Indian,107.55
+3146,3145,Dosa,South Indian,317.91
+3147,3146,Hakka Noodles,Chinese,209.16
+3148,3147,Dosa,South Indian,396.23
+3149,3148,Burger,Fast Food,268.62
+3150,3149,Vada,South Indian,165.19
+3151,3150,Rasgulla,Desserts,174.47
+3152,3151,Dal Makhani,North Indian,391.94
+3153,3152,Gulab Jamun,Desserts,214.98
+3154,3153,Spring Rolls,Chinese,401.58
+3155,3154,Vada,South Indian,316.74
+3156,3155,Hakka Noodles,Chinese,108.46
+3157,3156,Dal Makhani,North Indian,462.4
+3158,3157,Fries,Fast Food,334.34
+3159,3158,Gulab Jamun,Desserts,233.24
+3160,3159,Rasgulla,Desserts,485.26
+3161,3160,Burger,Fast Food,292.91
+3162,3161,Gulab Jamun,Desserts,317.51
+3163,3162,Spring Rolls,Chinese,103.58
+3164,3163,Burger,Fast Food,372.45
+3165,3164,Burger,Fast Food,474.44
+3166,3165,Burger,Fast Food,477.49
+3167,3166,Chole Bhature,North Indian,420.44
+3168,3167,Paneer Butter Masala,North Indian,361.65
+3169,3168,Pizza,Fast Food,136.34
+3170,3169,Gulab Jamun,Desserts,129.26
+3171,3170,Ice Cream,Desserts,165.95
+3172,3171,Paneer Butter Masala,North Indian,220.39
+3173,3172,Ice Cream,Desserts,221.98
+3174,3173,Hakka Noodles,Chinese,456.83
+3175,3174,Hakka Noodles,Chinese,192.75
+3176,3175,Dosa,South Indian,405.77
+3177,3176,Ice Cream,Desserts,431.24
+3178,3177,Fries,Fast Food,231.29
+3179,3178,Paneer Butter Masala,North Indian,342.55
+3180,3179,Dosa,South Indian,138.01
+3181,3180,Pizza,Fast Food,129.04
+3182,3181,Dal Makhani,North Indian,322.0
+3183,3182,Paneer Butter Masala,North Indian,242.15
+3184,3183,Spring Rolls,Chinese,258.36
+3185,3184,Gulab Jamun,Desserts,485.47
+3186,3185,Gulab Jamun,Desserts,93.94
+3187,3186,Manchurian,Chinese,341.24
+3188,3187,Dal Makhani,North Indian,472.53
+3189,3188,Spring Rolls,Chinese,139.53
+3190,3189,Fries,Fast Food,177.38
+3191,3190,Manchurian,Chinese,470.87
+3192,3191,Manchurian,Chinese,386.39
+3193,3192,Paneer Butter Masala,North Indian,387.3
+3194,3193,Fries,Fast Food,359.21
+3195,3194,Dosa,South Indian,53.23
+3196,3195,Idli Sambar,South Indian,323.21
+3197,3196,Pizza,Fast Food,391.82
+3198,3197,Rasgulla,Desserts,216.26
+3199,3198,Burger,Fast Food,335.75
+3200,3199,Pizza,Fast Food,186.43
+3201,3200,Burger,Fast Food,175.19
+3202,3201,Burger,Fast Food,297.62
+3203,3202,Pizza,Fast Food,430.86
+3204,3203,Burger,Fast Food,446.93
+3205,3204,Gulab Jamun,Desserts,414.38
+3206,3205,Vada,South Indian,389.52
+3207,3206,Dosa,South Indian,91.46
+3208,3207,Fries,Fast Food,461.55
+3209,3208,Burger,Fast Food,449.11
+3210,3209,Manchurian,Chinese,486.75
+3211,3210,Ice Cream,Desserts,91.84
+3212,3211,Hakka Noodles,Chinese,219.59
+3213,3212,Fries,Fast Food,71.85
+3214,3213,Pizza,Fast Food,99.3
+3215,3214,Ice Cream,Desserts,188.96
+3216,3215,Rasgulla,Desserts,407.31
+3217,3216,Dal Makhani,North Indian,125.61
+3218,3217,Spring Rolls,Chinese,330.34
+3219,3218,Spring Rolls,Chinese,262.51
+3220,3219,Spring Rolls,Chinese,338.14
+3221,3220,Pizza,Fast Food,125.25
+3222,3221,Dosa,South Indian,488.97
+3223,3222,Dosa,South Indian,457.95
+3224,3223,Rasgulla,Desserts,446.19
+3225,3224,Rasgulla,Desserts,172.44
+3226,3225,Paneer Butter Masala,North Indian,360.65
+3227,3226,Rasgulla,Desserts,419.32
+3228,3227,Vada,South Indian,398.03
+3229,3228,Burger,Fast Food,149.58
+3230,3229,Manchurian,Chinese,198.54
+3231,3230,Rasgulla,Desserts,364.55
+3232,3231,Chole Bhature,North Indian,267.04
+3233,3232,Pizza,Fast Food,54.08
+3234,3233,Vada,South Indian,348.68
+3235,3234,Burger,Fast Food,107.14
+3236,3235,Pizza,Fast Food,155.24
+3237,3236,Burger,Fast Food,271.67
+3238,3237,Paneer Butter Masala,North Indian,56.53
+3239,3238,Manchurian,Chinese,370.36
+3240,3239,Pizza,Fast Food,313.21
+3241,3240,Chole Bhature,North Indian,284.3
+3242,3241,Dal Makhani,North Indian,348.71
+3243,3242,Chole Bhature,North Indian,188.17
+3244,3243,Hakka Noodles,Chinese,360.2
+3245,3244,Hakka Noodles,Chinese,401.0
+3246,3245,Spring Rolls,Chinese,447.84
+3247,3246,Ice Cream,Desserts,460.31
+3248,3247,Gulab Jamun,Desserts,474.91
+3249,3248,Rasgulla,Desserts,419.83
+3250,3249,Spring Rolls,Chinese,355.38
+3251,3250,Hakka Noodles,Chinese,114.44
+3252,3251,Spring Rolls,Chinese,56.99
+3253,3252,Idli Sambar,South Indian,201.89
+3254,3253,Idli Sambar,South Indian,486.63
+3255,3254,Chole Bhature,North Indian,473.06
+3256,3255,Ice Cream,Desserts,229.79
+3257,3256,Hakka Noodles,Chinese,433.31
+3258,3257,Manchurian,Chinese,173.65
+3259,3258,Burger,Fast Food,172.07
+3260,3259,Manchurian,Chinese,434.68
+3261,3260,Ice Cream,Desserts,353.6
+3262,3261,Hakka Noodles,Chinese,243.81
+3263,3262,Dosa,South Indian,485.3
+3264,3263,Manchurian,Chinese,424.73
+3265,3264,Manchurian,Chinese,135.93
+3266,3265,Dal Makhani,North Indian,139.54
+3267,3266,Hakka Noodles,Chinese,155.31
+3268,3267,Pizza,Fast Food,118.11
+3269,3268,Dosa,South Indian,467.54
+3270,3269,Manchurian,Chinese,83.96
+3271,3270,Dal Makhani,North Indian,144.07
+3272,3271,Spring Rolls,Chinese,117.97
+3273,3272,Chole Bhature,North Indian,323.51
+3274,3273,Dal Makhani,North Indian,366.86
+3275,3274,Hakka Noodles,Chinese,176.16
+3276,3275,Pizza,Fast Food,206.16
+3277,3276,Vada,South Indian,184.77
+3278,3277,Vada,South Indian,287.28
+3279,3278,Pizza,Fast Food,79.22
+3280,3279,Fries,Fast Food,91.51
+3281,3280,Hakka Noodles,Chinese,164.18
+3282,3281,Hakka Noodles,Chinese,400.03
+3283,3282,Rasgulla,Desserts,440.56
+3284,3283,Gulab Jamun,Desserts,287.55
+3285,3284,Hakka Noodles,Chinese,488.62
+3286,3285,Manchurian,Chinese,309.46
+3287,3286,Chole Bhature,North Indian,173.2
+3288,3287,Chole Bhature,North Indian,455.25
+3289,3288,Fries,Fast Food,367.69
+3290,3289,Manchurian,Chinese,58.4
+3291,3290,Paneer Butter Masala,North Indian,73.93
+3292,3291,Dal Makhani,North Indian,340.56
+3293,3292,Manchurian,Chinese,274.43
+3294,3293,Dal Makhani,North Indian,277.31
+3295,3294,Chole Bhature,North Indian,171.09
+3296,3295,Ice Cream,Desserts,188.24
+3297,3296,Idli Sambar,South Indian,150.03
+3298,3297,Fries,Fast Food,100.49
+3299,3298,Burger,Fast Food,488.26
+3300,3299,Chole Bhature,North Indian,255.32
+3301,3300,Ice Cream,Desserts,246.8
+3302,3301,Pizza,Fast Food,161.37
+3303,3302,Idli Sambar,South Indian,385.13
+3304,3303,Manchurian,Chinese,178.5
+3305,3304,Dal Makhani,North Indian,135.2
+3306,3305,Vada,South Indian,143.37
+3307,3306,Manchurian,Chinese,299.87
+3308,3307,Chole Bhature,North Indian,447.11
+3309,3308,Fries,Fast Food,475.01
+3310,3309,Ice Cream,Desserts,272.52
+3311,3310,Spring Rolls,Chinese,344.66
+3312,3311,Ice Cream,Desserts,296.84
+3313,3312,Fries,Fast Food,367.62
+3314,3313,Pizza,Fast Food,295.81
+3315,3314,Dal Makhani,North Indian,331.89
+3316,3315,Manchurian,Chinese,312.71
+3317,3316,Ice Cream,Desserts,436.77
+3318,3317,Vada,South Indian,272.03
+3319,3318,Dal Makhani,North Indian,284.06
+3320,3319,Burger,Fast Food,429.46
+3321,3320,Idli Sambar,South Indian,141.33
+3322,3321,Vada,South Indian,271.61
+3323,3322,Burger,Fast Food,306.4
+3324,3323,Chole Bhature,North Indian,181.27
+3325,3324,Fries,Fast Food,471.25
+3326,3325,Vada,South Indian,69.21
+3327,3326,Idli Sambar,South Indian,92.49
+3328,3327,Spring Rolls,Chinese,217.68
+3329,3328,Manchurian,Chinese,146.04
+3330,3329,Fries,Fast Food,374.23
+3331,3330,Ice Cream,Desserts,88.41
+3332,3331,Gulab Jamun,Desserts,144.62
+3333,3332,Manchurian,Chinese,356.87
+3334,3333,Ice Cream,Desserts,54.63
+3335,3334,Spring Rolls,Chinese,108.33
+3336,3335,Dosa,South Indian,334.68
+3337,3336,Dosa,South Indian,175.29
+3338,3337,Ice Cream,Desserts,251.55
+3339,3338,Pizza,Fast Food,310.66
+3340,3339,Dal Makhani,North Indian,91.82
+3341,3340,Ice Cream,Desserts,233.6
+3342,3341,Idli Sambar,South Indian,132.37
+3343,3342,Dosa,South Indian,134.8
+3344,3343,Hakka Noodles,Chinese,75.81
+3345,3344,Pizza,Fast Food,437.76
+3346,3345,Hakka Noodles,Chinese,244.73
+3347,3346,Spring Rolls,Chinese,455.95
+3348,3347,Manchurian,Chinese,133.15
+3349,3348,Idli Sambar,South Indian,83.23
+3350,3349,Vada,South Indian,186.18
+3351,3350,Fries,Fast Food,126.78
+3352,3351,Spring Rolls,Chinese,169.93
+3353,3352,Chole Bhature,North Indian,141.12
+3354,3353,Dal Makhani,North Indian,136.45
+3355,3354,Gulab Jamun,Desserts,373.69
+3356,3355,Fries,Fast Food,239.46
+3357,3356,Paneer Butter Masala,North Indian,370.16
+3358,3357,Chole Bhature,North Indian,338.07
+3359,3358,Hakka Noodles,Chinese,67.81
+3360,3359,Chole Bhature,North Indian,431.4
+3361,3360,Gulab Jamun,Desserts,441.42
+3362,3361,Chole Bhature,North Indian,261.49
+3363,3362,Vada,South Indian,347.71
+3364,3363,Rasgulla,Desserts,292.39
+3365,3364,Chole Bhature,North Indian,392.43
+3366,3365,Pizza,Fast Food,434.16
+3367,3366,Idli Sambar,South Indian,460.24
+3368,3367,Hakka Noodles,Chinese,339.91
+3369,3368,Pizza,Fast Food,297.18
+3370,3369,Pizza,Fast Food,132.43
+3371,3370,Burger,Fast Food,241.54
+3372,3371,Manchurian,Chinese,455.49
+3373,3372,Dal Makhani,North Indian,205.95
+3374,3373,Rasgulla,Desserts,208.69
+3375,3374,Spring Rolls,Chinese,391.74
+3376,3375,Manchurian,Chinese,448.82
+3377,3376,Chole Bhature,North Indian,391.03
+3378,3377,Idli Sambar,South Indian,96.08
+3379,3378,Gulab Jamun,Desserts,134.25
+3380,3379,Rasgulla,Desserts,340.03
+3381,3380,Paneer Butter Masala,North Indian,233.49
+3382,3381,Idli Sambar,South Indian,365.36
+3383,3382,Pizza,Fast Food,67.51
+3384,3383,Fries,Fast Food,148.99
+3385,3384,Spring Rolls,Chinese,170.72
+3386,3385,Dal Makhani,North Indian,93.35
+3387,3386,Chole Bhature,North Indian,75.39
+3388,3387,Gulab Jamun,Desserts,152.37
+3389,3388,Rasgulla,Desserts,412.25
+3390,3389,Rasgulla,Desserts,296.17
+3391,3390,Hakka Noodles,Chinese,303.74
+3392,3391,Hakka Noodles,Chinese,428.25
+3393,3392,Ice Cream,Desserts,129.33
+3394,3393,Dal Makhani,North Indian,57.54
+3395,3394,Gulab Jamun,Desserts,251.97
+3396,3395,Manchurian,Chinese,433.12
+3397,3396,Chole Bhature,North Indian,448.82
+3398,3397,Idli Sambar,South Indian,65.32
+3399,3398,Dal Makhani,North Indian,136.34
+3400,3399,Gulab Jamun,Desserts,151.27
+3401,3400,Pizza,Fast Food,266.64
+3402,3401,Ice Cream,Desserts,346.43
+3403,3402,Spring Rolls,Chinese,157.07
+3404,3403,Idli Sambar,South Indian,337.52
+3405,3404,Burger,Fast Food,442.11
+3406,3405,Dosa,South Indian,424.47
+3407,3406,Paneer Butter Masala,North Indian,179.93
+3408,3407,Fries,Fast Food,130.21
+3409,3408,Dal Makhani,North Indian,109.03
+3410,3409,Gulab Jamun,Desserts,304.07
+3411,3410,Ice Cream,Desserts,231.23
+3412,3411,Manchurian,Chinese,185.27
+3413,3412,Vada,South Indian,452.59
+3414,3413,Dosa,South Indian,161.57
+3415,3414,Spring Rolls,Chinese,359.59
+3416,3415,Spring Rolls,Chinese,114.13
+3417,3416,Dosa,South Indian,207.3
+3418,3417,Dosa,South Indian,264.18
+3419,3418,Rasgulla,Desserts,499.15
+3420,3419,Rasgulla,Desserts,143.07
+3421,3420,Ice Cream,Desserts,333.56
+3422,3421,Dosa,South Indian,442.04
+3423,3422,Ice Cream,Desserts,166.65
+3424,3423,Spring Rolls,Chinese,493.04
+3425,3424,Paneer Butter Masala,North Indian,327.23
+3426,3425,Idli Sambar,South Indian,97.33
+3427,3426,Vada,South Indian,221.4
+3428,3427,Pizza,Fast Food,79.38
+3429,3428,Chole Bhature,North Indian,125.11
+3430,3429,Pizza,Fast Food,300.25
+3431,3430,Burger,Fast Food,339.54
+3432,3431,Burger,Fast Food,156.31
+3433,3432,Dal Makhani,North Indian,294.37
+3434,3433,Manchurian,Chinese,464.11
+3435,3434,Ice Cream,Desserts,131.6
+3436,3435,Vada,South Indian,116.24
+3437,3436,Manchurian,Chinese,326.35
+3438,3437,Gulab Jamun,Desserts,437.55
+3439,3438,Chole Bhature,North Indian,407.55
+3440,3439,Gulab Jamun,Desserts,224.75
+3441,3440,Hakka Noodles,Chinese,308.52
+3442,3441,Paneer Butter Masala,North Indian,350.86
+3443,3442,Vada,South Indian,358.4
+3444,3443,Burger,Fast Food,400.59
+3445,3444,Ice Cream,Desserts,162.17
+3446,3445,Dosa,South Indian,423.92
+3447,3446,Spring Rolls,Chinese,488.55
+3448,3447,Burger,Fast Food,91.01
+3449,3448,Vada,South Indian,409.82
+3450,3449,Vada,South Indian,237.53
+3451,3450,Paneer Butter Masala,North Indian,318.77
+3452,3451,Spring Rolls,Chinese,67.6
+3453,3452,Fries,Fast Food,466.52
+3454,3453,Gulab Jamun,Desserts,159.87
+3455,3454,Paneer Butter Masala,North Indian,71.2
+3456,3455,Vada,South Indian,311.4
+3457,3456,Chole Bhature,North Indian,195.75
+3458,3457,Fries,Fast Food,123.21
+3459,3458,Idli Sambar,South Indian,116.92
+3460,3459,Dosa,South Indian,124.26
+3461,3460,Idli Sambar,South Indian,261.0
+3462,3461,Fries,Fast Food,136.47
+3463,3462,Dal Makhani,North Indian,434.76
+3464,3463,Pizza,Fast Food,459.38
+3465,3464,Idli Sambar,South Indian,273.82
+3466,3465,Paneer Butter Masala,North Indian,77.65
+3467,3466,Dal Makhani,North Indian,435.95
+3468,3467,Dal Makhani,North Indian,221.08
+3469,3468,Rasgulla,Desserts,427.08
+3470,3469,Rasgulla,Desserts,238.31
+3471,3470,Ice Cream,Desserts,269.08
+3472,3471,Manchurian,Chinese,397.82
+3473,3472,Manchurian,Chinese,455.24
+3474,3473,Rasgulla,Desserts,209.85
+3475,3474,Dal Makhani,North Indian,282.54
+3476,3475,Chole Bhature,North Indian,318.73
+3477,3476,Gulab Jamun,Desserts,52.17
+3478,3477,Gulab Jamun,Desserts,105.56
+3479,3478,Dosa,South Indian,294.53
+3480,3479,Vada,South Indian,212.57
+3481,3480,Chole Bhature,North Indian,140.41
+3482,3481,Pizza,Fast Food,248.08
+3483,3482,Manchurian,Chinese,164.53
+3484,3483,Ice Cream,Desserts,194.64
+3485,3484,Vada,South Indian,399.56
+3486,3485,Idli Sambar,South Indian,173.29
+3487,3486,Ice Cream,Desserts,465.72
+3488,3487,Pizza,Fast Food,248.12
+3489,3488,Spring Rolls,Chinese,353.49
+3490,3489,Paneer Butter Masala,North Indian,59.49
+3491,3490,Chole Bhature,North Indian,187.93
+3492,3491,Vada,South Indian,482.22
+3493,3492,Dal Makhani,North Indian,221.41
+3494,3493,Chole Bhature,North Indian,290.1
+3495,3494,Rasgulla,Desserts,61.18
+3496,3495,Manchurian,Chinese,453.58
+3497,3496,Vada,South Indian,210.57
+3498,3497,Burger,Fast Food,245.74
+3499,3498,Dal Makhani,North Indian,154.94
+3500,3499,Hakka Noodles,Chinese,316.77
+3501,3500,Fries,Fast Food,382.41
+3502,3501,Idli Sambar,South Indian,143.57
+3503,3502,Hakka Noodles,Chinese,398.03
+3504,3503,Hakka Noodles,Chinese,385.12
+3505,3504,Gulab Jamun,Desserts,345.63
+3506,3505,Pizza,Fast Food,88.95
+3507,3506,Burger,Fast Food,67.71
+3508,3507,Fries,Fast Food,321.84
+3509,3508,Paneer Butter Masala,North Indian,391.85
+3510,3509,Dosa,South Indian,115.56
+3511,3510,Fries,Fast Food,209.32
+3512,3511,Burger,Fast Food,399.86
+3513,3512,Idli Sambar,South Indian,189.1
+3514,3513,Dal Makhani,North Indian,425.71
+3515,3514,Idli Sambar,South Indian,186.71
+3516,3515,Spring Rolls,Chinese,358.29
+3517,3516,Manchurian,Chinese,70.01
+3518,3517,Manchurian,Chinese,439.27
+3519,3518,Chole Bhature,North Indian,407.73
+3520,3519,Pizza,Fast Food,89.71
+3521,3520,Idli Sambar,South Indian,54.78
+3522,3521,Dal Makhani,North Indian,430.69
+3523,3522,Idli Sambar,South Indian,442.26
+3524,3523,Rasgulla,Desserts,170.61
+3525,3524,Vada,South Indian,256.6
+3526,3525,Burger,Fast Food,96.74
+3527,3526,Paneer Butter Masala,North Indian,207.55
+3528,3527,Vada,South Indian,231.74
+3529,3528,Pizza,Fast Food,81.98
+3530,3529,Rasgulla,Desserts,140.27
+3531,3530,Pizza,Fast Food,154.84
+3532,3531,Paneer Butter Masala,North Indian,368.53
+3533,3532,Burger,Fast Food,128.79
+3534,3533,Fries,Fast Food,309.86
+3535,3534,Ice Cream,Desserts,137.78
+3536,3535,Spring Rolls,Chinese,402.13
+3537,3536,Idli Sambar,South Indian,59.65
+3538,3537,Rasgulla,Desserts,149.28
+3539,3538,Hakka Noodles,Chinese,61.18
+3540,3539,Spring Rolls,Chinese,144.69
+3541,3540,Dal Makhani,North Indian,173.99
+3542,3541,Rasgulla,Desserts,140.34
+3543,3542,Spring Rolls,Chinese,382.53
+3544,3543,Burger,Fast Food,298.31
+3545,3544,Idli Sambar,South Indian,178.85
+3546,3545,Spring Rolls,Chinese,320.73
+3547,3546,Pizza,Fast Food,388.87
+3548,3547,Fries,Fast Food,71.54
+3549,3548,Fries,Fast Food,401.7
+3550,3549,Burger,Fast Food,494.73
+3551,3550,Burger,Fast Food,151.14
+3552,3551,Gulab Jamun,Desserts,495.92
+3553,3552,Hakka Noodles,Chinese,363.8
+3554,3553,Chole Bhature,North Indian,170.57
+3555,3554,Ice Cream,Desserts,90.45
+3556,3555,Vada,South Indian,179.14
+3557,3556,Paneer Butter Masala,North Indian,333.52
+3558,3557,Paneer Butter Masala,North Indian,281.39
+3559,3558,Hakka Noodles,Chinese,185.47
+3560,3559,Rasgulla,Desserts,325.74
+3561,3560,Gulab Jamun,Desserts,169.51
+3562,3561,Chole Bhature,North Indian,198.64
+3563,3562,Vada,South Indian,135.06
+3564,3563,Pizza,Fast Food,382.18
+3565,3564,Rasgulla,Desserts,417.97
+3566,3565,Rasgulla,Desserts,137.33
+3567,3566,Dal Makhani,North Indian,106.62
+3568,3567,Spring Rolls,Chinese,320.6
+3569,3568,Pizza,Fast Food,428.05
+3570,3569,Hakka Noodles,Chinese,203.97
+3571,3570,Paneer Butter Masala,North Indian,400.26
+3572,3571,Burger,Fast Food,140.54
+3573,3572,Vada,South Indian,211.53
+3574,3573,Burger,Fast Food,425.73
+3575,3574,Dosa,South Indian,110.86
+3576,3575,Chole Bhature,North Indian,403.39
+3577,3576,Burger,Fast Food,393.07
+3578,3577,Vada,South Indian,417.79
+3579,3578,Hakka Noodles,Chinese,304.97
+3580,3579,Dosa,South Indian,399.0
+3581,3580,Idli Sambar,South Indian,166.23
+3582,3581,Gulab Jamun,Desserts,169.75
+3583,3582,Manchurian,Chinese,102.26
+3584,3583,Pizza,Fast Food,448.5
+3585,3584,Manchurian,Chinese,400.1
+3586,3585,Fries,Fast Food,496.69
+3587,3586,Hakka Noodles,Chinese,237.48
+3588,3587,Vada,South Indian,148.68
+3589,3588,Dal Makhani,North Indian,59.38
+3590,3589,Gulab Jamun,Desserts,247.52
+3591,3590,Gulab Jamun,Desserts,160.81
+3592,3591,Paneer Butter Masala,North Indian,321.52
+3593,3592,Chole Bhature,North Indian,310.0
+3594,3593,Manchurian,Chinese,206.45
+3595,3594,Rasgulla,Desserts,52.42
+3596,3595,Burger,Fast Food,91.31
+3597,3596,Pizza,Fast Food,309.86
+3598,3597,Paneer Butter Masala,North Indian,298.06
+3599,3598,Rasgulla,Desserts,332.53
+3600,3599,Chole Bhature,North Indian,63.16
+3601,3600,Burger,Fast Food,79.8
+3602,3601,Spring Rolls,Chinese,436.24
+3603,3602,Chole Bhature,North Indian,480.2
+3604,3603,Dal Makhani,North Indian,267.09
+3605,3604,Gulab Jamun,Desserts,94.75
+3606,3605,Dal Makhani,North Indian,378.56
+3607,3606,Dal Makhani,North Indian,99.52
+3608,3607,Burger,Fast Food,363.2
+3609,3608,Hakka Noodles,Chinese,406.63
+3610,3609,Dal Makhani,North Indian,468.67
+3611,3610,Paneer Butter Masala,North Indian,357.46
+3612,3611,Burger,Fast Food,284.69
+3613,3612,Fries,Fast Food,108.83
+3614,3613,Rasgulla,Desserts,129.08
+3615,3614,Gulab Jamun,Desserts,470.77
+3616,3615,Idli Sambar,South Indian,131.74
+3617,3616,Paneer Butter Masala,North Indian,235.88
+3618,3617,Dosa,South Indian,251.73
+3619,3618,Manchurian,Chinese,473.05
+3620,3619,Pizza,Fast Food,139.25
+3621,3620,Burger,Fast Food,254.79
+3622,3621,Manchurian,Chinese,435.3
+3623,3622,Gulab Jamun,Desserts,83.54
+3624,3623,Ice Cream,Desserts,124.3
+3625,3624,Spring Rolls,Chinese,95.77
+3626,3625,Fries,Fast Food,133.79
+3627,3626,Chole Bhature,North Indian,247.59
+3628,3627,Pizza,Fast Food,161.74
+3629,3628,Paneer Butter Masala,North Indian,283.75
+3630,3629,Hakka Noodles,Chinese,142.77
+3631,3630,Fries,Fast Food,490.58
+3632,3631,Chole Bhature,North Indian,290.66
+3633,3632,Dal Makhani,North Indian,239.49
+3634,3633,Hakka Noodles,Chinese,396.44
+3635,3634,Dal Makhani,North Indian,496.37
+3636,3635,Pizza,Fast Food,194.47
+3637,3636,Dosa,South Indian,421.25
+3638,3637,Ice Cream,Desserts,448.47
+3639,3638,Gulab Jamun,Desserts,418.1
+3640,3639,Chole Bhature,North Indian,390.01
+3641,3640,Pizza,Fast Food,266.63
+3642,3641,Idli Sambar,South Indian,104.32
+3643,3642,Gulab Jamun,Desserts,190.29
+3644,3643,Vada,South Indian,376.0
+3645,3644,Paneer Butter Masala,North Indian,326.3
+3646,3645,Dal Makhani,North Indian,109.78
+3647,3646,Ice Cream,Desserts,67.67
+3648,3647,Ice Cream,Desserts,469.97
+3649,3648,Manchurian,Chinese,285.35
+3650,3649,Manchurian,Chinese,186.5
+3651,3650,Dosa,South Indian,56.57
+3652,3651,Chole Bhature,North Indian,252.94
+3653,3652,Ice Cream,Desserts,192.66
+3654,3653,Paneer Butter Masala,North Indian,363.02
+3655,3654,Rasgulla,Desserts,69.1
+3656,3655,Gulab Jamun,Desserts,433.98
+3657,3656,Hakka Noodles,Chinese,297.47
+3658,3657,Paneer Butter Masala,North Indian,138.03
+3659,3658,Ice Cream,Desserts,474.8
+3660,3659,Manchurian,Chinese,483.69
+3661,3660,Pizza,Fast Food,184.19
+3662,3661,Dal Makhani,North Indian,124.16
+3663,3662,Idli Sambar,South Indian,292.27
+3664,3663,Vada,South Indian,75.89
+3665,3664,Gulab Jamun,Desserts,485.58
+3666,3665,Rasgulla,Desserts,472.5
+3667,3666,Chole Bhature,North Indian,401.03
+3668,3667,Spring Rolls,Chinese,452.2
+3669,3668,Paneer Butter Masala,North Indian,407.1
+3670,3669,Pizza,Fast Food,328.71
+3671,3670,Gulab Jamun,Desserts,178.86
+3672,3671,Burger,Fast Food,163.87
+3673,3672,Rasgulla,Desserts,64.74
+3674,3673,Burger,Fast Food,63.43
+3675,3674,Idli Sambar,South Indian,210.15
+3676,3675,Fries,Fast Food,496.37
+3677,3676,Burger,Fast Food,416.07
+3678,3677,Vada,South Indian,267.55
+3679,3678,Rasgulla,Desserts,334.67
+3680,3679,Dal Makhani,North Indian,116.54
+3681,3680,Idli Sambar,South Indian,311.57
+3682,3681,Dosa,South Indian,294.97
+3683,3682,Fries,Fast Food,84.87
+3684,3683,Pizza,Fast Food,51.11
+3685,3684,Dal Makhani,North Indian,77.86
+3686,3685,Vada,South Indian,365.0
+3687,3686,Dal Makhani,North Indian,270.98
+3688,3687,Spring Rolls,Chinese,423.05
+3689,3688,Ice Cream,Desserts,181.69
+3690,3689,Paneer Butter Masala,North Indian,170.48
+3691,3690,Dal Makhani,North Indian,338.85
+3692,3691,Fries,Fast Food,297.93
+3693,3692,Idli Sambar,South Indian,89.69
+3694,3693,Rasgulla,Desserts,307.05
+3695,3694,Burger,Fast Food,153.29
+3696,3695,Idli Sambar,South Indian,290.75
+3697,3696,Rasgulla,Desserts,213.38
+3698,3697,Pizza,Fast Food,440.38
+3699,3698,Gulab Jamun,Desserts,183.8
+3700,3699,Paneer Butter Masala,North Indian,206.49
+3701,3700,Idli Sambar,South Indian,479.53
+3702,3701,Dosa,South Indian,338.85
+3703,3702,Spring Rolls,Chinese,182.77
+3704,3703,Chole Bhature,North Indian,476.3
+3705,3704,Rasgulla,Desserts,333.21
+3706,3705,Hakka Noodles,Chinese,441.8
+3707,3706,Spring Rolls,Chinese,297.77
+3708,3707,Dal Makhani,North Indian,410.87
+3709,3708,Burger,Fast Food,441.71
+3710,3709,Ice Cream,Desserts,106.09
+3711,3710,Ice Cream,Desserts,238.78
+3712,3711,Gulab Jamun,Desserts,201.84
+3713,3712,Rasgulla,Desserts,303.96
+3714,3713,Fries,Fast Food,87.91
+3715,3714,Idli Sambar,South Indian,396.53
+3716,3715,Idli Sambar,South Indian,195.7
+3717,3716,Fries,Fast Food,54.0
+3718,3717,Pizza,Fast Food,52.83
+3719,3718,Ice Cream,Desserts,488.78
+3720,3719,Burger,Fast Food,243.37
+3721,3720,Burger,Fast Food,136.71
+3722,3721,Dosa,South Indian,128.95
+3723,3722,Manchurian,Chinese,448.46
+3724,3723,Spring Rolls,Chinese,101.09
+3725,3724,Chole Bhature,North Indian,145.87
+3726,3725,Hakka Noodles,Chinese,268.56
+3727,3726,Spring Rolls,Chinese,188.03
+3728,3727,Ice Cream,Desserts,218.14
+3729,3728,Dal Makhani,North Indian,387.42
+3730,3729,Fries,Fast Food,468.98
+3731,3730,Chole Bhature,North Indian,381.73
+3732,3731,Ice Cream,Desserts,433.12
+3733,3732,Pizza,Fast Food,492.5
+3734,3733,Vada,South Indian,410.6
+3735,3734,Pizza,Fast Food,202.27
+3736,3735,Paneer Butter Masala,North Indian,353.42
+3737,3736,Pizza,Fast Food,398.15
+3738,3737,Manchurian,Chinese,415.07
+3739,3738,Idli Sambar,South Indian,413.2
+3740,3739,Vada,South Indian,195.72
+3741,3740,Idli Sambar,South Indian,499.83
+3742,3741,Rasgulla,Desserts,191.62
+3743,3742,Pizza,Fast Food,443.73
+3744,3743,Spring Rolls,Chinese,392.84
+3745,3744,Dal Makhani,North Indian,441.59
+3746,3745,Gulab Jamun,Desserts,123.65
+3747,3746,Gulab Jamun,Desserts,308.16
+3748,3747,Paneer Butter Masala,North Indian,384.54
+3749,3748,Paneer Butter Masala,North Indian,394.92
+3750,3749,Pizza,Fast Food,455.04
+3751,3750,Gulab Jamun,Desserts,444.76
+3752,3751,Manchurian,Chinese,108.35
+3753,3752,Vada,South Indian,172.61
+3754,3753,Dal Makhani,North Indian,143.1
+3755,3754,Gulab Jamun,Desserts,354.33
+3756,3755,Chole Bhature,North Indian,432.32
+3757,3756,Fries,Fast Food,363.6
+3758,3757,Rasgulla,Desserts,446.26
+3759,3758,Rasgulla,Desserts,189.3
+3760,3759,Pizza,Fast Food,99.82
+3761,3760,Hakka Noodles,Chinese,130.55
+3762,3761,Paneer Butter Masala,North Indian,272.92
+3763,3762,Vada,South Indian,430.17
+3764,3763,Fries,Fast Food,329.76
+3765,3764,Fries,Fast Food,266.42
+3766,3765,Vada,South Indian,145.94
+3767,3766,Burger,Fast Food,202.48
+3768,3767,Ice Cream,Desserts,382.35
+3769,3768,Idli Sambar,South Indian,496.67
+3770,3769,Chole Bhature,North Indian,291.14
+3771,3770,Manchurian,Chinese,227.79
+3772,3771,Idli Sambar,South Indian,93.12
+3773,3772,Rasgulla,Desserts,284.18
+3774,3773,Gulab Jamun,Desserts,352.04
+3775,3774,Rasgulla,Desserts,179.64
+3776,3775,Fries,Fast Food,348.83
+3777,3776,Gulab Jamun,Desserts,247.98
+3778,3777,Gulab Jamun,Desserts,498.26
+3779,3778,Fries,Fast Food,436.29
+3780,3779,Manchurian,Chinese,120.22
+3781,3780,Dal Makhani,North Indian,240.71
+3782,3781,Fries,Fast Food,295.31
+3783,3782,Gulab Jamun,Desserts,247.7
+3784,3783,Dal Makhani,North Indian,75.33
+3785,3784,Rasgulla,Desserts,107.58
+3786,3785,Dal Makhani,North Indian,365.1
+3787,3786,Dal Makhani,North Indian,208.13
+3788,3787,Ice Cream,Desserts,82.33
+3789,3788,Chole Bhature,North Indian,475.68
+3790,3789,Spring Rolls,Chinese,89.05
+3791,3790,Dosa,South Indian,422.5
+3792,3791,Spring Rolls,Chinese,450.3
+3793,3792,Paneer Butter Masala,North Indian,111.59
+3794,3793,Dal Makhani,North Indian,333.12
+3795,3794,Gulab Jamun,Desserts,308.0
+3796,3795,Paneer Butter Masala,North Indian,83.63
+3797,3796,Ice Cream,Desserts,394.03
+3798,3797,Fries,Fast Food,262.95
+3799,3798,Idli Sambar,South Indian,324.5
+3800,3799,Chole Bhature,North Indian,412.4
+3801,3800,Vada,South Indian,219.64
+3802,3801,Hakka Noodles,Chinese,492.18
+3803,3802,Gulab Jamun,Desserts,137.38
+3804,3803,Hakka Noodles,Chinese,70.38
+3805,3804,Manchurian,Chinese,109.18
+3806,3805,Hakka Noodles,Chinese,482.64
+3807,3806,Dosa,South Indian,319.82
+3808,3807,Gulab Jamun,Desserts,147.55
+3809,3808,Dosa,South Indian,235.94
+3810,3809,Hakka Noodles,Chinese,119.41
+3811,3810,Dal Makhani,North Indian,119.02
+3812,3811,Ice Cream,Desserts,331.74
+3813,3812,Gulab Jamun,Desserts,194.94
+3814,3813,Fries,Fast Food,96.62
+3815,3814,Paneer Butter Masala,North Indian,414.42
+3816,3815,Paneer Butter Masala,North Indian,479.73
+3817,3816,Spring Rolls,Chinese,189.72
+3818,3817,Dal Makhani,North Indian,324.09
+3819,3818,Paneer Butter Masala,North Indian,216.95
+3820,3819,Idli Sambar,South Indian,166.11
+3821,3820,Rasgulla,Desserts,468.48
+3822,3821,Manchurian,Chinese,405.67
+3823,3822,Ice Cream,Desserts,222.23
+3824,3823,Chole Bhature,North Indian,50.19
+3825,3824,Burger,Fast Food,327.37
+3826,3825,Dal Makhani,North Indian,429.88
+3827,3826,Dosa,South Indian,460.01
+3828,3827,Rasgulla,Desserts,434.1
+3829,3828,Manchurian,Chinese,303.22
+3830,3829,Chole Bhature,North Indian,385.56
+3831,3830,Dosa,South Indian,303.31
+3832,3831,Dal Makhani,North Indian,440.49
+3833,3832,Manchurian,Chinese,493.89
+3834,3833,Dosa,South Indian,484.96
+3835,3834,Dal Makhani,North Indian,444.27
+3836,3835,Hakka Noodles,Chinese,393.27
+3837,3836,Vada,South Indian,131.81
+3838,3837,Ice Cream,Desserts,296.5
+3839,3838,Pizza,Fast Food,223.04
+3840,3839,Chole Bhature,North Indian,414.13
+3841,3840,Vada,South Indian,151.1
+3842,3841,Chole Bhature,North Indian,255.27
+3843,3842,Vada,South Indian,293.14
+3844,3843,Fries,Fast Food,320.96
+3845,3844,Ice Cream,Desserts,435.61
+3846,3845,Paneer Butter Masala,North Indian,186.5
+3847,3846,Dosa,South Indian,438.83
+3848,3847,Paneer Butter Masala,North Indian,64.25
+3849,3848,Spring Rolls,Chinese,345.98
+3850,3849,Fries,Fast Food,124.98
+3851,3850,Paneer Butter Masala,North Indian,240.76
+3852,3851,Manchurian,Chinese,276.0
+3853,3852,Burger,Fast Food,149.7
+3854,3853,Idli Sambar,South Indian,203.96
+3855,3854,Manchurian,Chinese,404.96
+3856,3855,Hakka Noodles,Chinese,290.1
+3857,3856,Vada,South Indian,140.56
+3858,3857,Manchurian,Chinese,128.01
+3859,3858,Idli Sambar,South Indian,455.64
+3860,3859,Rasgulla,Desserts,390.99
+3861,3860,Vada,South Indian,327.26
+3862,3861,Manchurian,Chinese,215.55
+3863,3862,Burger,Fast Food,242.74
+3864,3863,Vada,South Indian,177.69
+3865,3864,Vada,South Indian,206.88
+3866,3865,Fries,Fast Food,357.84
+3867,3866,Vada,South Indian,65.75
+3868,3867,Hakka Noodles,Chinese,280.75
+3869,3868,Pizza,Fast Food,247.21
+3870,3869,Paneer Butter Masala,North Indian,229.99
+3871,3870,Paneer Butter Masala,North Indian,331.39
+3872,3871,Gulab Jamun,Desserts,474.27
+3873,3872,Gulab Jamun,Desserts,416.16
+3874,3873,Gulab Jamun,Desserts,328.71
+3875,3874,Idli Sambar,South Indian,147.72
+3876,3875,Gulab Jamun,Desserts,411.33
+3877,3876,Dosa,South Indian,424.39
+3878,3877,Gulab Jamun,Desserts,143.47
+3879,3878,Ice Cream,Desserts,416.09
+3880,3879,Idli Sambar,South Indian,125.86
+3881,3880,Ice Cream,Desserts,110.92
+3882,3881,Pizza,Fast Food,499.39
+3883,3882,Manchurian,Chinese,171.06
+3884,3883,Idli Sambar,South Indian,390.28
+3885,3884,Manchurian,Chinese,138.86
+3886,3885,Chole Bhature,North Indian,408.74
+3887,3886,Fries,Fast Food,473.38
+3888,3887,Dal Makhani,North Indian,355.1
+3889,3888,Rasgulla,Desserts,171.97
+3890,3889,Rasgulla,Desserts,64.11
+3891,3890,Gulab Jamun,Desserts,145.72
+3892,3891,Spring Rolls,Chinese,149.14
+3893,3892,Manchurian,Chinese,178.84
+3894,3893,Spring Rolls,Chinese,196.43
+3895,3894,Fries,Fast Food,434.4
+3896,3895,Chole Bhature,North Indian,415.94
+3897,3896,Chole Bhature,North Indian,384.41
+3898,3897,Spring Rolls,Chinese,270.0
+3899,3898,Fries,Fast Food,120.7
+3900,3899,Vada,South Indian,346.98
+3901,3900,Chole Bhature,North Indian,478.54
+3902,3901,Dosa,South Indian,410.44
+3903,3902,Manchurian,Chinese,289.26
+3904,3903,Dosa,South Indian,292.05
+3905,3904,Spring Rolls,Chinese,414.28
+3906,3905,Gulab Jamun,Desserts,397.04
+3907,3906,Rasgulla,Desserts,160.16
+3908,3907,Manchurian,Chinese,441.65
+3909,3908,Manchurian,Chinese,169.63
+3910,3909,Pizza,Fast Food,295.13
+3911,3910,Fries,Fast Food,151.53
+3912,3911,Dal Makhani,North Indian,241.32
+3913,3912,Fries,Fast Food,108.92
+3914,3913,Burger,Fast Food,305.97
+3915,3914,Burger,Fast Food,406.28
+3916,3915,Fries,Fast Food,332.09
+3917,3916,Burger,Fast Food,76.88
+3918,3917,Paneer Butter Masala,North Indian,303.92
+3919,3918,Dal Makhani,North Indian,366.01
+3920,3919,Spring Rolls,Chinese,343.6
+3921,3920,Spring Rolls,Chinese,367.41
+3922,3921,Ice Cream,Desserts,487.36
+3923,3922,Hakka Noodles,Chinese,161.63
+3924,3923,Chole Bhature,North Indian,452.52
+3925,3924,Idli Sambar,South Indian,98.95
+3926,3925,Manchurian,Chinese,450.3
+3927,3926,Paneer Butter Masala,North Indian,141.28
+3928,3927,Fries,Fast Food,185.09
+3929,3928,Pizza,Fast Food,146.0
+3930,3929,Spring Rolls,Chinese,431.59
+3931,3930,Spring Rolls,Chinese,152.45
+3932,3931,Pizza,Fast Food,433.8
+3933,3932,Manchurian,Chinese,69.99
+3934,3933,Idli Sambar,South Indian,474.91
+3935,3934,Spring Rolls,Chinese,138.95
+3936,3935,Spring Rolls,Chinese,375.96
+3937,3936,Gulab Jamun,Desserts,487.71
+3938,3937,Vada,South Indian,264.03
+3939,3938,Fries,Fast Food,331.12
+3940,3939,Paneer Butter Masala,North Indian,146.97
+3941,3940,Ice Cream,Desserts,462.4
+3942,3941,Chole Bhature,North Indian,142.3
+3943,3942,Dal Makhani,North Indian,452.57
+3944,3943,Vada,South Indian,365.68
+3945,3944,Chole Bhature,North Indian,235.26
+3946,3945,Rasgulla,Desserts,153.69
+3947,3946,Ice Cream,Desserts,308.57
+3948,3947,Idli Sambar,South Indian,478.67
+3949,3948,Idli Sambar,South Indian,268.01
+3950,3949,Hakka Noodles,Chinese,272.41
+3951,3950,Vada,South Indian,250.52
+3952,3951,Idli Sambar,South Indian,432.61
+3953,3952,Dosa,South Indian,183.46
+3954,3953,Fries,Fast Food,374.09
+3955,3954,Fries,Fast Food,211.38
+3956,3955,Manchurian,Chinese,90.14
+3957,3956,Ice Cream,Desserts,438.35
+3958,3957,Burger,Fast Food,424.76
+3959,3958,Idli Sambar,South Indian,213.42
+3960,3959,Spring Rolls,Chinese,101.21
+3961,3960,Vada,South Indian,146.12
+3962,3961,Dosa,South Indian,295.22
+3963,3962,Dosa,South Indian,399.59
+3964,3963,Burger,Fast Food,194.82
+3965,3964,Gulab Jamun,Desserts,92.23
+3966,3965,Dal Makhani,North Indian,382.76
+3967,3966,Gulab Jamun,Desserts,315.82
+3968,3967,Dosa,South Indian,260.03
+3969,3968,Pizza,Fast Food,467.41
+3970,3969,Gulab Jamun,Desserts,394.8
+3971,3970,Burger,Fast Food,412.08
+3972,3971,Manchurian,Chinese,465.21
+3973,3972,Chole Bhature,North Indian,413.58
+3974,3973,Rasgulla,Desserts,213.58
+3975,3974,Gulab Jamun,Desserts,293.85
+3976,3975,Spring Rolls,Chinese,476.27
+3977,3976,Rasgulla,Desserts,472.73
+3978,3977,Hakka Noodles,Chinese,375.84
+3979,3978,Rasgulla,Desserts,317.71
+3980,3979,Fries,Fast Food,154.81
+3981,3980,Idli Sambar,South Indian,413.02
+3982,3981,Paneer Butter Masala,North Indian,144.82
+3983,3982,Fries,Fast Food,391.8
+3984,3983,Pizza,Fast Food,146.42
+3985,3984,Rasgulla,Desserts,317.4
+3986,3985,Gulab Jamun,Desserts,296.69
+3987,3986,Burger,Fast Food,225.64
+3988,3987,Manchurian,Chinese,155.35
+3989,3988,Spring Rolls,Chinese,217.32
+3990,3989,Fries,Fast Food,56.51
+3991,3990,Hakka Noodles,Chinese,152.03
+3992,3991,Dosa,South Indian,393.05
+3993,3992,Idli Sambar,South Indian,374.21
+3994,3993,Burger,Fast Food,73.33
+3995,3994,Pizza,Fast Food,268.49
+3996,3995,Chole Bhature,North Indian,114.9
+3997,3996,Dal Makhani,North Indian,353.52
+3998,3997,Paneer Butter Masala,North Indian,467.54
+3999,3998,Hakka Noodles,Chinese,456.25
+4000,3999,Fries,Fast Food,306.59
+4001,4000,Dosa,South Indian,263.3
+4002,4001,Hakka Noodles,Chinese,126.5
+4003,4002,Rasgulla,Desserts,401.94
+4004,4003,Ice Cream,Desserts,355.73
+4005,4004,Spring Rolls,Chinese,386.23
+4006,4005,Rasgulla,Desserts,323.88
+4007,4006,Gulab Jamun,Desserts,429.66
+4008,4007,Idli Sambar,South Indian,212.11
+4009,4008,Chole Bhature,North Indian,188.11
+4010,4009,Idli Sambar,South Indian,69.72
+4011,4010,Paneer Butter Masala,North Indian,439.31
+4012,4011,Rasgulla,Desserts,340.18
+4013,4012,Dosa,South Indian,425.97
+4014,4013,Idli Sambar,South Indian,483.51
+4015,4014,Paneer Butter Masala,North Indian,303.61
+4016,4015,Chole Bhature,North Indian,256.12
+4017,4016,Vada,South Indian,366.35
+4018,4017,Vada,South Indian,352.59
+4019,4018,Ice Cream,Desserts,189.02
+4020,4019,Rasgulla,Desserts,225.81
+4021,4020,Manchurian,Chinese,82.16
+4022,4021,Dosa,South Indian,99.23
+4023,4022,Dal Makhani,North Indian,111.45
+4024,4023,Pizza,Fast Food,141.73
+4025,4024,Gulab Jamun,Desserts,286.82
+4026,4025,Burger,Fast Food,152.88
+4027,4026,Dosa,South Indian,340.39
+4028,4027,Idli Sambar,South Indian,189.55
+4029,4028,Vada,South Indian,115.98
+4030,4029,Chole Bhature,North Indian,364.82
+4031,4030,Pizza,Fast Food,218.98
+4032,4031,Chole Bhature,North Indian,397.36
+4033,4032,Chole Bhature,North Indian,343.5
+4034,4033,Pizza,Fast Food,58.82
+4035,4034,Chole Bhature,North Indian,404.91
+4036,4035,Idli Sambar,South Indian,171.02
+4037,4036,Fries,Fast Food,185.73
+4038,4037,Pizza,Fast Food,168.43
+4039,4038,Fries,Fast Food,392.7
+4040,4039,Gulab Jamun,Desserts,301.27
+4041,4040,Dosa,South Indian,476.73
+4042,4041,Vada,South Indian,140.02
+4043,4042,Burger,Fast Food,490.47
+4044,4043,Gulab Jamun,Desserts,283.33
+4045,4044,Manchurian,Chinese,386.28
+4046,4045,Dosa,South Indian,255.0
+4047,4046,Fries,Fast Food,215.71
+4048,4047,Spring Rolls,Chinese,300.49
+4049,4048,Pizza,Fast Food,399.09
+4050,4049,Chole Bhature,North Indian,355.79
+4051,4050,Paneer Butter Masala,North Indian,471.86
+4052,4051,Vada,South Indian,92.91
+4053,4052,Dal Makhani,North Indian,151.94
+4054,4053,Hakka Noodles,Chinese,88.15
+4055,4054,Dosa,South Indian,68.73
+4056,4055,Burger,Fast Food,324.17
+4057,4056,Dal Makhani,North Indian,206.99
+4058,4057,Dal Makhani,North Indian,478.28
+4059,4058,Paneer Butter Masala,North Indian,85.78
+4060,4059,Rasgulla,Desserts,457.09
+4061,4060,Vada,South Indian,454.28
+4062,4061,Manchurian,Chinese,362.81
+4063,4062,Pizza,Fast Food,357.9
+4064,4063,Dosa,South Indian,453.41
+4065,4064,Spring Rolls,Chinese,225.15
+4066,4065,Dosa,South Indian,382.06
+4067,4066,Chole Bhature,North Indian,151.49
+4068,4067,Hakka Noodles,Chinese,130.4
+4069,4068,Dosa,South Indian,64.02
+4070,4069,Manchurian,Chinese,289.79
+4071,4070,Vada,South Indian,229.19
+4072,4071,Dal Makhani,North Indian,482.95
+4073,4072,Ice Cream,Desserts,290.69
+4074,4073,Fries,Fast Food,112.05
+4075,4074,Pizza,Fast Food,299.56
+4076,4075,Pizza,Fast Food,346.65
+4077,4076,Manchurian,Chinese,329.34
+4078,4077,Dal Makhani,North Indian,195.59
+4079,4078,Dosa,South Indian,493.09
+4080,4079,Dosa,South Indian,306.78
+4081,4080,Chole Bhature,North Indian,384.34
+4082,4081,Manchurian,Chinese,62.43
+4083,4082,Pizza,Fast Food,244.89
+4084,4083,Gulab Jamun,Desserts,444.24
+4085,4084,Ice Cream,Desserts,331.43
+4086,4085,Burger,Fast Food,395.68
+4087,4086,Pizza,Fast Food,423.02
+4088,4087,Paneer Butter Masala,North Indian,273.4
+4089,4088,Hakka Noodles,Chinese,211.28
+4090,4089,Gulab Jamun,Desserts,76.0
+4091,4090,Vada,South Indian,435.64
+4092,4091,Idli Sambar,South Indian,442.44
+4093,4092,Manchurian,Chinese,383.78
+4094,4093,Hakka Noodles,Chinese,199.96
+4095,4094,Rasgulla,Desserts,449.7
+4096,4095,Ice Cream,Desserts,203.04
+4097,4096,Manchurian,Chinese,425.62
+4098,4097,Dal Makhani,North Indian,328.87
+4099,4098,Fries,Fast Food,477.94
+4100,4099,Dosa,South Indian,341.24
+4101,4100,Paneer Butter Masala,North Indian,469.23
+4102,4101,Fries,Fast Food,209.47
+4103,4102,Fries,Fast Food,152.41
+4104,4103,Idli Sambar,South Indian,395.71
+4105,4104,Gulab Jamun,Desserts,433.88
+4106,4105,Chole Bhature,North Indian,184.06
+4107,4106,Ice Cream,Desserts,306.72
+4108,4107,Spring Rolls,Chinese,381.51
+4109,4108,Ice Cream,Desserts,76.32
+4110,4109,Burger,Fast Food,71.3
+4111,4110,Dal Makhani,North Indian,169.31
+4112,4111,Ice Cream,Desserts,52.87
+4113,4112,Vada,South Indian,54.19
+4114,4113,Fries,Fast Food,168.75
+4115,4114,Gulab Jamun,Desserts,311.69
+4116,4115,Hakka Noodles,Chinese,97.96
+4117,4116,Hakka Noodles,Chinese,398.38
+4118,4117,Gulab Jamun,Desserts,198.63
+4119,4118,Paneer Butter Masala,North Indian,455.3
+4120,4119,Ice Cream,Desserts,77.18
+4121,4120,Paneer Butter Masala,North Indian,267.76
+4122,4121,Dosa,South Indian,339.53
+4123,4122,Dosa,South Indian,69.28
+4124,4123,Vada,South Indian,197.42
+4125,4124,Dosa,South Indian,255.25
+4126,4125,Pizza,Fast Food,324.59
+4127,4126,Paneer Butter Masala,North Indian,221.63
+4128,4127,Dosa,South Indian,87.93
+4129,4128,Dal Makhani,North Indian,450.19
+4130,4129,Hakka Noodles,Chinese,155.67
+4131,4130,Spring Rolls,Chinese,233.79
+4132,4131,Chole Bhature,North Indian,413.28
+4133,4132,Vada,South Indian,127.64
+4134,4133,Idli Sambar,South Indian,232.79
+4135,4134,Rasgulla,Desserts,419.82
+4136,4135,Paneer Butter Masala,North Indian,314.56
+4137,4136,Vada,South Indian,476.32
+4138,4137,Burger,Fast Food,468.52
+4139,4138,Vada,South Indian,151.58
+4140,4139,Manchurian,Chinese,77.68
+4141,4140,Manchurian,Chinese,98.99
+4142,4141,Dal Makhani,North Indian,204.42
+4143,4142,Chole Bhature,North Indian,257.79
+4144,4143,Manchurian,Chinese,309.88
+4145,4144,Idli Sambar,South Indian,97.03
+4146,4145,Gulab Jamun,Desserts,266.45
+4147,4146,Hakka Noodles,Chinese,315.3
+4148,4147,Dal Makhani,North Indian,111.77
+4149,4148,Burger,Fast Food,311.44
+4150,4149,Hakka Noodles,Chinese,228.25
+4151,4150,Hakka Noodles,Chinese,220.41
+4152,4151,Vada,South Indian,454.03
+4153,4152,Fries,Fast Food,300.75
+4154,4153,Ice Cream,Desserts,453.53
+4155,4154,Rasgulla,Desserts,184.8
+4156,4155,Fries,Fast Food,60.95
+4157,4156,Vada,South Indian,66.06
+4158,4157,Burger,Fast Food,180.53
+4159,4158,Dal Makhani,North Indian,475.59
+4160,4159,Manchurian,Chinese,259.56
+4161,4160,Pizza,Fast Food,212.22
+4162,4161,Paneer Butter Masala,North Indian,212.2
+4163,4162,Hakka Noodles,Chinese,435.41
+4164,4163,Manchurian,Chinese,215.08
+4165,4164,Pizza,Fast Food,473.54
+4166,4165,Burger,Fast Food,277.71
+4167,4166,Vada,South Indian,163.69
+4168,4167,Idli Sambar,South Indian,337.22
+4169,4168,Gulab Jamun,Desserts,379.18
+4170,4169,Gulab Jamun,Desserts,118.92
+4171,4170,Gulab Jamun,Desserts,238.99
+4172,4171,Chole Bhature,North Indian,397.93
+4173,4172,Dosa,South Indian,346.76
+4174,4173,Burger,Fast Food,86.79
+4175,4174,Spring Rolls,Chinese,474.54
+4176,4175,Dosa,South Indian,115.65
+4177,4176,Idli Sambar,South Indian,333.58
+4178,4177,Chole Bhature,North Indian,373.4
+4179,4178,Dal Makhani,North Indian,203.47
+4180,4179,Burger,Fast Food,232.79
+4181,4180,Spring Rolls,Chinese,151.03
+4182,4181,Idli Sambar,South Indian,492.01
+4183,4182,Hakka Noodles,Chinese,455.38
+4184,4183,Dal Makhani,North Indian,105.88
+4185,4184,Pizza,Fast Food,173.73
+4186,4185,Dosa,South Indian,262.54
+4187,4186,Hakka Noodles,Chinese,92.79
+4188,4187,Manchurian,Chinese,147.72
+4189,4188,Idli Sambar,South Indian,60.84
+4190,4189,Dosa,South Indian,264.91
+4191,4190,Paneer Butter Masala,North Indian,435.11
+4192,4191,Dosa,South Indian,298.53
+4193,4192,Dosa,South Indian,299.16
+4194,4193,Vada,South Indian,438.88
+4195,4194,Burger,Fast Food,67.09
+4433,4432,Idli Sambar,South Indian,333.51
+4196,4195,Chole Bhature,North Indian,249.68
+4197,4196,Paneer Butter Masala,North Indian,495.02
+4198,4197,Fries,Fast Food,346.14
+4199,4198,Manchurian,Chinese,203.01
+4200,4199,Hakka Noodles,Chinese,64.83
+4201,4200,Burger,Fast Food,389.68
+4202,4201,Dosa,South Indian,309.6
+4203,4202,Chole Bhature,North Indian,453.58
+4204,4203,Idli Sambar,South Indian,289.33
+4205,4204,Chole Bhature,North Indian,319.3
+4206,4205,Hakka Noodles,Chinese,243.68
+4207,4206,Pizza,Fast Food,104.9
+4208,4207,Pizza,Fast Food,428.2
+4209,4208,Manchurian,Chinese,397.14
+4210,4209,Hakka Noodles,Chinese,196.29
+4211,4210,Dal Makhani,North Indian,211.73
+4212,4211,Pizza,Fast Food,153.03
+4213,4212,Hakka Noodles,Chinese,186.0
+4214,4213,Vada,South Indian,307.69
+4215,4214,Pizza,Fast Food,333.24
+4216,4215,Rasgulla,Desserts,149.19
+4217,4216,Idli Sambar,South Indian,209.03
+4218,4217,Chole Bhature,North Indian,155.15
+4219,4218,Chole Bhature,North Indian,69.7
+4220,4219,Chole Bhature,North Indian,103.95
+4221,4220,Manchurian,Chinese,122.07
+4222,4221,Burger,Fast Food,335.21
+4223,4222,Vada,South Indian,458.03
+4224,4223,Ice Cream,Desserts,175.05
+4225,4224,Spring Rolls,Chinese,220.43
+4226,4225,Dosa,South Indian,295.5
+4227,4226,Fries,Fast Food,347.15
+4228,4227,Chole Bhature,North Indian,389.26
+4229,4228,Fries,Fast Food,104.85
+4230,4229,Paneer Butter Masala,North Indian,127.51
+4231,4230,Dal Makhani,North Indian,257.6
+4232,4231,Dal Makhani,North Indian,480.67
+4233,4232,Paneer Butter Masala,North Indian,498.49
+4234,4233,Chole Bhature,North Indian,301.04
+4235,4234,Idli Sambar,South Indian,478.88
+4236,4235,Idli Sambar,South Indian,315.01
+4237,4236,Dal Makhani,North Indian,369.35
+4238,4237,Rasgulla,Desserts,178.03
+4239,4238,Hakka Noodles,Chinese,488.62
+4240,4239,Chole Bhature,North Indian,386.32
+4241,4240,Spring Rolls,Chinese,226.0
+4242,4241,Fries,Fast Food,328.66
+4243,4242,Gulab Jamun,Desserts,373.56
+4244,4243,Burger,Fast Food,104.52
+4245,4244,Dal Makhani,North Indian,70.92
+4246,4245,Fries,Fast Food,136.29
+4247,4246,Ice Cream,Desserts,346.4
+4248,4247,Chole Bhature,North Indian,226.74
+4249,4248,Chole Bhature,North Indian,429.29
+4250,4249,Idli Sambar,South Indian,202.82
+4251,4250,Spring Rolls,Chinese,484.74
+4252,4251,Fries,Fast Food,88.06
+4253,4252,Pizza,Fast Food,332.95
+4254,4253,Hakka Noodles,Chinese,94.48
+4255,4254,Burger,Fast Food,446.08
+4256,4255,Vada,South Indian,236.15
+4257,4256,Spring Rolls,Chinese,433.86
+4258,4257,Vada,South Indian,286.91
+4259,4258,Ice Cream,Desserts,311.98
+4260,4259,Pizza,Fast Food,324.51
+4261,4260,Chole Bhature,North Indian,210.5
+4262,4261,Gulab Jamun,Desserts,132.79
+4263,4262,Chole Bhature,North Indian,362.17
+4264,4263,Chole Bhature,North Indian,72.34
+4265,4264,Manchurian,Chinese,390.36
+4266,4265,Pizza,Fast Food,136.27
+4267,4266,Idli Sambar,South Indian,135.7
+4268,4267,Ice Cream,Desserts,471.42
+4269,4268,Dosa,South Indian,382.6
+4270,4269,Hakka Noodles,Chinese,435.47
+4271,4270,Manchurian,Chinese,476.61
+4272,4271,Vada,South Indian,428.1
+4273,4272,Manchurian,Chinese,303.66
+4274,4273,Gulab Jamun,Desserts,388.98
+4275,4274,Dal Makhani,North Indian,232.32
+4276,4275,Burger,Fast Food,212.5
+4277,4276,Hakka Noodles,Chinese,247.33
+4278,4277,Idli Sambar,South Indian,356.49
+4279,4278,Rasgulla,Desserts,207.11
+4280,4279,Idli Sambar,South Indian,443.5
+4281,4280,Hakka Noodles,Chinese,305.75
+4282,4281,Manchurian,Chinese,232.21
+4283,4282,Spring Rolls,Chinese,381.0
+4284,4283,Ice Cream,Desserts,99.29
+4285,4284,Burger,Fast Food,179.58
+4286,4285,Spring Rolls,Chinese,150.78
+4287,4286,Hakka Noodles,Chinese,222.01
+4288,4287,Fries,Fast Food,427.61
+4289,4288,Chole Bhature,North Indian,471.78
+4290,4289,Burger,Fast Food,179.93
+4291,4290,Vada,South Indian,477.31
+4292,4291,Ice Cream,Desserts,313.84
+4293,4292,Pizza,Fast Food,125.04
+4294,4293,Vada,South Indian,490.05
+4295,4294,Hakka Noodles,Chinese,52.41
+4296,4295,Hakka Noodles,Chinese,467.92
+4297,4296,Vada,South Indian,326.09
+4298,4297,Ice Cream,Desserts,264.58
+4299,4298,Fries,Fast Food,121.57
+4300,4299,Chole Bhature,North Indian,249.64
+4301,4300,Hakka Noodles,Chinese,428.3
+4302,4301,Idli Sambar,South Indian,391.76
+4303,4302,Paneer Butter Masala,North Indian,495.12
+4304,4303,Chole Bhature,North Indian,417.83
+4305,4304,Chole Bhature,North Indian,51.37
+4306,4305,Dal Makhani,North Indian,189.7
+4307,4306,Spring Rolls,Chinese,329.23
+4308,4307,Paneer Butter Masala,North Indian,76.82
+4309,4308,Rasgulla,Desserts,434.28
+4310,4309,Rasgulla,Desserts,75.19
+4311,4310,Pizza,Fast Food,265.57
+4312,4311,Dal Makhani,North Indian,484.41
+4313,4312,Ice Cream,Desserts,440.93
+4314,4313,Idli Sambar,South Indian,406.95
+4315,4314,Paneer Butter Masala,North Indian,398.97
+4316,4315,Gulab Jamun,Desserts,363.37
+4317,4316,Fries,Fast Food,378.92
+4318,4317,Chole Bhature,North Indian,192.46
+4319,4318,Dal Makhani,North Indian,481.32
+4320,4319,Burger,Fast Food,206.68
+4321,4320,Vada,South Indian,495.09
+4322,4321,Dosa,South Indian,371.6
+4323,4322,Idli Sambar,South Indian,300.34
+4324,4323,Hakka Noodles,Chinese,426.15
+4325,4324,Gulab Jamun,Desserts,310.9
+4326,4325,Chole Bhature,North Indian,362.4
+4327,4326,Hakka Noodles,Chinese,315.49
+4328,4327,Paneer Butter Masala,North Indian,106.87
+4329,4328,Fries,Fast Food,483.83
+4330,4329,Chole Bhature,North Indian,150.4
+4331,4330,Fries,Fast Food,218.55
+4332,4331,Dal Makhani,North Indian,447.2
+4333,4332,Hakka Noodles,Chinese,342.87
+4334,4333,Dosa,South Indian,140.15
+4335,4334,Chole Bhature,North Indian,76.34
+4336,4335,Paneer Butter Masala,North Indian,380.66
+4337,4336,Idli Sambar,South Indian,306.99
+4338,4337,Ice Cream,Desserts,216.41
+4339,4338,Ice Cream,Desserts,300.79
+4340,4339,Vada,South Indian,53.72
+4341,4340,Rasgulla,Desserts,386.17
+4342,4341,Vada,South Indian,163.28
+4343,4342,Burger,Fast Food,329.81
+4344,4343,Dal Makhani,North Indian,464.07
+4345,4344,Rasgulla,Desserts,418.54
+4346,4345,Chole Bhature,North Indian,396.31
+4347,4346,Dal Makhani,North Indian,369.15
+4348,4347,Dosa,South Indian,95.61
+4349,4348,Dosa,South Indian,226.27
+4350,4349,Spring Rolls,Chinese,372.49
+4351,4350,Dosa,South Indian,249.41
+4352,4351,Paneer Butter Masala,North Indian,296.47
+4353,4352,Idli Sambar,South Indian,215.28
+4354,4353,Spring Rolls,Chinese,213.1
+4355,4354,Dal Makhani,North Indian,126.85
+4356,4355,Burger,Fast Food,311.64
+4357,4356,Manchurian,Chinese,146.16
+4358,4357,Burger,Fast Food,123.07
+4359,4358,Fries,Fast Food,208.36
+4360,4359,Chole Bhature,North Indian,93.31
+4361,4360,Rasgulla,Desserts,441.85
+4362,4361,Hakka Noodles,Chinese,498.35
+4363,4362,Gulab Jamun,Desserts,330.52
+4364,4363,Dosa,South Indian,325.5
+4365,4364,Fries,Fast Food,101.89
+4366,4365,Vada,South Indian,436.73
+4367,4366,Gulab Jamun,Desserts,481.78
+4368,4367,Gulab Jamun,Desserts,396.94
+4369,4368,Manchurian,Chinese,323.02
+4370,4369,Idli Sambar,South Indian,253.95
+4371,4370,Dal Makhani,North Indian,158.66
+4372,4371,Paneer Butter Masala,North Indian,169.75
+4373,4372,Spring Rolls,Chinese,293.31
+4374,4373,Ice Cream,Desserts,101.32
+4375,4374,Paneer Butter Masala,North Indian,433.13
+4376,4375,Spring Rolls,Chinese,493.25
+4377,4376,Spring Rolls,Chinese,393.0
+4378,4377,Burger,Fast Food,454.13
+4379,4378,Gulab Jamun,Desserts,466.0
+4380,4379,Manchurian,Chinese,401.89
+4381,4380,Chole Bhature,North Indian,365.63
+4382,4381,Hakka Noodles,Chinese,348.87
+4383,4382,Spring Rolls,Chinese,303.72
+4384,4383,Dal Makhani,North Indian,395.25
+4385,4384,Idli Sambar,South Indian,326.17
+4386,4385,Spring Rolls,Chinese,288.27
+4387,4386,Hakka Noodles,Chinese,78.47
+4388,4387,Vada,South Indian,80.17
+4389,4388,Dal Makhani,North Indian,381.68
+4390,4389,Dosa,South Indian,187.08
+4391,4390,Gulab Jamun,Desserts,387.19
+4392,4391,Manchurian,Chinese,420.24
+4393,4392,Gulab Jamun,Desserts,391.18
+4394,4393,Fries,Fast Food,58.4
+4395,4394,Rasgulla,Desserts,440.41
+4396,4395,Hakka Noodles,Chinese,74.01
+4397,4396,Spring Rolls,Chinese,232.95
+4398,4397,Pizza,Fast Food,64.11
+4399,4398,Idli Sambar,South Indian,449.85
+4400,4399,Vada,South Indian,290.15
+4401,4400,Gulab Jamun,Desserts,377.48
+4402,4401,Spring Rolls,Chinese,489.21
+4403,4402,Chole Bhature,North Indian,372.92
+4404,4403,Dal Makhani,North Indian,288.68
+4405,4404,Pizza,Fast Food,345.37
+4406,4405,Idli Sambar,South Indian,234.53
+4407,4406,Hakka Noodles,Chinese,442.66
+4408,4407,Pizza,Fast Food,433.51
+4409,4408,Ice Cream,Desserts,183.88
+4410,4409,Hakka Noodles,Chinese,198.18
+4411,4410,Dal Makhani,North Indian,455.46
+4412,4411,Idli Sambar,South Indian,250.05
+4413,4412,Gulab Jamun,Desserts,331.31
+4414,4413,Hakka Noodles,Chinese,153.43
+4415,4414,Fries,Fast Food,345.12
+4416,4415,Burger,Fast Food,59.19
+4417,4416,Ice Cream,Desserts,379.13
+4418,4417,Idli Sambar,South Indian,372.24
+4419,4418,Paneer Butter Masala,North Indian,382.89
+4420,4419,Spring Rolls,Chinese,172.58
+4421,4420,Vada,South Indian,447.89
+4422,4421,Chole Bhature,North Indian,243.52
+4423,4422,Manchurian,Chinese,284.26
+4424,4423,Manchurian,Chinese,133.96
+4425,4424,Hakka Noodles,Chinese,376.94
+4426,4425,Manchurian,Chinese,99.96
+4427,4426,Idli Sambar,South Indian,283.01
+4428,4427,Hakka Noodles,Chinese,170.22
+4429,4428,Hakka Noodles,Chinese,396.96
+4430,4429,Chole Bhature,North Indian,280.9
+4431,4430,Chole Bhature,North Indian,421.6
+4432,4431,Paneer Butter Masala,North Indian,370.03
+4434,4433,Ice Cream,Desserts,398.76
+4435,4434,Rasgulla,Desserts,387.66
+4436,4435,Pizza,Fast Food,57.56
+4437,4436,Rasgulla,Desserts,379.03
+4438,4437,Pizza,Fast Food,395.75
+4439,4438,Dal Makhani,North Indian,148.19
+4440,4439,Burger,Fast Food,220.79
+4441,4440,Spring Rolls,Chinese,350.23
+4442,4441,Manchurian,Chinese,181.44
+4443,4442,Gulab Jamun,Desserts,439.78
+4444,4443,Burger,Fast Food,298.63
+4445,4444,Dosa,South Indian,56.68
+4446,4445,Fries,Fast Food,409.46
+4447,4446,Dosa,South Indian,356.75
+4448,4447,Pizza,Fast Food,89.54
+4449,4448,Paneer Butter Masala,North Indian,365.43
+4450,4449,Pizza,Fast Food,353.62
+4451,4450,Burger,Fast Food,400.97
+4452,4451,Vada,South Indian,275.47
+4453,4452,Burger,Fast Food,477.59
+4454,4453,Chole Bhature,North Indian,378.45
+4455,4454,Burger,Fast Food,345.64
+4456,4455,Gulab Jamun,Desserts,323.41
+4457,4456,Manchurian,Chinese,128.62
+4458,4457,Hakka Noodles,Chinese,283.56
+4459,4458,Dal Makhani,North Indian,495.74
+4460,4459,Dal Makhani,North Indian,452.25
+4461,4460,Dal Makhani,North Indian,418.7
+4462,4461,Manchurian,Chinese,71.97
+4463,4462,Idli Sambar,South Indian,213.82
+4464,4463,Dosa,South Indian,429.37
+4465,4464,Idli Sambar,South Indian,132.25
+4466,4465,Vada,South Indian,334.73
+4467,4466,Chole Bhature,North Indian,295.44
+4468,4467,Idli Sambar,South Indian,185.17
+4469,4468,Idli Sambar,South Indian,296.77
+4470,4469,Hakka Noodles,Chinese,240.86
+4471,4470,Vada,South Indian,434.46
+4472,4471,Pizza,Fast Food,476.76
+4473,4472,Hakka Noodles,Chinese,482.1
+4474,4473,Fries,Fast Food,187.38
+4475,4474,Pizza,Fast Food,171.97
+4476,4475,Dosa,South Indian,437.54
+4477,4476,Manchurian,Chinese,192.15
+4478,4477,Vada,South Indian,442.97
+4479,4478,Gulab Jamun,Desserts,316.37
+4480,4479,Spring Rolls,Chinese,256.77
+4481,4480,Dosa,South Indian,58.9
+4482,4481,Fries,Fast Food,160.85
+4483,4482,Spring Rolls,Chinese,289.77
+4484,4483,Burger,Fast Food,399.75
+4485,4484,Chole Bhature,North Indian,312.82
+4486,4485,Manchurian,Chinese,61.7
+4487,4486,Manchurian,Chinese,419.2
+4488,4487,Fries,Fast Food,499.69
+4489,4488,Burger,Fast Food,270.44
+4490,4489,Rasgulla,Desserts,82.77
+4491,4490,Spring Rolls,Chinese,424.35
+4492,4491,Rasgulla,Desserts,251.55
+4493,4492,Chole Bhature,North Indian,222.81
+4494,4493,Rasgulla,Desserts,317.14
+4495,4494,Pizza,Fast Food,455.26
+4496,4495,Idli Sambar,South Indian,185.9
+4497,4496,Spring Rolls,Chinese,292.82
+4498,4497,Pizza,Fast Food,493.53
+4499,4498,Dosa,South Indian,444.29
+4500,4499,Paneer Butter Masala,North Indian,251.61
+4501,4500,Vada,South Indian,375.17
+4502,4501,Gulab Jamun,Desserts,412.09
+4503,4502,Paneer Butter Masala,North Indian,200.54
+4504,4503,Dosa,South Indian,410.75
+4505,4504,Vada,South Indian,52.75
+4506,4505,Chole Bhature,North Indian,306.22
+4507,4506,Gulab Jamun,Desserts,297.88
+4508,4507,Dal Makhani,North Indian,255.49
+4509,4508,Chole Bhature,North Indian,379.02
+4510,4509,Hakka Noodles,Chinese,164.18
+4511,4510,Ice Cream,Desserts,302.87
+4512,4511,Dosa,South Indian,56.0
+4513,4512,Hakka Noodles,Chinese,435.38
+4514,4513,Manchurian,Chinese,123.93
+4515,4514,Idli Sambar,South Indian,116.59
+4516,4515,Manchurian,Chinese,407.19
+4517,4516,Ice Cream,Desserts,265.36
+4518,4517,Dal Makhani,North Indian,267.73
+4519,4518,Burger,Fast Food,135.64
+4520,4519,Ice Cream,Desserts,130.09
+4521,4520,Idli Sambar,South Indian,199.67
+4522,4521,Idli Sambar,South Indian,356.95
+4523,4522,Pizza,Fast Food,350.22
+4524,4523,Gulab Jamun,Desserts,424.3
+4525,4524,Vada,South Indian,450.24
+4526,4525,Spring Rolls,Chinese,125.58
+4527,4526,Dosa,South Indian,357.0
+4528,4527,Gulab Jamun,Desserts,340.84
+4529,4528,Chole Bhature,North Indian,257.5
+4530,4529,Pizza,Fast Food,480.32
+4531,4530,Spring Rolls,Chinese,216.71
+4532,4531,Hakka Noodles,Chinese,67.82
+4533,4532,Ice Cream,Desserts,451.02
+4534,4533,Rasgulla,Desserts,324.73
+4535,4534,Rasgulla,Desserts,420.41
+4536,4535,Spring Rolls,Chinese,267.95
+4537,4536,Hakka Noodles,Chinese,125.33
+4538,4537,Burger,Fast Food,305.06
+4539,4538,Burger,Fast Food,428.69
+4540,4539,Idli Sambar,South Indian,115.54
+4541,4540,Manchurian,Chinese,101.04
+4542,4541,Ice Cream,Desserts,194.75
+4543,4542,Dal Makhani,North Indian,118.01
+4544,4543,Paneer Butter Masala,North Indian,252.22
+4545,4544,Burger,Fast Food,72.43
+4546,4545,Chole Bhature,North Indian,100.22
+4547,4546,Pizza,Fast Food,380.77
+4548,4547,Chole Bhature,North Indian,361.0
+4549,4548,Manchurian,Chinese,247.3
+4550,4549,Manchurian,Chinese,343.71
+4551,4550,Paneer Butter Masala,North Indian,264.36
+4552,4551,Hakka Noodles,Chinese,119.58
+4553,4552,Idli Sambar,South Indian,427.11
+4554,4553,Rasgulla,Desserts,486.02
+4555,4554,Burger,Fast Food,418.86
+4556,4555,Pizza,Fast Food,360.31
+4557,4556,Fries,Fast Food,124.29
+4558,4557,Ice Cream,Desserts,74.3
+4559,4558,Gulab Jamun,Desserts,55.9
+4560,4559,Spring Rolls,Chinese,80.78
+4561,4560,Vada,South Indian,160.8
+4562,4561,Chole Bhature,North Indian,182.72
+4563,4562,Idli Sambar,South Indian,125.54
+4564,4563,Rasgulla,Desserts,382.2
+4565,4564,Paneer Butter Masala,North Indian,145.15
+4566,4565,Burger,Fast Food,417.45
+4567,4566,Fries,Fast Food,194.93
+4568,4567,Dosa,South Indian,127.91
+4569,4568,Burger,Fast Food,212.84
+4570,4569,Manchurian,Chinese,157.61
+4571,4570,Hakka Noodles,Chinese,162.24
+4572,4571,Manchurian,Chinese,101.82
+4573,4572,Dosa,South Indian,413.4
+4574,4573,Hakka Noodles,Chinese,461.67
+4575,4574,Manchurian,Chinese,190.51
+4576,4575,Dosa,South Indian,251.71
+4577,4576,Gulab Jamun,Desserts,158.99
+4578,4577,Dosa,South Indian,179.68
+4579,4578,Chole Bhature,North Indian,273.52
+4580,4579,Vada,South Indian,99.83
+4581,4580,Fries,Fast Food,111.49
+4582,4581,Hakka Noodles,Chinese,132.98
+4583,4582,Fries,Fast Food,85.1
+4584,4583,Hakka Noodles,Chinese,273.79
+4585,4584,Chole Bhature,North Indian,76.53
+4586,4585,Burger,Fast Food,446.24
+4587,4586,Gulab Jamun,Desserts,263.43
+4588,4587,Dal Makhani,North Indian,217.48
+4589,4588,Pizza,Fast Food,258.8
+4590,4589,Paneer Butter Masala,North Indian,377.42
+4591,4590,Fries,Fast Food,217.81
+4592,4591,Fries,Fast Food,260.86
+4593,4592,Rasgulla,Desserts,174.22
+4594,4593,Pizza,Fast Food,426.14
+4595,4594,Dosa,South Indian,391.5
+4596,4595,Chole Bhature,North Indian,468.49
+4597,4596,Vada,South Indian,425.28
+4598,4597,Spring Rolls,Chinese,54.27
+4599,4598,Gulab Jamun,Desserts,263.66
+4600,4599,Idli Sambar,South Indian,464.9
+4601,4600,Burger,Fast Food,476.93
+4602,4601,Manchurian,Chinese,59.55
+4603,4602,Gulab Jamun,Desserts,229.11
+4604,4603,Dal Makhani,North Indian,452.84
+4605,4604,Paneer Butter Masala,North Indian,66.28
+4606,4605,Fries,Fast Food,448.3
+4607,4606,Chole Bhature,North Indian,79.75
+4608,4607,Manchurian,Chinese,272.85
+4609,4608,Hakka Noodles,Chinese,418.8
+4610,4609,Chole Bhature,North Indian,325.06
+4611,4610,Spring Rolls,Chinese,489.07
+4612,4611,Ice Cream,Desserts,243.08
+4613,4612,Manchurian,Chinese,148.06
+4614,4613,Rasgulla,Desserts,87.55
+4615,4614,Rasgulla,Desserts,157.75
+4616,4615,Pizza,Fast Food,261.2
+4617,4616,Rasgulla,Desserts,360.19
+4618,4617,Pizza,Fast Food,77.46
+4619,4618,Manchurian,Chinese,331.56
+4620,4619,Fries,Fast Food,185.31
+4621,4620,Spring Rolls,Chinese,142.13
+4622,4621,Fries,Fast Food,355.92
+4623,4622,Dal Makhani,North Indian,209.16
+4624,4623,Hakka Noodles,Chinese,145.67
+4625,4624,Hakka Noodles,Chinese,495.83
+4626,4625,Vada,South Indian,247.92
+4627,4626,Paneer Butter Masala,North Indian,115.1
+4628,4627,Paneer Butter Masala,North Indian,477.16
+4629,4628,Chole Bhature,North Indian,105.41
+4630,4629,Spring Rolls,Chinese,210.11
+4631,4630,Paneer Butter Masala,North Indian,474.45
+4632,4631,Ice Cream,Desserts,63.76
+4633,4632,Hakka Noodles,Chinese,459.23
+4634,4633,Dal Makhani,North Indian,89.84
+4635,4634,Dosa,South Indian,487.72
+4636,4635,Manchurian,Chinese,475.42
+4637,4636,Pizza,Fast Food,363.61
+4638,4637,Hakka Noodles,Chinese,457.2
+4639,4638,Dosa,South Indian,492.15
+4640,4639,Hakka Noodles,Chinese,167.41
+4641,4640,Spring Rolls,Chinese,442.16
+4642,4641,Paneer Butter Masala,North Indian,136.57
+4643,4642,Paneer Butter Masala,North Indian,465.53
+4644,4643,Hakka Noodles,Chinese,434.76
+4645,4644,Rasgulla,Desserts,251.18
+4646,4645,Paneer Butter Masala,North Indian,171.46
+4647,4646,Spring Rolls,Chinese,443.26
+4648,4647,Burger,Fast Food,168.16
+4649,4648,Dosa,South Indian,270.66
+4650,4649,Dosa,South Indian,94.07
+4651,4650,Spring Rolls,Chinese,461.78
+4652,4651,Fries,Fast Food,304.67
+4653,4652,Fries,Fast Food,285.09
+4654,4653,Rasgulla,Desserts,208.77
+4655,4654,Paneer Butter Masala,North Indian,75.51
+4656,4655,Dal Makhani,North Indian,100.85
+4657,4656,Hakka Noodles,Chinese,171.01
+4658,4657,Gulab Jamun,Desserts,109.56
+4659,4658,Idli Sambar,South Indian,187.65
+4660,4659,Burger,Fast Food,299.82
+4661,4660,Dal Makhani,North Indian,316.67
+4662,4661,Pizza,Fast Food,239.58
+4663,4662,Fries,Fast Food,441.6
+4664,4663,Rasgulla,Desserts,486.38
+4665,4664,Spring Rolls,Chinese,164.01
+4666,4665,Pizza,Fast Food,308.7
+4667,4666,Chole Bhature,North Indian,187.49
+4668,4667,Ice Cream,Desserts,260.52
+4669,4668,Spring Rolls,Chinese,431.35
+4670,4669,Dal Makhani,North Indian,477.88
+4671,4670,Hakka Noodles,Chinese,190.03
+4672,4671,Hakka Noodles,Chinese,193.77
+4673,4672,Dosa,South Indian,128.37
+4674,4673,Rasgulla,Desserts,369.14
+4675,4674,Burger,Fast Food,77.95
+4676,4675,Burger,Fast Food,451.47
+4677,4676,Spring Rolls,Chinese,129.78
+4678,4677,Vada,South Indian,281.71
+4679,4678,Manchurian,Chinese,331.59
+4680,4679,Manchurian,Chinese,449.27
+4681,4680,Hakka Noodles,Chinese,220.63
+4682,4681,Ice Cream,Desserts,369.71
+4683,4682,Hakka Noodles,Chinese,379.64
+4684,4683,Burger,Fast Food,293.44
+4685,4684,Burger,Fast Food,84.17
+4686,4685,Rasgulla,Desserts,194.37
+4687,4686,Burger,Fast Food,423.19
+4688,4687,Ice Cream,Desserts,73.91
+4689,4688,Manchurian,Chinese,302.19
+4690,4689,Chole Bhature,North Indian,56.94
+4691,4690,Chole Bhature,North Indian,246.33
+4692,4691,Idli Sambar,South Indian,317.75
+4693,4692,Idli Sambar,South Indian,52.77
+4694,4693,Ice Cream,Desserts,391.16
+4695,4694,Pizza,Fast Food,394.83
+4696,4695,Idli Sambar,South Indian,190.75
+4697,4696,Manchurian,Chinese,167.84
+4698,4697,Pizza,Fast Food,422.08
+4699,4698,Hakka Noodles,Chinese,333.58
+4700,4699,Fries,Fast Food,287.29
+4701,4700,Fries,Fast Food,196.97
+4702,4701,Spring Rolls,Chinese,239.53
+4703,4702,Manchurian,Chinese,273.61
+4704,4703,Dal Makhani,North Indian,415.47
+4705,4704,Rasgulla,Desserts,322.48
+4706,4705,Spring Rolls,Chinese,51.81
+4707,4706,Vada,South Indian,295.19
+4708,4707,Gulab Jamun,Desserts,350.04
+4709,4708,Chole Bhature,North Indian,248.64
+4710,4709,Ice Cream,Desserts,308.18
+4711,4710,Rasgulla,Desserts,428.99
+4712,4711,Rasgulla,Desserts,292.49
+4713,4712,Manchurian,Chinese,398.1
+4714,4713,Pizza,Fast Food,227.13
+4715,4714,Dosa,South Indian,273.67
+4716,4715,Ice Cream,Desserts,398.59
+4717,4716,Manchurian,Chinese,287.06
+4718,4717,Spring Rolls,Chinese,169.93
+4719,4718,Manchurian,Chinese,58.14
+4720,4719,Ice Cream,Desserts,98.62
+4721,4720,Ice Cream,Desserts,221.27
+4722,4721,Pizza,Fast Food,345.73
+4723,4722,Ice Cream,Desserts,364.4
+4724,4723,Paneer Butter Masala,North Indian,466.27
+4725,4724,Idli Sambar,South Indian,234.38
+4726,4725,Idli Sambar,South Indian,479.74
+4727,4726,Vada,South Indian,85.96
+4728,4727,Manchurian,Chinese,55.15
+4729,4728,Chole Bhature,North Indian,62.4
+4730,4729,Pizza,Fast Food,117.65
+4731,4730,Gulab Jamun,Desserts,301.2
+4732,4731,Ice Cream,Desserts,135.65
+4733,4732,Burger,Fast Food,78.07
+4734,4733,Manchurian,Chinese,74.56
+4735,4734,Gulab Jamun,Desserts,339.67
+4736,4735,Pizza,Fast Food,271.01
+4737,4736,Spring Rolls,Chinese,367.18
+4738,4737,Vada,South Indian,240.29
+4739,4738,Idli Sambar,South Indian,400.06
+4740,4739,Rasgulla,Desserts,192.96
+4741,4740,Burger,Fast Food,459.26
+4742,4741,Spring Rolls,Chinese,188.13
+4743,4742,Idli Sambar,South Indian,364.32
+4744,4743,Idli Sambar,South Indian,228.91
+4745,4744,Vada,South Indian,397.48
+4746,4745,Dosa,South Indian,173.98
+4747,4746,Vada,South Indian,76.23
+4748,4747,Spring Rolls,Chinese,479.26
+4749,4748,Chole Bhature,North Indian,449.98
+4750,4749,Vada,South Indian,87.2
+4751,4750,Chole Bhature,North Indian,168.31
+4752,4751,Burger,Fast Food,407.9
+4753,4752,Dal Makhani,North Indian,216.21
+4754,4753,Chole Bhature,North Indian,201.16
+4755,4754,Burger,Fast Food,469.06
+4756,4755,Spring Rolls,Chinese,57.75
+4757,4756,Manchurian,Chinese,112.99
+4758,4757,Paneer Butter Masala,North Indian,243.81
+4759,4758,Rasgulla,Desserts,135.62
+4760,4759,Fries,Fast Food,133.21
+4761,4760,Hakka Noodles,Chinese,243.26
+4762,4761,Manchurian,Chinese,66.01
+4763,4762,Paneer Butter Masala,North Indian,465.71
+4764,4763,Spring Rolls,Chinese,476.15
+4765,4764,Dal Makhani,North Indian,396.84
+4766,4765,Rasgulla,Desserts,81.33
+4767,4766,Hakka Noodles,Chinese,187.94
+4768,4767,Fries,Fast Food,444.41
+4769,4768,Rasgulla,Desserts,414.39
+4770,4769,Dal Makhani,North Indian,297.05
+4771,4770,Chole Bhature,North Indian,66.99
+4772,4771,Idli Sambar,South Indian,294.86
+4773,4772,Dosa,South Indian,368.38
+4774,4773,Fries,Fast Food,257.14
+4775,4774,Rasgulla,Desserts,145.53
+4776,4775,Hakka Noodles,Chinese,104.97
+4777,4776,Pizza,Fast Food,472.93
+4778,4777,Burger,Fast Food,406.67
+4779,4778,Idli Sambar,South Indian,473.14
+4780,4779,Vada,South Indian,315.03
+4781,4780,Burger,Fast Food,275.45
+4782,4781,Pizza,Fast Food,486.87
+4783,4782,Ice Cream,Desserts,357.79
+4784,4783,Rasgulla,Desserts,216.63
+4785,4784,Paneer Butter Masala,North Indian,206.51
+4786,4785,Dosa,South Indian,104.55
+4787,4786,Chole Bhature,North Indian,65.03
+4788,4787,Dosa,South Indian,400.81
+4789,4788,Chole Bhature,North Indian,240.8
+4790,4789,Dal Makhani,North Indian,492.29
+4791,4790,Paneer Butter Masala,North Indian,105.06
+4792,4791,Chole Bhature,North Indian,175.31
+4793,4792,Manchurian,Chinese,313.35
+4794,4793,Chole Bhature,North Indian,261.52
+4795,4794,Rasgulla,Desserts,356.32
+4796,4795,Rasgulla,Desserts,197.26
+4797,4796,Gulab Jamun,Desserts,291.89
+4798,4797,Vada,South Indian,189.16
+4799,4798,Ice Cream,Desserts,221.42
+4800,4799,Paneer Butter Masala,North Indian,198.21
+4801,4800,Idli Sambar,South Indian,128.21
+4802,4801,Burger,Fast Food,402.67
+4803,4802,Gulab Jamun,Desserts,78.5
+4804,4803,Fries,Fast Food,143.24
+4805,4804,Chole Bhature,North Indian,212.93
+4806,4805,Spring Rolls,Chinese,237.39
+4807,4806,Chole Bhature,North Indian,333.42
+4808,4807,Idli Sambar,South Indian,298.57
+4809,4808,Dal Makhani,North Indian,358.59
+4810,4809,Vada,South Indian,308.92
+4811,4810,Dal Makhani,North Indian,180.06
+4812,4811,Manchurian,Chinese,195.63
+4813,4812,Spring Rolls,Chinese,472.02
+4814,4813,Burger,Fast Food,177.68
+4815,4814,Vada,South Indian,174.08
+4816,4815,Chole Bhature,North Indian,361.57
+4817,4816,Chole Bhature,North Indian,127.47
+4818,4817,Spring Rolls,Chinese,263.07
+4819,4818,Spring Rolls,Chinese,259.11
+4820,4819,Manchurian,Chinese,314.17
+4821,4820,Burger,Fast Food,418.71
+4822,4821,Manchurian,Chinese,91.72
+4823,4822,Gulab Jamun,Desserts,118.79
+4824,4823,Fries,Fast Food,336.31
+4825,4824,Spring Rolls,Chinese,382.17
+4826,4825,Paneer Butter Masala,North Indian,215.9
+4827,4826,Pizza,Fast Food,307.79
+4828,4827,Ice Cream,Desserts,400.76
+4829,4828,Pizza,Fast Food,51.11
+4830,4829,Rasgulla,Desserts,77.09
+4831,4830,Dosa,South Indian,380.91
+4832,4831,Dal Makhani,North Indian,353.1
+4833,4832,Rasgulla,Desserts,176.82
+4834,4833,Dosa,South Indian,188.05
+4835,4834,Idli Sambar,South Indian,276.33
+4836,4835,Ice Cream,Desserts,288.93
+4837,4836,Pizza,Fast Food,294.87
+4838,4837,Idli Sambar,South Indian,236.57
+4839,4838,Dosa,South Indian,332.97
+4840,4839,Manchurian,Chinese,63.08
+4841,4840,Chole Bhature,North Indian,456.21
+4842,4841,Vada,South Indian,491.73
+4843,4842,Vada,South Indian,118.52
+4844,4843,Idli Sambar,South Indian,333.96
+4845,4844,Fries,Fast Food,140.35
+4846,4845,Vada,South Indian,294.67
+4847,4846,Dal Makhani,North Indian,132.56
+4848,4847,Dosa,South Indian,346.55
+4849,4848,Ice Cream,Desserts,340.16
+4850,4849,Hakka Noodles,Chinese,211.27
+4851,4850,Paneer Butter Masala,North Indian,441.08
+4852,4851,Burger,Fast Food,394.52
+4853,4852,Vada,South Indian,362.95
+4854,4853,Fries,Fast Food,424.91
+4855,4854,Spring Rolls,Chinese,164.73
+4856,4855,Paneer Butter Masala,North Indian,218.79
+4857,4856,Manchurian,Chinese,283.07
+4858,4857,Spring Rolls,Chinese,276.45
+4859,4858,Spring Rolls,Chinese,372.97
+4860,4859,Gulab Jamun,Desserts,420.96
+4861,4860,Pizza,Fast Food,271.67
+4862,4861,Dosa,South Indian,499.7
+4863,4862,Fries,Fast Food,292.12
+4864,4863,Chole Bhature,North Indian,288.26
+4865,4864,Manchurian,Chinese,358.56
+4866,4865,Hakka Noodles,Chinese,317.65
+4867,4866,Vada,South Indian,179.75
+4868,4867,Ice Cream,Desserts,187.79
+4869,4868,Spring Rolls,Chinese,419.74
+4870,4869,Fries,Fast Food,262.46
+4871,4870,Spring Rolls,Chinese,105.74
+4872,4871,Pizza,Fast Food,383.89
+4873,4872,Paneer Butter Masala,North Indian,451.31
+4874,4873,Paneer Butter Masala,North Indian,321.55
+4875,4874,Rasgulla,Desserts,252.24
+4876,4875,Hakka Noodles,Chinese,110.98
+4877,4876,Manchurian,Chinese,173.78
+4878,4877,Spring Rolls,Chinese,332.4
+4879,4878,Hakka Noodles,Chinese,235.97
+4880,4879,Gulab Jamun,Desserts,189.53
+4881,4880,Hakka Noodles,Chinese,281.03
+4882,4881,Spring Rolls,Chinese,313.0
+4883,4882,Manchurian,Chinese,391.37
+4884,4883,Fries,Fast Food,451.19
+4885,4884,Manchurian,Chinese,447.28
+4886,4885,Paneer Butter Masala,North Indian,168.96
+4887,4886,Hakka Noodles,Chinese,331.7
+4888,4887,Manchurian,Chinese,276.76
+4889,4888,Spring Rolls,Chinese,463.62
+4890,4889,Paneer Butter Masala,North Indian,228.83
+4891,4890,Dosa,South Indian,127.81
+4892,4891,Dal Makhani,North Indian,87.19
+4893,4892,Ice Cream,Desserts,107.95
+4894,4893,Manchurian,Chinese,217.5
+4895,4894,Paneer Butter Masala,North Indian,123.76
+4896,4895,Burger,Fast Food,380.15
+4897,4896,Gulab Jamun,Desserts,416.42
+4898,4897,Dal Makhani,North Indian,410.66
+4899,4898,Fries,Fast Food,159.33
+4900,4899,Pizza,Fast Food,262.41
+4901,4900,Vada,South Indian,217.79
+4902,4901,Fries,Fast Food,254.46
+4903,4902,Manchurian,Chinese,256.84
+4904,4903,Fries,Fast Food,467.06
+4905,4904,Spring Rolls,Chinese,126.75
+4906,4905,Ice Cream,Desserts,396.67
+4907,4906,Dal Makhani,North Indian,118.79
+4908,4907,Pizza,Fast Food,243.39
+4909,4908,Pizza,Fast Food,110.38
+4910,4909,Rasgulla,Desserts,471.55
+4911,4910,Spring Rolls,Chinese,464.38
+4912,4911,Paneer Butter Masala,North Indian,345.61
+4913,4912,Ice Cream,Desserts,311.52
+4914,4913,Rasgulla,Desserts,210.23
+4915,4914,Spring Rolls,Chinese,390.06
+4916,4915,Vada,South Indian,288.97
+4917,4916,Rasgulla,Desserts,146.06
+4918,4917,Rasgulla,Desserts,466.95
+4919,4918,Dosa,South Indian,252.57
+4920,4919,Dosa,South Indian,206.41
+4921,4920,Dal Makhani,North Indian,79.67
+4922,4921,Chole Bhature,North Indian,77.92
+4923,4922,Chole Bhature,North Indian,269.97
+4924,4923,Burger,Fast Food,342.14
+4925,4924,Manchurian,Chinese,65.14
+4926,4925,Fries,Fast Food,420.88
+4927,4926,Idli Sambar,South Indian,344.75
+4928,4927,Vada,South Indian,202.89
+4929,4928,Idli Sambar,South Indian,395.18
+4930,4929,Gulab Jamun,Desserts,302.83
+4931,4930,Paneer Butter Masala,North Indian,174.75
+4932,4931,Gulab Jamun,Desserts,400.49
+4933,4932,Idli Sambar,South Indian,369.46
+4934,4933,Ice Cream,Desserts,57.42
+4935,4934,Burger,Fast Food,232.37
+4936,4935,Dal Makhani,North Indian,190.11
+4937,4936,Spring Rolls,Chinese,238.87
+4938,4937,Manchurian,Chinese,62.03
+4939,4938,Burger,Fast Food,83.78
+4940,4939,Hakka Noodles,Chinese,384.15
+4941,4940,Burger,Fast Food,85.37
+4942,4941,Burger,Fast Food,411.19
+4943,4942,Manchurian,Chinese,285.2
+4944,4943,Fries,Fast Food,314.39
+4945,4944,Spring Rolls,Chinese,236.02
+4946,4945,Pizza,Fast Food,191.05
+4947,4946,Paneer Butter Masala,North Indian,257.12
+4948,4947,Fries,Fast Food,98.51
+4949,4948,Rasgulla,Desserts,391.33
+4950,4949,Chole Bhature,North Indian,267.31
+4951,4950,Fries,Fast Food,117.75
+4952,4951,Spring Rolls,Chinese,494.56
+4953,4952,Spring Rolls,Chinese,481.34
+4954,4953,Rasgulla,Desserts,233.6
+4955,4954,Spring Rolls,Chinese,170.15
+4956,4955,Ice Cream,Desserts,481.31
+4957,4956,Spring Rolls,Chinese,448.92
+4958,4957,Vada,South Indian,261.76
+4959,4958,Pizza,Fast Food,321.44
+4960,4959,Hakka Noodles,Chinese,115.87
+4961,4960,Ice Cream,Desserts,444.1
+4962,4961,Hakka Noodles,Chinese,216.44
+4963,4962,Fries,Fast Food,162.76
+4964,4963,Idli Sambar,South Indian,478.48
+4965,4964,Fries,Fast Food,338.89
+4966,4965,Fries,Fast Food,275.24
+4967,4966,Fries,Fast Food,89.61
+4968,4967,Gulab Jamun,Desserts,441.24
+4969,4968,Vada,South Indian,95.67
+4970,4969,Fries,Fast Food,52.37
+4971,4970,Dal Makhani,North Indian,149.96
+4972,4971,Burger,Fast Food,313.78
+4973,4972,Manchurian,Chinese,388.89
+4974,4973,Fries,Fast Food,293.37
+4975,4974,Spring Rolls,Chinese,212.14
+4976,4975,Paneer Butter Masala,North Indian,195.26
+4977,4976,Manchurian,Chinese,275.02
+4978,4977,Burger,Fast Food,404.28
+4979,4978,Gulab Jamun,Desserts,180.18
+4980,4979,Gulab Jamun,Desserts,406.37
+4981,4980,Dal Makhani,North Indian,404.17
+4982,4981,Chole Bhature,North Indian,359.87
+4983,4982,Rasgulla,Desserts,302.05
+4984,4983,Burger,Fast Food,112.94
+4985,4984,Chole Bhature,North Indian,52.56
+4986,4985,Rasgulla,Desserts,428.62
+4987,4986,Chole Bhature,North Indian,388.0
+4988,4987,Hakka Noodles,Chinese,362.57
+4989,4988,Hakka Noodles,Chinese,79.34
+4990,4989,Paneer Butter Masala,North Indian,174.43
+4991,4990,Vada,South Indian,86.37
+4992,4991,Dosa,South Indian,288.94
+4993,4992,Spring Rolls,Chinese,451.79
+4994,4993,Paneer Butter Masala,North Indian,71.66
+4995,4994,Rasgulla,Desserts,213.52
+4996,4995,Burger,Fast Food,422.5
+4997,4996,Ice Cream,Desserts,239.85
+4998,4997,Gulab Jamun,Desserts,125.42
+4999,4998,Paneer Butter Masala,North Indian,309.97
+5000,4999,Fries,Fast Food,273.0
