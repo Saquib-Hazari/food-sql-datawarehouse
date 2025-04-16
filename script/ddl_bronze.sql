@@ -98,13 +98,5 @@ CREATE TABLE food_products(
   price TEXT
 );
 
--- Altering the table owner to saquibhazari
-ALTER TABLE crm_customers OWNER TO saquibhazari;
-ALTER TABLE crm_feedback OWNER TO saquibhazari;
-ALTER TABLE crm_marketing OWNER TO saquibhazari;
 
-ALTER TABLE erp_orders OWNER TO saquibhazari;
-ALTER TABLE erp_order_items OWNER TO saquibhazari;
-ALTER TABLE erp_payments OWNER TO saquibhazari;
-ALTER TABLE food_products OWNER TO saquibhazari;
 

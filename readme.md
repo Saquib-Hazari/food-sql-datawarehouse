@@ -1,241 +1,177 @@
-**🛠️ Skills & Technologies Used**
+###### 🛠️ Skills & Technologies Used
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=sqlite&logoColor=white) ![ETL](https://img.shields.io/badge/ETL%20Pipeline-blueviolet?style=for-the-badge) ![Data Warehousing](https://img.shields.io/badge/Data%20Warehousing-orange?style=for-the-badge) ![Data Modeling](https://img.shields.io/badge/Star%20Schema-29ABE2?style=for-the-badge) ![CSV Processing](https://img.shields.io/badge/CSV%20Handling-green?style=for-the-badge) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Version Control](https://img.shields.io/badge/Version%20Control-6DB33F?style=for-the-badge&logo=git)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=sqlite&logoColor=white) ![ETL](https://img.shields.io/badge/ETL%20Pipeline-blueviolet?style=for-the-badge) ![Data Warehousing](https://img.shields.io/badge/Data%20Warehousing-orange?style=for-the-badge) ![Data Modeling](https://img.shields.io/badge/Star%20Schema-29ABE2?style=for-the-badge) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white) ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-1DA1F2?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white) ![CSV](https://img.shields.io/badge/CSV%20Processing-4CAF50?style=for-the-badge)
 
-# 🏠 <u>Food Data Warehouse</u>
+# 🏠 Food Data Warehouse
 
-This repository showcases a comprehensive data warehousing and analytics solution, covering the end-to-end data pipeline—from data ingestion and transformation to business intelligence and insights generation.
+This project showcases an end-to-end data warehousing solution built using **SQL Server** and follows the **Medallion Architecture** (Bronze, Silver, Gold). It simulates a retail food business by consolidating synthetic ERP and CRM data sources into a robust, analytics-ready **star schema**.
 
-Designed as a portfolio project, it demonstrates industry best practices in data engineering, ETL processes, and analytical modeling, enabling efficient data-driven decision-making. This project serves as a blueprint for building a scalable and structured data warehouse architecture that supports business intelligence and reporting.
-
----
-
-## ⚙️ Data Architect
-
-Basic Data Architect used for this project to build Bronze, Silver, and Gold layers.
-
-![Data Architect](./assets/images/Architecture.png)
-
-1. **Bronze Layer**: The raw data storage layer, where data is ingested directly from source systems (e.g., CSV files) into the **SQL Server database** without modifications. This layer acts as a **staging area**, preserving the original data for historical reference and traceability.
-2. **Silver Layer**: The data transformation layer, where raw data undergoes **cleansing, standardization, and normalization** to ensure consistency, accuracy, and integrity, making it suitable for deeper analysis.
-3. **Gold Layer**: The business-ready layer, where data is **modeled into a structured star schema**, optimized for **reporting, analytics, and decision-making**.
+Designed as a portfolio project, it demonstrates real-world practices in **data engineering**, **ETL**, **data modeling**, and **analytical querying**, serving as a powerful resource for data-driven decision-making.
 
 ---
 
-## 📖 Project Overview
+## ⚙️ Architecture
 
-This project involves:
+The warehouse follows the **Medallion Architecture**:
 
-- **Data Architecture**: Designing a Modern Data Warehouse using the Medallion Architecture (**Bronze**, **Silver**, and **Gold** layers).
-- **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-- **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-- **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+### 📥 Bronze Layer
 
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- Raw ingestion from **CRM** and **ERP** systems in `.csv` format
+- No transformation applied
+- Stored in raw form for traceability
 
-- SQL Development
-- Data Architecture
-- Data Engineering
-- ETL Pipeline Development
-- Data Modeling
-- Data Analytics
+### 🔄 Silver Layer
 
----
+- Cleansed, standardized, and transformed data
+- Data quality issues resolved
+- Structured for integration
 
-## 🚀 Project Requirements
+### ✨ Gold Layer
 
-### 🧱 Building the Data Warehouse (Data Engineering)
+- Star schema modeled for analytics
+- Fact table: `fact_sales`
+- Dimensions: `dim_customers`, `dim_products`
+- Optimized for reporting and business insights
 
-**Objective**  
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+###### Data Architecture
 
-**Specifications**
+![Architecture](./assets/Architect.png)
 
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+###### Data mart design
 
----
+![Data Mart](./assets/datamart.png)
 
-## ⚙️ ETL (Extract Transform and Load)
+###### Data Integration
 
-The ETL process is the backbone of this data warehouse project, ensuring seamless data ingestion, transformation, and integration from multiple sources into a structured analytical model. This project follows a layered Medallion Architecture (Bronze, Silver, Gold) to progressively refine raw data into a business-ready format for reporting and analytics.
+![Data integration](./assets/integrations.png)
 
 ---
 
-## 🧰 Project Planning
+## 📖 Project Goals
 
-- **draw.io** (for ERD and Architecture Diagrams)  
-  ![data_model](./assets/images/Data_flows.png)
-- **draw.io** Data mart
-  ![integration](./assets/images/Data_mart.png)
-
----
-
-## 📈 BI: Analytics & Reporting (Data Analysis)
-
-**Objective**  
-Develop SQL-based analytics to deliver detailed insights into:
-
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-  ![Ikea Dashboard](./assets/images/ikea_dashboard.jpg)
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+- Ingest and unify data from multiple sources (ERP + CRM)
+- Implement ETL pipelines for each schema layer
+- Design a star schema for analytics
+- Generate valuable business insights using SQL
+- Visualize insights using Tableau dashboards
 
 ---
 
-## 🔎 Exploratory Data Analysis (EDA)
+## 🧱 Gold Layer Tables
 
-This section includes powerful SQL queries to extract actionable insights from the **Gold Layer** tables: `dim_customers`, `dim_products`, and `fact_sales`.
+| Table Name      | Description                       |
+| --------------- | --------------------------------- |
+| `dim_customers` | Customer demographics and profile |
+| `dim_products`  | Product attributes and categories |
+| `fact_sales`    | Transactions and order metrics    |
 
----
+### Example: Star Schema
 
-### 👤 Customer Insights
-
-**1. Schema Check**
-
-```sql
-
-SELECT table_name
-FROM information_schema.tables
-WHERE table_schema = 'gold' AND table_type = 'BASE TABLE';
-
-SELECT
-  column_name,
-  data_type,
-  is_nullable
-FROM information_schema.columns
-WHERE table_schema = 'gold'
-  AND table_name = 'your_table_name';
-
-SELECT 'dim_customers' AS table_name, COUNT(*) FROM gold.dim_customers
-UNION ALL
-SELECT 'dim_products', COUNT(*) FROM gold.dim_products
-UNION ALL
-SELECT 'fact_sales', COUNT(*) FROM gold.fact_sales;
+```cmd
+        dim_customers
+               |
+               |
+          fact_sales
+               |
+               |
+         dim_products
 ```
 
-**2. Gold.dim_customers Table Check**
+---
 
-```sql
-SELECT gender, COUNT(*) FROM gold.dim_customers GROUP BY gender;
+## 📊 Gold Layer – EDA Health Check Summary (Food Data Warehouse)
 
-SELECT DATE_PART('year', AGE(date_of_birth)) AS age, COUNT(*)
-FROM gold.dim_customers
-GROUP BY age ORDER BY age;
+This document outlines the initial EDA (Exploratory Data Analysis) performed at the schema level for the `gold` layer of the Food Data Warehouse. The objective is to ensure the structure, integrity, and readiness of dimensional and fact tables for analytics and reporting.
 
-SELECT preferred_store, COUNT(*)
-FROM gold.dim_customers
-GROUP BY preferred_store
-ORDER BY COUNT(*) DESC;
-```
+---
 
-**3. Gold.dim_products Table Check**
+## 🔸 Schema: `gold`
 
-```sql
-SELECT category, COUNT(*)
-FROM gold.dim_products
-GROUP BY category ORDER BY COUNT(*) DESC;
+### ✅ Purpose
 
-SELECT defect_flag, COUNT(*)
-FROM gold.dim_products
-GROUP BY defect_flag;
+- This schema represents the **final curated layer** used for reporting and dashboarding.
+- Tables follow a **star schema model**, with surrogate keys, dimensional descriptors, and additive fact measures.
 
-SELECT supplier_name, COUNT(*)
-FROM gold.dim_products
-GROUP BY supplier_name
-ORDER BY COUNT(*) DESC
-LIMIT 10;
-```
+---
 
-**4. Gold.fact_sales Table Check**
+## 🧪 EDA Highlights
 
-```sql
-SELECT DATE_TRUNC('month', order_date) AS order_month, COUNT(*)
-FROM gold.fact_sales
-GROUP BY order_month
-ORDER BY order_month;
+- ✅ All tables follow dimensional modeling best practices.
+- ✅ Surrogate keys are in place for all tables.
+- ⚠️ Apply foreign key checks manually (PostgreSQL doesn't enforce FKs across layers unless specified).
+- ⚠️ Validate business logic (e.g., totals, date order, null distributions) using SQL profiling.
 
-SELECT
-  AVG(ship_date - order_date) AS avg_shipping_days,
-  MAX(ship_date - order_date) AS max_shipping_days
-FROM gold.fact_sales;
+---
 
-SELECT order_status, SUM(net_sales) AS total_sales
-FROM gold.fact_sales
-GROUP BY order_status;
-```
+## 📍 Next Steps
 
-**5. Health Check**
+1. **Run null checks** on key descriptive fields.
+2. **Validate relationships** between fact and dimensions.
+3. **Standardize** text-based fields (`category`, `channel`, `engaged`, `payment_method`).
+4. Optionally, create automated data tests using:
+   - `dbt` for integrity tests
+   - `Great Expectations` for profiling and validation
+   - Custom SQL scripts for business rule assertions
 
-```sql
-SELECT
-    conname AS constraint_name,
-    conrelid::regclass AS table_from,
-    a.attname AS column_from,
-    confrelid::regclass AS table_to,
-    af.attname AS column_to
-FROM   pg_constraint
-JOIN   pg_class ON conrelid = pg_class.oid
-JOIN   pg_attribute a ON a.attrelid = conrelid AND a.attnum = ANY(conkey)
-JOIN   pg_attribute af ON af.attrelid = confrelid AND af.attnum = ANY(confkey)
-WHERE  contype = 'f'
-AND    pg_class.relnamespace::regnamespace::text = 'gold';
-```
+---
+
+> 🧠 This markdown serves as an **EDA summary** for documentation and QA. Use it as a living checklist for data engineers and analysts to validate your gold layer.
+
+---
 
 ## Repository Structure
 
 ```cmd
-├── assets/                        # Static assets like diagrams or images
-│   └── images/
-│
-├── CSV/                           # All CSV datasets
-│   ├── Gold_csv/                  # Final curated data (Gold Layer)
-│   │   ├── dim_customers.csv
-│   │   ├── dim_products.csv
-│   │   └── fact_sales.csv
-│   └── Ikea_sale/                # Raw synthetic ERP + CRM datasets
-│       ├── customer_preferences.csv
-│       ├── customers.csv
-│       ├── order_items.csv
-│       ├── orders.csv
-│       ├── products.csv
-│       └── sales.csv
-│
+.
+├── products.csv                   # Product data
+├── sales.csv                      # Sales transaction data
 ├── License                        # Project license (e.g., MIT)
 ├── Procedures/                    # ETL procedures for data loading
+│   ├── bronze_layer_batch.sql     # ETL batch script for Bronze layer
+│   ├── main.sql                   # Main SQL script for the project
+│   └── silver_layer_batch.sql     # ETL batch script for Silver layer
+├── project/                       # Project-related files and analysis
+│   └── Business_analysis/         # Business logic & insight generation
+│       ├── advance_analysis.sql   # Advanced analysis SQL script
+│       └── complex_analysis.sql   # Additional complex analysis script
+├── assets                         # Project images and visuals
+│   ├── Integration_food_dataset.png
+│   └── integration_model.png
+├── Business_Analysis              # SQL analysis for business insights
+│   ├── complex_analysis_1.sql
+│   └── complex_analysis_2.sql
+├── CSV                             # Raw data files
+│   ├── dim_customer.csv
+│   ├── dim_products.csv
+│   └── fact_sales.csv
+├── EDA                             # Placeholder for exploratory data analysis
+├── food_DB                         # Source database files (CRM & ERP data)
+│   ├── crm_customers.csv
+│   ├── crm_feedback.csv
+│   ├── crm_marketing.csv
+│   ├── erp_order_items.csv
+│   ├── erp_orders.csv
+│   ├── erp_payments.csv
+│   └── food_products.csv
+├── Gold                            # SQL for Gold Layer tables and views
+│   ├── god_layer_tables.sql
+│   └── gold_layer_view.sql
+├── License                         # Licensing information
+├── procedures                      # Data transformation batch processes
 │   ├── bronze_layer_batch.sql
-│   ├── main.sql
 │   └── silver_layer_batch.sql
-│
-├── project/
-│   └── Business analysis/         # Business logic & insight generation
-│       ├── advance_analysis.sql
-│       ├── business_analysis.sql
-│       └── EDA.sql
-│
-├── python/                        # Python automation/data generation
+├── python                          # Python scripts for data processing
 │   └── main.py
-│
-├── readme.md                      # Project documentation
-├── requirements.txt               # Python package dependencies
-│
-├── scripts/                       # DDL scripts to define schema layers
-│   ├── ddl_bronze_layer.sql
+├── readme.md                       # Project overview and setup instructions
+├── requirements.txt                # Python packages needed for the project
+├── script                          # SQL DDL scripts for database schema
+│   ├── ddl_bronze.sql
 │   ├── ddl_gold_layer.sql
 │   ├── ddl_silver_layer.sql
-│   ├── keys_constraint.sql
-│   └── main.sql
-│
-├── tests/                         # Placeholder for test SQLs or checks
-│
-├── todo.todo                      # Notes or to-do list
-│
-└── venv/                          # Virtual environment files (excluded from version control)
+│   └── index.sql
+├── todo.todo                       # Project task tracking file
+
+
 ```
 
 ## 🪪 License

@@ -39,7 +39,7 @@ INSERT INTO gold.dim_customers(
   sent_date
 )
 SELECT 
-  ROW_NUMBER() OVER() AS customer_sk,
+  ROW_NUMBER() OVER(ORDER BY c.customer_id) AS customer_sk,
   c.customer_id,
   m.campaign_id,
   f.feedback_id,
@@ -60,12 +60,12 @@ LEFT JOIN silver.crm_marketing m ON m.customer_id = f.customer_id
 
 
 
-INSERT INTO gold.fact_sales(
-  sales_sk,
+-- Assuming sales_sk is SERIAL PRIMARY KEY
+INSERT INTO gold.fact_sales (
   order_item_id,
   order_id,
-  food_id,
-  customer_id,
+  product_sk,
+  customer_sk,
   payment_id,
   item_name,
   order_date,
@@ -77,25 +77,25 @@ INSERT INTO gold.fact_sales(
   payment_method
 )
 SELECT 
-  ROW_NUMBER() OVER() AS sales_sk,
   i.order_item_id,
-  i.food_id,
   o.order_id,
-  o.customer_id,
+  pr.product_sk,
+  c.customer_sk,
   p.payment_id,
   i.item_name,
   o.order_date,
   i.quantity,
-  fp.price,
-  fp.price * i.quantity AS total_sales,
+  pr.price,
+  pr.price * i.quantity AS total_sales,
   p.payment_date,
   p.amount AS payment_amount,
   p.payment_method
 FROM silver.erp_order_items i 
 JOIN silver.erp_orders o ON o.order_id = i.order_id
-JOIN silver.food_products fp ON fp.food_id = i.food_id
-LEFT JOIN silver.erp_payments p ON p.order_id = o.order_id
-
+JOIN silver.erp_payments p ON p.order_id = o.order_id
+JOIN gold.dim_customers c ON c.customer_id = o.customer_id
+JOIN gold.dim_products pr ON pr.food_id = i.food_id
+LIMIT 10000
 
 
 INSERT INTO gold.dim_products(
@@ -107,10 +107,14 @@ INSERT INTO gold.dim_products(
 )
 
 SELECT 
-  ROW_NUMBER() OVER() AS product_sk,
+  ROW_NUMBER() OVER(ORDER BY food_id) AS product_sk,
   food_id,
   name AS product_name,
   category,
   price
 FROM silver.food_products
 
+
+SELECT *
+FROM gold.fact_sales
+LIMIT 100

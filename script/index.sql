@@ -55,3 +55,16 @@ ALTER TABLE erp_orders OWNER TO saquibhazari;
 ALTER TABLE erp_order_items OWNER TO saquibhazari;
 ALTER TABLE erp_payments OWNER TO saquibhazari;
 ALTER TABLE food_products OWNER TO saquibhazari;
+
+-- Alter the primary keys and foreign keys
+ALTER TABLE gold.dim_customers
+ADD CONSTRAINT pk_dim_customers PRIMARY KEY (customer_sk);
+ALTER TABLE gold.dim_products
+ADD CONSTRAINT pk_dim_products PRIMARY KEY (product_sk);
+ALTER TABLE gold.fact_sales
+ADD CONSTRAINT pk_fact_sales PRIMARY KEY (sales_sk);
+
+ALTER TABLE gold.fact_sales
+ADD CONSTRAINT fk_customer FOREIGN KEY (customer_sk) REFERENCES gold.dim_customers(customer_sk);
+ALTER TABLE gold.fact_sales
+ADD CONSTRAINT fk_product FOREIGN KEY (product_sk) REFERENCES gold.dim_products(product_sk);
