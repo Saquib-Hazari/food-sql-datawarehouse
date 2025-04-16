@@ -83,12 +83,6 @@ The warehouse follows the **Medallion Architecture**:
 
 ---
 
-## 📊 Gold Layer – EDA Health Check Summary (Food Data Warehouse)
-
-This document outlines the initial EDA (Exploratory Data Analysis) performed at the schema level for the `gold` layer of the Food Data Warehouse. The objective is to ensure the structure, integrity, and readiness of dimensional and fact tables for analytics and reporting.
-
----
-
 ## 🔸 Schema: `gold`
 
 ### ✅ Purpose
