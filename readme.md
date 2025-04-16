@@ -54,6 +54,8 @@ The warehouse follows the **Medallion Architecture**:
 - Design a star schema for analytics
 - Generate valuable business insights using SQL
 - Visualize insights using Tableau dashboards
+  **Dashboard**:
+  ![Dashboard](./assets/Dashboard.jpg)
 
 ---
 
