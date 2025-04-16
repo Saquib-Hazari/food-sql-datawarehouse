@@ -1,0 +1,34 @@
+ROOT:
+  @critical
+  BRONZE:
+  ✔ Creating star schema @done(25-04-14 12:34)
+  Extracting:
+  1: Creating the bronze layer uploading the raw data into the database.
+  2: Creating the silver layer and data transformation will takes place here.
+  SILVER:
+  Transformation:
+    a) data manipulation.
+    b) data normalization.
+    c) data standardization.
+    d) data imputation.
+    e) handling null values.
+    f) data transformation.
+  3: Now Creating the silver schema and then inserting the table to the silver layer.
+  GOLD:
+    4: NOw creating the gold layer adding the surrogate keys to the table and datatype.
+    5: Altering the constraint for primary and foreign keys.
+    6: Adding index and Altering the ownership.
+    @high
+    7: Saving the tables into CSV using python libraries.
+  Analysis:
+    8: Doing EDA and complex analysis and saving the data mart as Views.
+    @low
+  GitHub:
+    Add all the project files to git repo.
+    1) Creating readme.md file.
+    2) gitignore file.
+    3) env file.
+    // Uploading to the Git repo//
+    // Updating the Linkedin Profile as portfolio project.//
+
+  
