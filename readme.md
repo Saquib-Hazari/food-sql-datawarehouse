@@ -59,8 +59,7 @@ The warehouse follows the **Medallion Architecture**:
   
   ![Dashboard](./assets/Dashboard.jpg)
 
-## ➡️ Key finding:
-Business Insights
+
 ## 📊 Business Insights
 
 - **75%** of customers used **online payment**, while **25%** preferred **cash**.
