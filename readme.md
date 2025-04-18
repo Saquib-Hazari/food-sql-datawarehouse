@@ -60,11 +60,13 @@ The warehouse follows the **Medallion Architecture**:
   ![Dashboard](./assets/Dashboard.jpg)
 
 ## ➡️ Key finding:
-Business Insights:
-	- 75% of customers used online payment, while 25% preferred cash.
-	- Achieved $3.32M in total sales last year with an average order value of $386/month.
-	- Phoenix led in customer volume, while New York City had the least.
-	- Most sold cuisines: Chinese and South Indian, showing consistent monthly demand.
+Business Insights
+## 📊 Business Insights
+
+- **75%** of customers used **online payment**, while **25%** preferred **cash**.
+- Achieved **$3.32M** in total sales last year with an **average order value of $386/month**.
+- **Phoenix** led in customer volume, while **New York City** had the least.
+- Most sold cuisines: **Chinese** and **South Indian**, showing consistent monthly demand.
 
 ---
 
